@@ -1,0 +1,1218 @@
+; ==================================================================
+; "tableAB"  
+; Portions (c) 2002 QAMUS LLC (www.qamus.org), 
+; (c) 2002 Trustees of the University of Pennsylvania 
+; This program is free software; you can redistribute it and/or
+; modify it under the terms of the GNU General Public License
+; as published by the Free Software Foundation version 2.
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details (../gpl.txt).
+; You should have received a copy of the GNU General Public License
+; along with this program; if not, write to the Free Software
+; Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+; 
+; You can contact LDC by sending electronic mail to: ldc@ldc.upenn.edu
+; or by writing to:
+;                Linguistic Data Consortium
+;                3600 Market Street
+;                Suite 810
+;                Philadelphia, PA, 19104-2653, USA.
+; ==================================================================
+;
+Pref-0 FW
+Pref-0 FW-Wa-wa
+Pref-0 FW-Wa
+Pref-0 FW-Wa-niy
+Pref-0 FW-Wa-Pr
+Pref-0 FW-WaBi
+Pref-0 FW-Wa-y
+Pref-0 FW-Wa-n
+Pref-0 FW-Wa-ya
+Pref-0 FW-Wa-iy
+Pref-0 FW-Wa-pl
+;
+NPref-Bi FW-Wa
+NPref-Bi FW-Wa-pl
+;
+;
+Pref-Wa FW-Wa-wa
+Pref-Wa FW
+Pref-Wa FW-Wa
+Pref-Wa FW-WaBi
+Pref-Wa FW-Wa-Pr
+Pref-Wa FW-Wa-y
+Pref-Wa FW-Wa-n
+Pref-Wa FW-Wa-iy
+Pref-Wa FW-Wa-niy
+Pref-Wa FW-Wa-ya
+Pref-Wa FW-Wa-pl
+;
+NPref-Li FW
+NPref-Li FW-Wa-n
+;
+Pref-ma FW-Wa-Pr
+Pref-ma FW
+Pref-ma FW-Wa-y
+Pref-ma FW-Wa-n
+Pref-ma FW-Wa-iy
+Pref-ma FW-Wa-niy
+Pref-ma FW-Wa-ya
+Pref-ma FW-Wa-pl
+Pref-ma Nall
+Pref-ma Nprop
+;;
+;
+Pref-E Nall
+Pref-E Nall-poss
+Pref-E N
+Pref-E N-end-h
+Pref-E N-poss
+Pref-E Ndu
+Pref-E Ndu-b
+Pref-E N/At
+Pref-E N0
+Pref-E NAt
+Pref-E NF
+Pref-E Nap
+Pref-E Nap-poss
+Pref-E NapAt
+Pref-E NapAt-poss
+Pref-E NAt-poss
+Pref-E N/ap
+Pref-E Nprop
+Pref-E Nprop-foreign
+Pref-E Numb
+Pref-E FW-Wa-Pr
+;;
+;
+Pref-E-N Nall
+Pref-E-N Nall-poss
+Pref-E-N N
+Pref-E-N N-end-h
+Pref-E-N N-poss
+Pref-E-N Ndu
+Pref-E-N Ndu-b
+Pref-E-N N/At
+Pref-E-N N0
+Pref-E-N NAt
+Pref-E-N NAt-poss
+Pref-E-N NF
+Pref-E-N Nap
+Pref-E-N Nap-poss
+Pref-E-N NapAt
+Pref-E-N NapAt-poss
+Pref-E-N N/ap
+Pref-E-N Nprop
+Pref-E-N Nprop-foreign
+Pref-E-N Numb
+;;
+;;
+Pref-E-foreign Nprop-foreign
+Pref-E-foreign N-foreign
+;
+Pref-0 Nall
+Pref-0 Nall-poss
+Pref-0 N
+Pref-0 N-end-h
+Pref-0 N-poss
+Pref-0 Ndu
+Pref-0 Ndu-b
+Pref-0 N0
+Pref-0 NAt
+Pref-0 NAt-poss
+Pref-0 N/At
+Pref-0 NF
+Pref-0 Nap
+Pref-0 Nap-poss
+Pref-0 N/ap
+Pref-0 NapAt
+Pref-0 NapAt-poss
+Pref-0 Nprop
+Pref-0 Nprop-foreign
+Pref-0 Numb
+Pref-0 Niyn
+Pref-0 Niyn-poss
+Pref-0 Napdu
+Pref-0 Ndu
+Pref-0 Ndu-b
+;;
+;
+Pref-A FW-Wa-iy
+Pref-A N
+Pref-A N-end-h
+Pref-A N-poss
+Pref-A Ndu
+Pref-A Ndu-b
+Pref-A N/At
+Pref-A N0
+Pref-A NAt
+Pref-A NAt-poss
+Pref-A NF
+Pref-A Nall
+Pref-A Nall-poss
+Pref-A Nap
+Pref-A N/ap
+Pref-A NapAt
+Pref-A NapAt-poss
+Pref-A Nprop
+Pref-A Nprop-foreign
+Pref-A Numb
+Pref-A Niyn
+Pref-A Niyn-poss
+Pref-A FW-Wa
+;;
+;
+Pref-voc N
+Pref-voc N-poss
+Pref-voc Ndu
+Pref-voc Ndu-b
+Pref-voc N0
+Pref-voc NAt
+Pref-voc NAt-poss
+Pref-voc N/At
+Pref-voc NF
+Pref-voc Nall
+Pref-voc Nall-poss
+Pref-voc Nap
+Pref-voc N/ap
+Pref-voc NapAt
+Pref-voc NapAt-poss
+Pref-voc Niyn
+Pref-voc Niyn-poss
+Pref-voc Nprop
+Pref-voc Nprop-foreign
+;;
+;
+Pref-Wa N
+Pref-Wa N-end-h
+Pref-Wa N-poss
+Pref-Wa Ndu
+Pref-Wa Ndu-b
+Pref-Wa N0
+Pref-Wa NAt
+Pref-Wa NAt-poss
+Pref-Wa N/At
+Pref-Wa NF
+Pref-Wa Nall
+Pref-Wa Nall-poss
+Pref-Wa Nap
+Pref-Wa Nap-poss
+Pref-Wa N/ap
+Pref-Wa NapAt
+Pref-Wa NapAt-poss
+Pref-Wa Nprop
+Pref-Wa Nprop-foreign
+Pref-Wa Numb
+Pref-Wa Niyn
+Pref-Wa Niyn-poss
+Pref-Wa Ndu
+Pref-Wa Ndu-b
+;;
+;
+NPref-Al N
+NPref-Al N-end-h
+NPref-Al N-poss
+NPref-Al NAt
+NPref-Al NAt-poss
+NPref-Al N/At
+NPref-Al Nall
+NPref-Al Nap
+NPref-Al N/ap
+NPref-Al Nall-poss
+NPref-Al Nap-poss
+NPref-Al NapAt
+NPref-Al NapAt-poss
+NPref-Al Ndu
+NPref-Al Ndu-b
+NPref-Al Numb
+NPref-Al Niyn
+NPref-Al Niyn-poss
+;;
+;
+NPref-BiAl N
+NPref-BiAl N-end-h
+NPref-BiAl N-poss
+NPref-BiAl N/At
+NPref-BiAl N/ap
+NPref-BiAl NAt
+NPref-BiAl NAt-poss
+NPref-BiAl Nall
+NPref-BiAl Nap
+NPref-BiAl NapAt
+NPref-BiAl NapAt-poss
+NPref-BiAl Nall-poss
+NPref-BiAl Nap-poss
+NPref-BiAl Ndu
+NPref-BiAl Ndu-b
+NPref-BiAl Numb
+NPref-BiAl Niyn
+NPref-BiAl Niyn-poss
+;;
+;
+NPref-Bi N
+NPref-Bi N-end-h
+NPref-Bi N-poss
+NPref-Bi N0
+NPref-Bi Ndu
+NPref-Bi Ndu-b
+NPref-Bi N/At
+NPref-Bi N/ap
+NPref-Bi NAt
+NPref-Bi NAt-poss
+NPref-Bi Nall
+NPref-Bi Nap
+NPref-Bi Nall-poss
+NPref-Bi Nap-poss
+NPref-Bi NapAt
+NPref-Bi NapAt-poss
+NPref-Bi Nprop
+NPref-Bi Nprop-foreign
+NPref-Bi Numb
+NPref-Bi Niyn
+NPref-Bi Niyn-poss
+;;
+;;
+NPref-t FW-Wa-Pr
+NPref-hA FW-Wa-Pr
+NPref-rA FW-Wa-Pr
+NPref-A FW-Wa-Pr
+;
+NPref-hA N
+NPref-hA N-end-h
+NPref-hA Ndu
+NPref-hA Ndu-b
+NPref-hA N/At
+NPref-hA N/ap
+NPref-hA NAt
+NPref-hA NAt-poss
+NPref-hA Nall
+NPref-hA Nap
+NPref-hA NapAt
+NPref-hA Nall-poss
+NPref-hA Nap-poss
+NPref-hA NapAt-poss
+NPref-hA Napdu
+NPref-hA Numb
+NPref-hA Niyn
+NPref-hA Nprop
+;;
+;
+NPref-rA N
+NPref-rA N-end-h
+NPref-rA N-poss
+NPref-rA Ndu
+NPref-rA Ndu-b
+NPref-rA N/At
+NPref-rA N/ap
+NPref-rA NAt
+NPref-rA NAt-poss
+NPref-rA Nall
+NPref-rA Nap
+NPref-rA NapAt
+NPref-rA Nall-poss
+NPref-rA Nap-poss
+NPref-rA NapAt-poss
+NPref-rA Numb
+NPref-rA Niyn
+NPref-rA Niyn-poss
+;;
+;
+NPref-Li N
+NPref-Li N-end-h
+NPref-Li N-poss
+NPref-Li N0
+NPref-Li Ndu
+NPref-Li Ndu-b
+NPref-Li N/At
+NPref-Li N/ap
+NPref-Li NAt
+NPref-Li NAt-poss
+NPref-Li Nall
+NPref-Li Nap
+NPref-Li NapAt
+NPref-Li Nall-poss
+NPref-Li Nap-poss
+NPref-Li NapAt-poss
+NPref-Li Nprop
+NPref-Li Nprop-foreign
+NPref-Li Numb
+NPref-Li Niyn
+NPref-Li Niyn-poss
+;;
+;
+NPref-Lil N
+NPref-Lil N-end-h
+NPref-Lil N-poss
+NPref-Lil N/At
+NPref-Lil N/ap
+NPref-Lil NAt
+NPref-Lil NAt-poss
+NPref-Lil Nall
+NPref-Lil Nap
+NPref-Lil Nall-poss
+NPref-Lil Nap-poss
+NPref-Lil NapAt
+NPref-Lil NapAt-poss
+NPref-Lil Ndu
+NPref-Lil Ndu-b
+NPref-Lil Numb
+NPref-Lil Niyn
+NPref-Lil Niyn-poss
+;;
+;
+NPref-tA N
+NPref-tA N/At
+NPref-tA N/ap
+NPref-tA N0
+NPref-tA NAt
+NPref-tA Nall
+NPref-tA Nap
+NPref-tA Nall-poss
+NPref-tA Nap-poss
+NPref-tA NapAt
+NPref-tA NapAt-poss
+NPref-tA Niyn
+NPref-tA Niyn-poss
+NPref-tA Ndu
+NPref-tA Ndu-b
+NPref-tA Numb
+;;
+;==========================
+;;
+Deverbal Noun
+Pref-0 NVerb
+Pref-0 NVerb_intr
+Pref-E NVerb
+Pref-E NVerb_intr
+Pref-Wa NVerb
+Pref-Wa NVerb_intr
+Pref-ma NVerb
+Pref-ma NVerb_intr
+Pref-A NVerb
+Pref-A NVerb_intr
+NSuff-ki NVerb
+NSuff-ki NVerb_intr
+NPref-BiAl NVerb
+NPref-Bi NVerb
+NPref-Li NVerb
+NPref-Lil NVerb
+NPref-LiAl NVerb
+NPref-BiAl NVerb_intr
+NPref-Bi NVerb_intr
+NPref-Li NVerb_intr
+NPref-Lil NVerb_intr
+NPref-LiAl NVerb_intr
+;========================
+Pref-hi PV
+Pref-hi PV-l
+Pref-hi PV-at-l
+Pref-hi PV-at-l
+Pref-hi PV_intr
+Pref-hi PV_nohuman
+Pref-hi PV_intr_nohuman
+Pref-hi PV_human
+Pref-hi PV_intr_human
+Pref-hi PV-n
+Pref-hi PV-n_intr
+Pref-hi PV-t
+Pref-hi PV-t_intr
+Pref-hi PV_C
+Pref-hi PV-l_C
+Pref-hi PV_C_intr
+Pref-hi PV_Cn
+Pref-hi PV_Cn_intr
+Pref-hi PV_Ct
+Pref-hi PV_Ct_intr
+Pref-hi PV_V
+Pref-hi PV-l_V
+Pref-hi PV_V_intr
+;
+Pref-hi PV-at
+Pref-hi PV-at_intr
+Pref-hi PV-at_nohuman
+Pref-hi PV-at_intr_nohuman
+Pref-hi PV-at_nohuman
+;
+;
+Pref-t~a PV
+Pref-t~a PV_intr
+Pref-t~a PV_nohuman
+Pref-t~a PV_intr_nohuman
+Pref-t~a PV_nohuman
+Pref-t~a PV_C
+Pref-t~a PV-l_C
+Pref-t~a PV_C_intr
+Pref-t~a PV_Cn
+Pref-t~a PV_Cn_intr
+Pref-t~a PV_Ct
+Pref-t~a PV_Ct_intr
+Pref-t~a PV_V
+Pref-t~a PV_V_intr
+Pref-t~a PV-l_V
+Pref-t~a PV_ttAw
+Pref-t~a PV_ttAw_intr
+Pref-t~a PV_Atn
+Pref-t~a PV_Atn_intr
+;
+Pref-t~a PV-at
+Pref-t~a PV-at_intr
+Pref-t~a PV-at_nohuman
+Pref-t~a PV-at_intr_nohuman
+Pref-t~a PV-at_nohumanDo
+;
+;;;
+Pref-la PV
+Pref-la PV_intr
+Pref-la PV_nohuman
+Pref-la PV_intr_nohuman
+Pref-la PV_nohumanDo
+Pref-la PV_C
+Pref-la PV-l_C
+Pref-la PV_C_intr
+Pref-la PV_Cn
+Pref-la PV_Cn_intr
+Pref-la PV_Ct
+Pref-la PV_Ct_intr
+Pref-la PV_V
+Pref-la PV-l_V
+Pref-la PV_V_intr
+;
+Pref-la PV-at
+Pref-la PV-at_intr
+Pref-la PV-at_nohuman
+Pref-la PV-at_intr_nohuman
+Pref-la PV-at_nohumanDo
+;
+;;;,
+Pref-Wa PV
+Pref-Wa PV-l
+Pref-Wa PV-at-l
+Pref-Wa PV-at
+Pref-Wa PV_intr
+Pref-Wa PV_nohuman
+Pref-Wa PV_intr_nohuman
+Pref-Wa PV_nohumanDo
+Pref-Wa PV->
+Pref-Wa PV->_intr
+Pref-Wa PV-n
+Pref-Wa PV-n_intr
+Pref-Wa PV-t
+Pref-Wa PV-t_intr
+Pref-Wa PV-|
+Pref-Wa PV-|_intr
+Pref-Wa PV_0
+Pref-Wa PV_0h
+Pref-Wa PV_Atn
+Pref-Wa PV_Atn_intr
+Pref-Wa PV_C
+Pref-Wa PV-l_C
+Pref-Wa PV_C_intr
+Pref-Wa PV_Cn
+Pref-Wa PV_Cn_intr
+Pref-Wa PV_Ct
+Pref-Wa PV_Ct_intr
+Pref-Wa PV_V
+Pref-Wa PV-l_V
+Pref-Wa PV_V_intr
+Pref-Wa PV_h
+Pref-Wa PV_no-w
+Pref-Wa PV_no-w_intr
+Pref-Wa PV_no-w_Pass
+Pref-Wa PV_ttAw
+Pref-Wa PV_ttAw_intr
+Pref-Wa PV_w
+Pref-Wa PV_w_intr
+;
+Pref-Wa PV-at
+Pref-Wa PV-at_intr
+Pref-Wa PV-at_nohuman
+Pref-Wa PV-at_intr_nohuman
+Pref-Wa PV-at_nohumanDo
+;;;
+;
+;Pref-A PV
+;Pref-A PV-l
+;Pref-A PV-at-l
+;Pref-A PV_intr
+;Pref-A PV_nohuman
+;Pref-A PV_intr_nohuman
+;Pref-A PV_nohumanDo
+;Pref-A PV-n
+;Pref-A PV-n_intr
+;Pref-A PV-t
+;Pref-A PV-t_intr
+;Pref-A PV_0
+;Pref-A PV_0h
+;Pref-A PV_Atn
+;Pref-A PV_Atn_intr
+;Pref-A PV_C
+;Pref-A PV-l_C
+;Pref-A PV_C_intr
+;Pref-A PV_Cn
+;Pref-A PV_Cn_intr
+;Pref-A PV_Ct
+;Pref-A PV_Ct_intr
+;Pref-A PV_V
+;Pref-A PV-l_V
+;Pref-A PV_V_intr
+;Pref-A PV_h
+;Pref-A PV_ttAw
+;Pref-A PV_ttAw_intr
+;
+;
+;Pref-A PV-at
+;Pref-A PV-at_intr
+;Pref-A PV-at_nohuman
+;Pref-A PV-at_intr_nohuman
+;
+;;;
+Pref-0 PV
+Pref-0 PV-l
+Pref-0 PV-at-l
+Pref-0 PV_intr
+Pref-0 PV_nohuman
+Pref-0 PV_intr_nohuman
+Pref-0 PV_human
+Pref-0 PV-n
+Pref-0 PV-n_intr
+Pref-0 PV-t
+Pref-0 PV-t_intr
+Pref-0 PV_0
+Pref-0 PV_0h
+Pref-0 PV_Atn
+Pref-0 PV_Atn_intr
+Pref-0 PV_C
+Pref-0 PV-l_C
+Pref-0 PV_C_intr
+Pref-0 PV_Cn
+Pref-0 PV_Cn_intr
+Pref-0 PV_Ct
+Pref-0 PV_Ct_intr
+Pref-0 PV_V
+Pref-0 PV-l_V
+Pref-0 PV_V_intr
+Pref-0 PV_h
+Pref-0 PV_ttAw
+Pref-0 PV_ttAw_intr
+;
+;
+Pref-0 PV-at
+Pref-0 PV-at_intr
+Pref-0 PV-at_nohuman
+Pref-0 PV-at_intr_nohuman
+;
+;;
+;gaAbqaA
+Pref-E PV
+Pref-E PV-l
+Pref-E PV_intr
+Pref-E PV_nohuman
+Pref-E PV_intr_nohuman
+Pref-E PV-n
+Pref-E PV-n_intr
+Pref-E PV-t
+Pref-E PV-t_intr
+Pref-E PV_0
+Pref-E PV_0h
+Pref-E PV_Atn
+Pref-E PV_Atn_intr
+Pref-E PV_C
+Pref-E PV-l_C
+Pref-E PV_C_intr
+Pref-E PV_Cn
+Pref-E PV_Cn_intr
+Pref-E PV_Ct
+Pref-E PV_Ct_intr
+Pref-E PV_V
+Pref-E PV-l_V
+Pref-E PV_V_intr
+Pref-E PV_h
+Pref-E PV_ttAw
+Pref-E PV_ttAw_intr
+;
+Pref-E PV-at
+Pref-E PV-at_intr
+Pref-E PV-at_nohuman
+Pref-E PV-at_intr_nohuman
+;
+Pref-ma PV
+Pref-ma PV-l
+Pref-ma PV-at-l
+Pref-ma PV_intr
+Pref-ma PV_nohuman
+Pref-ma PV_intr_nohuman
+Pref-ma PV_nohumanDo
+Pref-ma PV_intr_nohumanDo
+Pref-ma PV-n
+Pref-ma PV-n_intr
+Pref-ma PV-t
+Pref-ma PV-t_intr
+Pref-ma PV_0
+Pref-ma PV_0h
+Pref-ma PV_Atn
+Pref-ma PV_Atn_intr
+Pref-ma PV_C
+Pref-ma PV-l_C
+Pref-ma PV_C_intr
+Pref-ma PV_Cn
+Pref-ma PV_Cn_intr
+Pref-ma PV_Ct
+Pref-ma PV_Ct_intr
+Pref-ma PV_V
+Pref-ma PV-l_V
+Pref-ma PV_V_intr
+Pref-ma PV_h
+Pref-ma PV_no-w
+Pref-ma PV_no-w_intr
+Pref-ma PV_ttAw
+Pref-ma PV_ttAw_intr
+Pref-ma PV_w
+Pref-ma PV_w_intr
+;
+Pref-ma PV-at
+Pref-ma PV-at_intr
+Pref-ma PV-at_nohuman
+Pref-ma PV-at_intr_nohuman
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;verbi con SUBJ human + DO non human (Dorabt-hA bnaEosap)
+;;
+Pref-hi PV_human
+;
+Pref-hi PV-at_human
+;;
+Pref-t~a PV_human
+;
+Pref-t~a PV-at_human
+;;;;
+Pref-la PV_human
+;
+Pref-la PV-at_human
+;;;,
+Pref-Wa PV_human
+;
+Pref-Wa PV-at_human
+;;;;;;;
+Pref-0 PV_human
+;;
+Pref-0 PV-at_human
+;;;
+Pref-E PV_human
+;
+Pref-E PV-at_human
+;
+Pref-ma PV_human
+;
+Pref-ma PV-at_human
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Imperative
+Pref-0 CV
+Pref-0 CV-y
+Pref-0 CV_human
+Pref-0 CV-y_human
+Pref-0 CV-y_intr
+Pref-0 CV_intr
+Pref-0 CV_C
+Pref-0 CV_C_intr
+Pref-0 CV_V
+Pref-0 CV_V_intr
+Pref-0 CV_iy
+Pref-0 CV_iy_intr
+Pref-0 CV-l
+Pref-0 CV-y-l
+;
+Pref-A CV
+Pref-A CV-y
+Pref-A CV_human
+Pref-A CV-y_human
+Pref-A CV_intr
+Pref-A CV_C
+Pref-A CV_C_intr
+Pref-A CV_V
+Pref-A CV_V_intr
+Pref-A CV_iy
+Pref-A CV_iy_intr
+Pref-A CV-l
+Pref-A CV-y-l
+;
+Pref-Wa CV
+Pref-Wa CV-y
+Pref-Wa CV_human
+Pref-Wa CV-y_human
+Pref-Wa CV-y_intr
+Pref-Wa CV_intr
+Pref-Wa CV_C
+Pref-Wa CV_C_intr
+Pref-Wa CV_V
+Pref-Wa CV_V_intr
+Pref-Wa CV_iy
+Pref-Wa CV_iy_intr
+Pref-Wa CV-l
+Pref-Wa CV-y-l
+;
+Pref-E CV
+Pref-E CV-y
+Pref-E CV_human
+Pref-E CV-y_human
+Pref-E CV-y_intr
+Pref-E CV_intr
+Pref-E CV_C
+Pref-E CV_C_intr
+Pref-E CV_V
+Pref-E CV_V_intr
+Pref-E CV_iy
+Pref-E CV_iy_intr
+Pref-E CV-l
+Pref-E CV-y-l
+;
+;
+CVPref CV
+CVPref CV-y
+CVPref CV_human
+CVPref CV-y_human
+CVPref CV-y_intr
+CVPref CV_intr
+CVPref CV_C
+CVPref CV_C_intr
+CVPref CV_V
+CVPref CV_V_intr
+CVPref CV_iy
+CVPref CV_iy_intr
+CVPref CV-l
+CVPref CV-y-l
+;================
+;IV without prefixe na- (noEas)
+;========
+Pref-0 IV-start-n
+Pref-ma IV-start-n
+Pref-Wa IV-start-n
+IVPref-Particle IV-start-n
+Pref-la IV-start-n
+IV-no-Pref IV-start-n
+;
+Pref-0 IV-start-n_intr
+Pref-ma IV-start-n_intr
+Pref-Wa IV-start-n_intr
+Pref-la IV-start-n_intr
+IVPref-Particle IV-start-n_intr
+IV-no-Pref IV-start-n_intr
+; -----------------------------------------------
+;
+IVPref-Particle IV
+IVPref-Particle IV_intr
+;================================
+IVPref-AnA->a IV
+IVPref-AnA->a IV_intr
+;
+IVPref-AnA->a-maya IV
+IVPref-AnA->a-maya IV_intr
+; -------------------------------------------
+;
+IVPref-nHn-na IV-pl
+IVPref-nHn-na IV-pl_intr
+; -------------------------------------------
+;
+IVPref-nHn-na-maya IV-pl
+IVPref-nHn-na-maya IV-pl_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta IV
+IVPref-Anta-ta IV_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta-maya IV
+IVPref-Anta-ta-maya IV_intr
+; --------------------------------------
+;
+IVPref-Anti-ta IV-pl
+IVPref-Anti-ta IV-pl_intr
+; --------------------------------------
+;
+IVPref-Anti-ta-maya IV-pl
+IVPref-Anti-ta-maya IV-pl_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta IV-pl
+IVPref-Antm-ta IV-pl_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta-maya IV-pl
+IVPref-Antm-ta-maya IV-pl_intr
+; --------------------------------------------
+; ----------------------------------------
+;
+IVPref-hw-ya IV
+IVPref-hw-ya IV_intr
+;------------------------------
+IVPref-hw-maya IV
+IVPref-hw-maya IV_intr
+; --------------------------------------------
+;
+IVPref-hy-ta IV
+IVPref-hy-ta IV_intr
+;---------------------
+IVPref-hy-maya IV
+IVPref-hy-maya IV_intr
+; ---------------------------------------------
+;
+IVPref-hm-ya IV-pl
+IVPref-hm-maya IV-pl
+;
+IVPref-hm-ya IV-pl_intr
+IVPref-hm-maya IV-pl_intr
+;--------------------
+;;;;;;;;;;;;;;============
+;; Verbi con DO no human
+IVPref-AnA->a IV_human
+IVPref-AnA->a-maya IV_human 
+IVPref-Anta-ta IV_human
+IVPref-Anta-ta-maya IV_human
+IVPref-hw-ya IV_human
+IVPref-hw-maya IV_human
+IVPref-hy-ta IV_human
+IVPref-hy-maya IV_human
+;
+IVPref-nHn-na IV-pl_human 
+IVPref-nHn-na-maya IV-pl_human
+IVPref-Anti-ta IV-pl_human 
+IVPref-Anti-ta-maya IV-pl_human 
+IVPref-Antm-ta IV-pl_human 
+IVPref-Antm-ta-maya IV-pl_human 
+IVPref-hm-ya IV-pl_human 
+IVPref-hm-maya IV-pl_human 
+;=============================
+IVPref-AnA->a IV_0iywo
+IVPref-AnA->a IV_0iywo_intr
+;
+IVPref-AnA->a-maya IV_0iywo
+IVPref-AnA->a-maya IV_0iywo_intr
+; -------------------------------------------
+;
+IVPref-nHn-na IV_0iywo
+IVPref-nHn-na IV_0iywo_intr
+; -------------------------------------------
+;
+IVPref-nHn-na-maya IV_0iywo
+IVPref-nHn-na-maya IV_0iywo_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta IV_0iywo
+IVPref-Anta-ta IV_0iywo_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta-maya IV_0iywo
+IVPref-Anta-ta-maya IV_0iywo_intr
+; --------------------------------------
+;
+IVPref-Anti-ta IV_0iywo
+IVPref-Anti-ta IV_0iywo_intr
+; --------------------------------------
+;
+IVPref-Anti-ta-maya IV_0iywo
+IVPref-Anti-ta-maya IV_0iywo_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta IV_0iywo
+IVPref-Antm-ta IV_0iywo_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta-maya IV_0iywo
+IVPref-Antm-ta-maya IV_0iywo_intr
+; --------------------------------------------
+;
+IVPref-hw-ya IV_0iywo
+IVPref-hw-ya IV_0iywo_intr
+;------------------------------
+IVPref-hw-maya IV_0iywo
+IVPref-hw-maya IV_0iywo_intr
+; --------------------------------------------
+;
+IVPref-hy-ta IV_0iywo
+IVPref-hy-ta IV_0iywo_intr
+;---------------------
+IVPref-hy-maya IV_0iywo
+IVPref-hy-maya IV_0iywo_intr
+; ---------------------------------------------
+;
+IVPref-hm-ya IV_0iywo
+IVPref-hm-ya IV_0iywo_intr
+;
+IVPref-hm-maya IV_0iywo
+IVPref-hm-maya IV_0iywo_intr
+;--------------------------
+;
+IVPref-AnA->a IV_0aywo
+IVPref-AnA->a IV_0aywo_intr
+;
+IVPref-AnA->a-maya IV_0aywo
+IVPref-AnA->a-maya IV_0aywo_intr
+; -------------------------------------------
+;
+IVPref-nHn-na IV_0aywo
+IVPref-nHn-na IV_0aywo_intr
+; -------------------------------------------
+;
+IVPref-nHn-na-maya IV_0aywo
+IVPref-nHn-na-maya IV_0aywo_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta IV_0aywo
+IVPref-Anta-ta IV_0aywo_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta-maya IV_0aywo
+IVPref-Anta-ta-maya IV_0aywo_intr
+; --------------------------------------
+;
+IVPref-Anti-ta IV_0aywo
+IVPref-Anti-ta IV_0aywo_intr
+; --------------------------------------
+;
+IVPref-Anti-ta-maya IV_0aywo
+IVPref-Anti-ta-maya IV_0aywo_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta IV_0aywo
+IVPref-Antm-ta IV_0aywo_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta-maya IV_0aywo
+IVPref-Antm-ta-maya IV_0aywo_intr
+; --------------------------------------------
+;
+IVPref-hw-ya IV_0aywo
+IVPref-hw-ya IV_0aywo_intr
+;------------------------------
+IVPref-hw-maya IV_0aywo
+IVPref-hw-maya IV_0aywo_intr
+; --------------------------------------------
+;
+IVPref-hy-ta IV_0aywo
+IVPref-hy-ta IV_0aywo_intr
+;---------------------
+IVPref-hy-maya IV_0aywo
+IVPref-hy-maya IV_0aywo_intr
+; ---------------------------------------------
+;
+IVPref-hm-ya IV_0aywo
+IVPref-hm-maya IV_0aywo
+;
+IVPref-hm-ya IV_0aywo_intr
+IVPref-hm-maya IV_0aywo_intr
+;;;
+;---------------------------------
+;--------------------------------------
+;----------------------------------------
+;kanatoma$aY no accept sufix
+;;;;;;;;;;
+;
+IVPref-AnA->a IV_0
+IVPref-AnA->a IV_0_intr
+; -------------------------------------------
+IVPref-Anta-ta IV_0
+IVPref-Anta-ta IV_0_intr
+; -----------------------------------------
+;
+IVPref-hw-ya IV_0
+IVPref-hw-ya IV_0_intr
+; --------------------------------------------
+;
+IVPref-hy-ta IV_0
+IVPref-hy-ta IV_0_intr
+; --------------------------------------------
+;-------------------------------------------------
+; --------------------------------------------
+;
+IVPref-AnA->a IV_V_intr
+IVPref-AnA->a IV_V_intr_intr
+;
+IVPref-AnA->a-maya IV_V_intr
+IVPref-AnA->a-maya IV_V_intr_intr
+; -------------------------------------------
+;
+IVPref-nHn-na IV_V_intr
+IVPref-nHn-na IV_V_intr_intr
+; -------------------------------------------
+;
+IVPref-nHn-na-maya IV_V_intr
+IVPref-nHn-na-maya IV_V_intr_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta IV_V_intr
+IVPref-Anta-ta IV_V_intr_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta-maya IV_V_intr
+IVPref-Anta-ta-maya IV_V_intr_intr
+; --------------------------------------
+;
+IVPref-Anti-ta IV_V_intr
+IVPref-Anti-ta IV_V_intr_intr
+; --------------------------------------
+;
+IVPref-Anti-ta-maya IV_V_intr
+IVPref-Anti-ta-maya IV_V_intr_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta IV_V_intr
+IVPref-Antm-ta IV_V_intr_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta-maya IV_V_intr
+IVPref-Antm-ta-maya IV_V_intr_intr
+; --------------------------------------------
+;
+IVPref-hw-ya IV_V_intr
+IVPref-hw-ya IV_V_intr_intr
+;------------------------------
+IVPref-hw-maya IV_V_intr
+IVPref-hw-maya IV_V_intr_intr
+; --------------------------------------------
+;
+IVPref-hy-ta IV_V_intr
+IVPref-hy-ta IV_V_intr_intr
+;---------------------
+IVPref-hy-maya IV_V_intr
+IVPref-hy-maya IV_V_intr_intr
+; ---------------------------------------------
+;
+IVPref-hm-ya IV_V_intr
+IVPref-hm-maya IV_V_intr
+;
+IVPref-hm-ya IV_V_intr_intr
+IVPref-hm-maya IV_V_intr_intr
+; --------------------------------------------
+;
+IVPref-hw-ya IV_nohuman
+IVPref-hw-ya IV_intr_nohuman
+IVPref-hw-ya IV_0iywo_nohuman
+IVPref-hw-ya IV_0iywo_intr_nohuman
+;------------------------------
+IVPref-hw-maya IV_nohuman
+IVPref-hw-maya IV_intr_nohuman
+IVPref-hw-maya IV_0iywo_nohuman
+IVPref-hw-maya IV_0iywo_intr_nohuman
+; --------------------------------------------
+;
+IVPref-hy-ta IV_nohuman
+IVPref-hy-ta IV_intr_nohuman
+IVPref-hy-ta IV_0iywo_nohuman
+IVPref-hy-ta IV_0iywo_intr_nohuman
+;---------------------
+IVPref-hy-maya IV_nohuman
+IVPref-hy-maya IV_intr_nohuman
+IVPref-hy-ta-maya IV_0iywo_nohuman
+IVPref-hy-ta-maya IV_0iywo_intr_nohuman
+; ---------------------------------------------
+IVPref-hm-ya IV_nohuman
+IVPref-hm-ya IV_intr_nohuman
+IVPref-hm-ya IV_0iywo_nohuman
+IVPref-hm-ya IV_0iywo_intr_nohuman
+;--------------------------
+IVPref-hm-ya-maya IV_nohuman
+IVPref-hm-ya-maya IV_intr_nohuman
+IVPref-hm-ya-maya IV_0iywo_nohuman
+IVPref-hm-ya-maya IV_0iywo_intr_nohuman
+;;
+;============================================================
+;quwlliy
+;
+IVPref-AnA->a IV-l
+IVPref-AnA->a IV-l_intr
+;
+IVPref-AnA->a-maya IV-l
+IVPref-AnA->a-maya IV-l_intr
+; -------------------------------------------
+;
+IVPref-nHn-na IV-pl-l
+IVPref-nHn-na IV-pl-l_intr
+; -------------------------------------------
+;
+IVPref-nHn-na-maya IV-pl-l
+IVPref-nHn-na-maya IV-pl-l_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta IV-l
+IVPref-Anta-ta IV-l_intr
+; -----------------------------------------
+;
+IVPref-Anta-ta-maya IV-l
+IVPref-Anta-ta-maya IV-l_intr
+; --------------------------------------
+;
+IVPref-Anti-ta IV-l
+IVPref-Anti-ta IV-l_intr
+; --------------------------------------
+;
+IVPref-Anti-ta-maya IV-l
+IVPref-Anti-ta-maya IV-l_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta IV-pl-l
+IVPref-Antm-ta IV-pl-l_intr
+; -------------------------------------------------
+;
+IVPref-Antm-ta-maya IV-l
+IVPref-Antm-ta-maya IV-l_intr
+; --------------------------------------------
+;
+IVPref-hw-ya IV-l
+IVPref-hw-ya IV-l_intr
+;------------------------------
+IVPref-hw-maya IV-l
+IVPref-hw-maya IV-l_intr
+; --------------------------------------------
+;
+IVPref-hy-ta IV-l
+IVPref-hy-ta IV-l_intr
+;---------------------
+IVPref-hy-maya IV-l
+IVPref-hy-maya IV-l_intr
+; ---------------------------------------------
+;
+IVPref-hm-ya IV-pl-l
+IVPref-hm-ya IV-pl-l_intr
+;
+IVPref-hm-maya IV-pl-l
+IVPref-hm-maya IV-pl-l_intr
+;===========
+;=====================
+;;================
+;IV without prefixe ta- (Dorab)
+;========
+Pref-0 IV-start-t
+Pref-ma IV-start-t
+Pref-Wa IV-start-t
+IVPref-Particle IV-start-t
+Pref-la IV-start-t
+IV-no-Pref IV-start-t
+IVPref-ta2 IV-start-t
+IVPref-ta3 IV-start-t
+;
+;Pref-0 IV-start-t_intr
+Pref-ma IV-start-t_intr
+Pref-Wa IV-start-t_intr
+Pref-la IV-start-t_intr
+IV-no-Pref IV-start-t_intr
+IVPref-ta2 IV-start-t_intr
+IVPref-ta3 IV-start-t_intr
+IVPref-Particle IV-start-t_intr
+;
+Pref-ma IV-start-t_human
+Pref-Wa IV-start-t_human
+IVPref-Particle IV-start-t_human
+Pref-la IV-start-t_human
+IV-no-Pref IV-start-t_human
+IVPref-ta2 IV-start-t_human
+IVPref-ta3 IV-start-t_human
+;;
+Pref-ma IV_0aywo_start-t
+Pref-Wa IV_0aywo_start-t
+IVPref-Particle IV_0aywo_start-t
+Pref-la IV_0aywo_start-t
+IV-no-Pref IV_0aywo_start-t
+IVPref-ta2 IV_0aywo_start-t
+IVPref-ta3 IV_0aywo_start-t
+; -----------------------------------------

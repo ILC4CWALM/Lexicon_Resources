@@ -1,0 +1,1587 @@
+; ===================================================================
+; "tableAC"  
+; Portions (c) 2002 QAMUS LLC (www.qamus.org), 
+; (c) 2002 Trustees of the University of Pennsylvania 
+;
+; This program is free software; you can redistribute it and/or
+; modify it under the terms of the GNU General Public License
+; as published by the Free Software Foundation version 2.
+;
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details (../gpl.txt).
+;
+; You should have received a copy of the GNU General Public License
+; along with this program; if not, write to the Free Software
+; Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+; 
+; You can contact LDC by sending electronic mail to: ldc@ldc.upenn.edu
+; or by writing to:
+;                Linguistic Data Consortium
+;                3600 Market Street
+;                Suite 810
+;                Philadelphia, PA, 19104-2653, USA.
+;
+; ===================================================================
+;
+;;;==========================
+; null prefix + Function Word suffixes
+Pref-0 FWSuff-hi
+Pref-0 FWSuff-hu-him
+Pref-0 FWSuff-k
+Pref-0 FWSuff-~k
+Pref-0 FWSuff-~a
+Pref-0 FWSuff-ya
+Pref-0 FWSuff-iy-I
+Pref-0 FWSuff-iy-me
+Pref-0 FWSuff-~iy
+Pref-0 FWSuff-niy-I
+Pref-0 FWSuff-niy-me
+Pref-0 FWSuff-nA-us
+Pref-0 FWSuff-nA-we
+Pref-0 FWSuff-A
+Pref-0 FWSuff-~A
+Pref-0 FWSuff-honA
+Pref-0 FWSuff-pl
+;;;;;
+Pref-0 FWSuff-hi-$
+Pref-0 FWSuff-hu-him-$
+Pref-0 FWSuff-k-$
+Pref-0 FWSuff-~a-$
+Pref-0 FWSuff-ya-$
+Pref-0 FWSuff-iy-I-$
+Pref-0 FWSuff-iy-me-$
+Pref-0 FWSuff-~iy-$
+Pref-0 FWSuff-niy-I-$
+Pref-0 FWSuff-niy-me-$
+Pref-0 FWSuff-nA-us-$
+Pref-0 FWSuff-nA-we-$
+Pref-0 FWSuff-A-$
+Pref-0 FWSuff-~A-$
+Pref-0 FWSuff-pl-$
+;
+;;;;;;;;;;;;;;;;;;;;;;;;
+NPref-Li FWSuff-hi
+NPref-Li FWSuff-hu-him
+NPref-Li FWSuff-k
+NPref-Li FWSuff-~k
+NPref-Li FWSuff-~a
+NPref-Li FWSuff-ya
+NPref-Li FWSuff-iy-I
+NPref-Li FWSuff-iy-me
+NPref-Li FWSuff-~iy
+NPref-Li FWSuff-niy-I
+NPref-Li FWSuff-niy-me
+NPref-Li FWSuff-nA-us
+NPref-Li FWSuff-nA-we
+NPref-Li FWSuff-A
+NPref-Li FWSuff-~A
+NPref-Li FWSuff-pl
+NPref-Li FWSuff-pl-$
+;;;;;;;;;;;;;;;;;
+Pref-ma FWSuff-hi
+Pref-ma FWSuff-hu-he
+Pref-ma FWSuff-hu-him
+Pref-ma FWSuff-k
+Pref-ma FWSuff-~a
+Pref-ma FWSuff-ya
+Pref-ma FWSuff-iy-I
+Pref-ma FWSuff-iy-me
+Pref-ma FWSuff-~iy
+Pref-ma FWSuff-niy-I
+Pref-ma FWSuff-niy-me
+Pref-ma FWSuff-nA-us
+Pref-ma FWSuff-nA-we
+Pref-ma FWSuff-A
+Pref-ma FWSuff-~A
+Pref-ma FWSuff-pl
+;
+Pref-ma FWSuff-hi-$
+Pref-ma FWSuff-hu-him-$
+Pref-ma FWSuff-k-$
+Pref-ma FWSuff-~a-$
+Pref-ma FWSuff-ya-$
+Pref-ma FWSuff-iy-I-$
+Pref-ma FWSuff-iy-me-$
+Pref-ma FWSuff-~iy-$
+Pref-ma FWSuff-niy-I-$
+Pref-ma FWSuff-niy-me-$
+Pref-ma FWSuff-nA-us-$
+Pref-ma FWSuff-nA-we-$
+Pref-ma FWSuff-A-$
+Pref-ma FWSuff-~A-$
+Pref-ma FWSuff-pl-$
+;;;
+; Function Word suffixes
+Pref-Wa FWSuff-hi
+Pref-Wa FWSuff-hu-him
+Pref-Wa FWSuff-k
+Pref-Wa FWSuff-~a
+Pref-Wa FWSuff-ya
+Pref-Wa FWSuff-iy-me
+Pref-Wa FWSuff-~iy
+Pref-Wa FWSuff-niy
+Pref-Wa FWSuff-niy-me
+Pref-Wa FWSuff-nA-us
+Pref-Wa FWSuff-nA-we
+Pref-Wa FWSuff-A
+Pref-Wa FWSuff-~A
+Pref-Wa FWSuff-pl
+;
+Pref-Wa FWSuff-hi-$
+Pref-Wa FWSuff-hu-he-$
+Pref-Wa FWSuff-hu-him-$
+Pref-Wa FWSuff-k-$
+Pref-Wa FWSuff-~a-$
+Pref-Wa FWSuff-ya-$
+Pref-Wa FWSuff-iy-I-$
+Pref-Wa FWSuff-iy-me-$
+Pref-Wa FWSuff-~iy-$
+Pref-Wa FWSuff-niy-I-$
+Pref-Wa FWSuff-niy-me-$
+Pref-Wa FWSuff-nA-us-$
+Pref-Wa FWSuff-nA-we-$
+Pref-Wa FWSuff-A-$
+Pref-Wa FWSuff-~A-$
+Pref-Wa FWSuff-pl-$
+;;
+NPref-rA FWSuff-hi
+NPref-rA FWSuff-k
+NPref-rA FWSuff-niy-me
+NPref-rA FWSuff-honA
+;-----------------------------
+;
+NPref-Al Suff-0
+NPref-Al NSuff-wn
+NPref-Al NSuff-iyno
+NPref-Al NSuff-ap
+NPref-Al NSuff-At
+NPref-Al NSuff-tayn
+NPref-Al NSuff-ayn
+NPref-Al NSuff-iyn
+;
+NPref-BiAl Suff-0
+NPref-BiAl NSuff-At
+NPref-BiAl NSuff-ap
+NPref-BiAl NSuff-tayn
+NPref-BiAl NSuff-ayn
+NPref-BiAl NSuff-iyn
+NPref-BiAl NSuff-iyno
+;
+NPref-Bi Suff-0
+NPref-Bi NSuff-At
+NPref-Bi NSuff-Ath
+NPref-Bi NSuff-ap
+NPref-Bi NSuff-ath
+NPref-Bi NSuff-tayn
+NPref-Bi NSuff-h
+NPref-Bi NSuff-iy
+NPref-Bi NSuff-iyh
+NPref-Bi NSuff-ayn
+NPref-Bi NSuff-iyn
+NPref-Bi NSuff-~aA-~um
+;;;
+;NPref-Bi NSuff-Ath-$
+;NPref-Bi NSuff-ath-$
+;NPref-Bi NSuff-h-$
+;NPref-Bi NSuff-iy-$
+;;;
+;
+NPref-hA Suff-0
+NPref-hA NSuff-At
+NPref-hA NSuff-Ath
+NPref-hA NSuff-ap
+NPref-hA NSuff-ath
+NPref-hA NSuff-ayh
+NPref-hA NSuff-ayn
+NPref-hA NSuff-iyn
+NPref-hA NSuff-h
+NPref-hA NSuff-iy
+NPref-hA NSuff-iyh
+NPref-hA NSuff-iyno
+NPref-hA NSuff-tay
+NPref-hA NSuff-~aA-~um
+;;
+NPref-t Suff-0
+;
+;;
+NPref-tA Suff-0
+NPref-tA NSuff-At
+NPref-tA NSuff-Ath
+NPref-tA NSuff-ap
+NPref-tA NSuff-ath
+NPref-tA NSuff-ayh
+NPref-tA NSuff-ayn
+NPref-tA NSuff-iyn
+NPref-tA NSuff-h
+NPref-tA NSuff-iy
+NPref-tA NSuff-iyh
+NPref-tA NSuff-iyno
+NPref-tA NSuff-tay
+NPref-tA NSuff-~aA-~um
+;;;
+NPref-Li Suff-0
+NPref-Li NSuff-At
+NPref-Li NSuff-Ath
+NPref-Li NSuff-ap
+NPref-Li NSuff-ath
+NPref-Li NSuff-h
+NPref-Li NSuff-prep
+NPref-Li NSuff-iy
+NPref-Li NSuff-iyh
+NPref-Li NSuff-iyno
+NPref-Li NSuff-~aA-~um
+;
+NPref-Lil Suff-0
+NPref-Lil NSuff-i
+NPref-Lil NSuff-At
+NPref-Lil NSuff-ap
+NPref-Lil NSuff-ayn
+NPref-Lil NSuff-iyn
+NPref-Lil NSuff-iyno
+;
+NPref-LiAl Suff-0
+NPref-LiAl NSuff-i
+NPref-LiAl NSuff-At
+NPref-LiAl NSuff-ap
+NPref-LiAl NSuff-ayn
+NPref-LiAl NSuff-iyn
+NPref-LiAl NSuff-iyno
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; null prefix + Noun Suffixes
+Pref-0 Suff-0
+Pref-0 NSuff-~a
+Pref-0 NSuff-AF
+Pref-0 NSuff-At
+Pref-0 NSuff-Ath
+Pref-0 NSuff-ap
+Pref-0 NSuff-ath
+Pref-0 NSuff-tayn
+Pref-0 NSuff-iyn
+Pref-0 NSuff-ayh
+Pref-0 NSuff-ayn
+Pref-0 NSuff-h
+Pref-0 NSuff-prep
+Pref-0 NSuff-iy
+Pref-0 NSuff-iyh
+Pref-0 NSuff-iyno
+Pref-0 NSuff-Ah
+Pref-0 NSuff-iynh
+Pref-0 NSuff-iynak
+Pref-0 NSuff-iyh
+Pref-0 NSuff-iyk
+Pref-0 NSuff-iynaniy
+Pref-0 NSuff-tay
+Pref-0 NSuff-wh
+Pref-0 NSuff-wn
+Pref-0 NSuff-~aA-~um
+;;;
+Pref-0 NSuff-Ath-$
+Pref-0 NSuff-ath-$
+Pref-0 NSuff-h-$
+Pref-0 NSuff-iy-$
+Pref-0 NSuff-Ah-$
+Pref-0 NSuff-~aA-~um-$
+;;;;;;;;;;;;;;;;
+Pref-E Suff-0
+Pref-E NSuff-~a
+Pref-E NSuff-AF
+Pref-E NSuff-At
+Pref-E NSuff-Ath
+Pref-E NSuff-ap
+Pref-E NSuff-ath
+Pref-E NSuff-tayn
+Pref-E NSuff-iyn
+Pref-E NSuff-ayh
+Pref-E NSuff-ayn
+Pref-E NSuff-h
+Pref-E NSuff-prep
+Pref-E NSuff-iy
+Pref-E NSuff-iyh
+Pref-E NSuff-iyno
+Pref-E NSuff-iynh
+Pref-E NSuff-iynak
+Pref-E NSuff-iyh
+Pref-E NSuff-iyk
+Pref-E NSuff-iynaniy
+Pref-E NSuff-tay
+Pref-E NSuff-wh
+Pref-E NSuff-wn
+Pref-E NSuff-iy-$
+Pref-E NSuff-~aA-~um
+;;;;;;;;;;;;;
+Pref-E-N Suff-0
+Pref-E-N NSuff-~a
+Pref-E-N NSuff-AF
+Pref-E-N NSuff-At
+Pref-E-N NSuff-Ath
+Pref-E-N NSuff-ap
+Pref-E-N NSuff-ath
+Pref-E-N NSuff-tayn
+Pref-E-N NSuff-iyn
+Pref-E-N NSuff-ayh
+Pref-E-N NSuff-ayn
+Pref-E-N NSuff-h
+Pref-E-N NSuff-prep
+Pref-E-N NSuff-iy
+Pref-E-N NSuff-iyh
+Pref-E-N NSuff-iyno
+Pref-E-N NSuff-iynh
+Pref-E-N NSuff-iynak
+Pref-E-N NSuff-iyh
+Pref-E-N NSuff-iyk
+Pref-E-N NSuff-iynaniy
+Pref-E-N NSuff-tay
+Pref-E-N NSuff-wh
+Pref-E-N NSuff-wn
+;;;;;;;;;
+Pref-E-foreign Suff-0
+Pref-E-foreign NSuff-~a
+Pref-E-foreign NSuff-AF
+Pref-E-foreign NSuff-At
+Pref-E-foreign NSuff-Ath
+Pref-E-foreign NSuff-ap
+Pref-E-foreign NSuff-ath
+Pref-E-foreign NSuff-tayn
+Pref-E-foreign NSuff-iyn
+Pref-E-foreign NSuff-ayh
+Pref-E-foreign NSuff-ayn
+Pref-E-foreign NSuff-h
+Pref-E-foreign NSuff-prep
+Pref-E-foreign NSuff-iy
+Pref-E-foreign NSuff-iyh
+Pref-E-foreign NSuff-iyno
+Pref-E-foreign NSuff-iynh
+Pref-E-foreign NSuff-iynak
+Pref-E-foreign NSuff-iyh
+Pref-E-foreign NSuff-iyk
+Pref-E-foreign NSuff-iynaniy
+Pref-E-foreign NSuff-tay
+Pref-E-foreign NSuff-wh
+Pref-E-foreign NSuff-wn
+;;;;;;;;;;;
+Pref-ma Suff-0
+Pref-ma NSuff-~a
+Pref-ma NSuff-AF
+Pref-ma NSuff-At
+Pref-ma NSuff-Ath
+Pref-ma NSuff-ap
+Pref-ma NSuff-atAh
+Pref-ma NSuff-atAn
+Pref-ma NSuff-ath
+Pref-ma NSuff-ayh
+Pref-ma NSuff-ayn
+Pref-ma NSuff-iyn
+Pref-ma NSuff-h
+Pref-ma NSuff-prep
+Pref-ma NSuff-iy
+Pref-ma NSuff-iyh
+Pref-ma NSuff-iyno
+Pref-ma NSuff-iynh
+Pref-ma NSuff-iynak
+Pref-ma NSuff-iyh
+Pref-ma NSuff-iyk
+Pref-ma NSuff-iynaniy
+Pref-ma NSuff-tay
+Pref-ma NSuff-wh
+Pref-ma NSuff-wn
+Pref-ma NSuff-~aA-~um
+;;;
+Pref-ma NSuff-Ath-$
+Pref-ma NSuff-ath-$
+Pref-ma NSuff-h-$
+Pref-ma NSuff-iy-$
+Pref-ma NSuff-~aA-~um-$
+;;;
+Pref-voc Suff-0
+Pref-voc NSuff-~a
+Pref-voc NSuff-AF
+Pref-voc NSuff-At
+Pref-voc NSuff-Ath
+Pref-voc NSuff-ap
+Pref-voc NSuff-ath
+Pref-voc NSuff-h
+Pref-voc NSuff-iy
+Pref-voc NSuff-iyh
+Pref-voc NSuff-iyno
+Pref-voc NSuff-wh
+Pref-voc NSuff-wn
+;;;
+Pref-Wa Suff-0
+Pref-Wa NSuff-AF
+Pref-Wa NSuff-At
+Pref-Wa NSuff-Ath
+Pref-Wa NSuff-ap
+Pref-Wa NSuff-atAh
+Pref-Wa NSuff-atAn
+Pref-Wa NSuff-ath
+Pref-Wa NSuff-iy
+Pref-Wa NSuff-iyh
+Pref-Wa NSuff-ayh
+Pref-Wa NSuff-ayn
+Pref-Wa NSuff-iyn
+Pref-Wa NSuff-iynh
+Pref-Wa NSuff-iynak
+Pref-Wa NSuff-iyh
+Pref-Wa NSuff-iyk
+Pref-Wa NSuff-h
+Pref-Wa NSuff-prep
+Pref-Wa NSuff-tay
+Pref-Wa NSuff-wh
+Pref-Wa NSuff-wn
+Pref-Wa NSuff-iyno
+Pref-Wa NSuff-~a
+Pref-Wa NSuff-~aA-~um
+;;
+Pref-A Suff-0
+Pref-A NSuff-AF
+Pref-A NSuff-At
+Pref-A NSuff-Ath
+Pref-A NSuff-ap
+Pref-A NSuff-atAh
+Pref-A NSuff-atAn
+Pref-A NSuff-ath
+Pref-A NSuff-iy
+Pref-A NSuff-ayh
+Pref-A NSuff-ayn
+Pref-A NSuff-iyn
+Pref-A NSuff-h
+Pref-A NSuff-prep
+Pref-A NSuff-tay
+Pref-A NSuff-wh
+Pref-A NSuff-wn
+Pref-A NSuff-iyno
+Pref-A FWSuff-iy-me
+Pref-A NSuff-~aA-~um
+;;
+;NVerb
+Pref-0 NSuff-iyna-$
+Pref-0 NSuff-iynh-$
+Pref-0 NSuff-iynak-$
+Pref-0 NSuff-iynaniy-$
+Pref-ma NSuff-iyna-$
+Pref-ma NSuff-iynh-$
+Pref-ma NSuff-iynak-$
+Pref-ma NSuff-iynaniy-$
+Pref-ma NSuff-ap-$
+;;;
+NSuff-ki Suff-0IV
+NSuff-ki NSuff-ap
+NSuff-ki NSuff-At
+NSuff-ki IVSuff-h
+NSuff-ki NSuff-Ah
+NSuff-ki IVSuff-w
+NSuff-ki IVSuff-ny-nA
+NSuff-ki IVSuff-k
+NSuff-ki NSuff-iyno
+NSuff-ki NSuff-iynh
+NSuff-ki NSuff-iynak
+NSuff-ki NSuff-iyh-$
+NSuff-ki NSuff-iyk-$
+NSuff-ki NSuff-iynaniy
+;;;;;========
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; null prefix + Imperative Verb suffixes
+Pref-0 CVSuff-o
+Pref-0 CVSuff-oh
+Pref-0 CVSuff-oniynA
+Pref-0 CVSuff-yniynA
+Pref-0 CVSuff-wniynA
+Pref-0 CVSuff-y
+Pref-0 CVSuff-yh
+Pref-0 CVSuff-iyh
+Pref-0 CVSuff-iy
+Pref-0 CVSuff-wA
+Pref-0 CVSuff-wh
+Pref-0 CVSuff-ay
+Pref-0 CVSuff-ayh
+Pref-0 CVSuff-ayniy
+Pref-0 CVSuff-aynA
+Pref-0 CVSuff-wo
+Pref-0 CVSuff-woh
+Pref-0 CVSuff-woniy
+Pref-0 CVSuff-wonA
+Pref-0 CVSuff-A
+;;;;
+Pref-ma CVSuff-o
+Pref-ma CVSuff-oh
+Pref-ma CVSuff-oniynA
+Pref-ma CVSuff-yniynA
+Pref-ma CVSuff-wniynA
+Pref-ma CVSuff-y
+Pref-ma CVSuff-yh
+Pref-ma CVSuff-iyh
+Pref-ma CVSuff-iy
+Pref-ma CVSuff-wA
+Pref-ma CVSuff-wh
+Pref-ma CVSuff-ay
+Pref-ma CVSuff-ayh
+Pref-ma CVSuff-ayniy
+Pref-ma CVSuff-aynA
+Pref-ma CVSuff-wo
+Pref-ma CVSuff-woh
+Pref-ma CVSuff-woniy
+Pref-ma CVSuff-wonA
+;;;;;;
+Pref-E CVSuff-o
+Pref-E CVSuff-oh
+Pref-E CVSuff-oniynA
+Pref-E CVSuff-yniynA
+Pref-E CVSuff-wniynA
+Pref-E CVSuff-y
+Pref-E CVSuff-yh
+Pref-E CVSuff-iyh
+Pref-E CVSuff-iy
+Pref-E CVSuff-wA
+Pref-E CVSuff-wh
+Pref-E CVSuff-ay
+Pref-E CVSuff-ayh
+Pref-E CVSuff-ayniy
+Pref-E CVSuff-aynA
+Pref-E CVSuff-wo
+Pref-E CVSuff-woh
+Pref-E CVSuff-woniy
+Pref-E CVSuff-wonA
+Pref-E CVSuff-A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Pref-A CVSuff-o
+Pref-A CVSuff-oh
+Pref-A CVSuff-oniynA
+Pref-A CVSuff-yniynA
+Pref-A CVSuff-wniynA
+Pref-A CVSuff-y
+Pref-A CVSuff-yh
+Pref-A CVSuff-iyh
+Pref-A CVSuff-iy
+Pref-A CVSuff-wA
+Pref-A CVSuff-wh
+Pref-A CVSuff-ay
+Pref-A CVSuff-ayh
+Pref-A CVSuff-ayniy
+Pref-A CVSuff-aynA
+Pref-A CVSuff-wo
+Pref-A CVSuff-woh
+Pref-A CVSuff-woniy
+Pref-A CVSuff-wonA
+Pref-A CVSuff-A
+;;
+;;
+Pref-Wa CVSuff-o
+Pref-Wa CVSuff-oh
+Pref-Wa CVSuff-oniynA
+Pref-Wa CVSuff-yniynA
+Pref-Wa CVSuff-wniynA
+Pref-Wa CVSuff-y
+Pref-Wa CVSuff-yh
+Pref-Wa CVSuff-iyh
+Pref-Wa CVSuff-iy
+Pref-Wa CVSuff-wA
+Pref-Wa CVSuff-wh
+Pref-Wa CVSuff-ay
+Pref-Wa CVSuff-ayh
+Pref-Wa CVSuff-ayniy
+Pref-Wa CVSuff-aynA
+Pref-Wa CVSuff-wo
+Pref-Wa CVSuff-woh
+Pref-Wa CVSuff-woniy
+Pref-Wa CVSuff-wonA
+Pref-Wa CVSuff-A
+;;;;
+Pref-0 CVSuff-o-$
+Pref-0 CVSuff-oh-$
+Pref-0 CVSuff-oniynA-$
+Pref-0 CVSuff-yniynA-$
+Pref-0 CVSuff-wniynA-$
+Pref-0 CVSuff-y-$
+Pref-0 CVSuff-yh-$
+Pref-0 CVSuff-iyh-$
+Pref-0 CVSuff-iy-$
+Pref-0 CVSuff-wA-$
+Pref-0 CVSuff-wh-$
+Pref-0 CVSuff-ay-$
+Pref-0 CVSuff-ayh-$
+Pref-0 CVSuff-ayniy-$
+Pref-0 CVSuff-aynA-$
+Pref-0 CVSuff-wo-$
+Pref-0 CVSuff-woh-$
+Pref-0 CVSuff-woniy-$
+Pref-0 CVSuff-wonA-$
+Pref-0 CVSuff-A
+;;;;
+Pref-E CVSuff-o-$
+Pref-E CVSuff-oh-$
+Pref-E CVSuff-oniynA-$
+Pref-E CVSuff-yniynA-$
+Pref-E CVSuff-wniynA-$
+Pref-E CVSuff-y-$
+Pref-E CVSuff-yh-$
+Pref-E CVSuff-iyh-$
+Pref-E CVSuff-iy-$
+Pref-E CVSuff-wA-$
+Pref-E CVSuff-wh-$
+Pref-E CVSuff-ay-$
+Pref-E CVSuff-ayh-$
+Pref-E CVSuff-ayniy-$
+Pref-E CVSuff-aynA-$
+Pref-E CVSuff-wo-$
+Pref-E CVSuff-woh-$
+Pref-E CVSuff-woniy-$
+Pref-E CVSuff-wonA-$
+Pref-E CVSuff-A
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Pref-A CVSuff-o-$
+Pref-A CVSuff-oh-$
+Pref-A CVSuff-oniynA-$
+Pref-A CVSuff-yniynA-$
+Pref-A CVSuff-wniynA-$
+Pref-A CVSuff-y-$
+Pref-A CVSuff-yh-$
+Pref-A CVSuff-iyh-$
+Pref-A CVSuff-iy-$
+Pref-A CVSuff-wA-$
+Pref-A CVSuff-wh-$
+Pref-A CVSuff-ay-$
+Pref-A CVSuff-ayh-$
+Pref-A CVSuff-ayniy-$
+Pref-A CVSuff-aynA-$
+Pref-A CVSuff-wo-$
+Pref-A CVSuff-woh-$
+Pref-A CVSuff-woniy-$
+Pref-A CVSuff-wonA-$
+;;
+Pref-ma CVSuff-o-$
+Pref-ma CVSuff-oh-$
+Pref-ma CVSuff-oniynA-$
+Pref-ma CVSuff-yniynA-$
+Pref-ma CVSuff-wniynA-$
+Pref-ma CVSuff-y-$
+Pref-ma CVSuff-yh-$
+Pref-ma CVSuff-iyh-$
+Pref-ma CVSuff-iy-$
+Pref-ma CVSuff-wA-$
+Pref-ma CVSuff-wh-$
+Pref-ma CVSuff-ay-$
+Pref-ma CVSuff-ayh-$
+Pref-ma CVSuff-ayniy-$
+Pref-ma CVSuff-aynA-$
+Pref-ma CVSuff-wo-$
+Pref-ma CVSuff-woh-$
+Pref-ma CVSuff-woniy-$
+Pref-ma CVSuff-wonA-$
+;;;;
+Pref-Wa CVSuff-o-$
+Pref-Wa CVSuff-oh-$
+Pref-Wa CVSuff-oniynA-$
+Pref-Wa CVSuff-yniynA-$
+Pref-Wa CVSuff-wniynA-$
+Pref-Wa CVSuff-y-$
+Pref-Wa CVSuff-yh-$
+Pref-Wa CVSuff-iyh-$
+Pref-Wa CVSuff-iy-$
+Pref-Wa CVSuff-wA-$
+Pref-Wa CVSuff-wh-$
+Pref-Wa CVSuff-ay-$
+Pref-Wa CVSuff-ayh-$
+Pref-Wa CVSuff-ayniy-$
+Pref-Wa CVSuff-aynA-$
+Pref-Wa CVSuff-wo-$
+Pref-Wa CVSuff-woh-$
+Pref-Wa CVSuff-woniy-$
+Pref-Wa CVSuff-wonA-$
+Pref-Wa CVSuff-A-$
+;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CVPref CVSuff-o
+CVPref CVSuff-oh
+CVPref CVSuff-oniynA
+CVPref CVSuff-yniynA
+CVPref CVSuff-wniynA
+CVPref CVSuff-y
+CVPref CVSuff-yh
+CVPref CVSuff-iyh
+CVPref CVSuff-iy
+CVPref CVSuff-wA
+CVPref CVSuff-wh
+CVPref CVSuff-ay
+CVPref CVSuff-ayh
+CVPref CVSuff-ayniy
+CVPref CVSuff-aynA
+CVPref CVSuff-wo
+CVPref CVSuff-woh
+CVPref CVSuff-woniy
+CVPref CVSuff-wonA
+CVPref CVSuff-A
+;;
+;;;;===================
+;;;;;;;;;;;;;;;;;
+; null prefix + Perfect Verb Suffixes
+Pref-0 PVSuff-a
+Pref-0 PVSuff-a-$
+Pref-0 PVSuff-ah
+Pref-0 PVSuff-ah-$
+Pref-0 PVSuff-ak
+Pref-0 PVSuff-ak-$
+Pref-0 PVSuff-hA
+Pref-0 PVSuff-hA-$
+Pref-0 PVSuff-ak
+Pref-0 PVSuff-ak-$
+Pref-0 PVSuff-0a
+Pref-0 PVSuff-0a-$
+Pref-0 PVSuff-0ah
+Pref-0 PVSuff-0ah-$
+Pref-0 PVSuff-at
+Pref-0 PVSuff-at-$
+Pref-0 PVSuff-atk
+Pref-0 PVSuff-atk-$
+Pref-0 PVSuff-ath
+Pref-0 PVSuff-ath-$
+Pref-0 PVSuff-ath
+Pref-0 PVSuff-ath-$
+Pref-0 PVSuff-atnynA
+Pref-0 PVSuff-atnynA-$
+Pref-0 PVSuff-0at
+Pref-0 PVSuff-0ath
+Pref-0 PVSuff-0at-$
+Pref-0 PVSuff-0ath-$
+Pref-0 PVSuff-uwA
+Pref-0 PVSuff-uwA-$
+Pref-0 PVSuff-uwA-li
+Pref-0 PVSuff-uwA-li-$
+Pref-0 PVSuff-uwh
+Pref-0 PVSuff-uwh-$
+Pref-0 PVSuff-awA
+Pref-0 PVSuff-awA-$
+Pref-0 PVSuff-awh
+Pref-0 PVSuff-awh-$
+Pref-0 PVSuff-n
+Pref-0 PVSuff-0n
+Pref-0 PVSuff-n-$
+Pref-0 PVSuff-0n-$
+Pref-0 PVSuff-~y
+Pref-0 PVSuff-~y-$
+Pref-0 PVSuff-~Ah
+Pref-0 PVSuff-~Ah-$
+Pref-0 PVSuff-~A
+Pref-0 PVSuff-~A-$
+Pref-0 PVSuff-nh
+Pref-0 PVSuff-nh-$
+Pref-0 PVSuff-0nh
+Pref-0 PVSuff-0nh-$
+Pref-0 PVSuff-t
+Pref-0 PVSuff-t-$
+Pref-0 PVSuff-t-li
+Pref-0 PVSuff-0t
+Pref-0 PVSuff-0t-$
+Pref-0 PVSuff-~t
+Pref-0 PVSuff-~t-$
+Pref-0 PVSuff-~y
+Pref-0 PVSuff-~y-$
+Pref-0 PVSuff-th
+Pref-0 PVSuff-tnynA
+Pref-0 PVSuff-th-$
+Pref-0 PVSuff-tnynA-$
+Pref-0 PVSuff-0th
+Pref-0 PVSuff-0th-$
+Pref-0 PVSuff-~th
+Pref-0 PVSuff-~th-$
+Pref-0 PVSuff-niy
+Pref-0 PVSuff-niy-$
+Pref-0 PVSuff-li
+Pref-0 PVSuff-~li
+Pref-0 PVSuff-li
+Pref-0 PVSuff-at-li
+Pref-0 PVSuff-at-li$
+Pref-0 PVSuff-t-li
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+Pref-A PVSuff-a
+Pref-A PVSuff-a-$
+Pref-A PVSuff-ah
+Pref-A PVSuff-ah-$
+Pref-A PVSuff-ak
+Pref-A PVSuff-ak-$
+Pref-A PVSuff-hA
+Pref-A PVSuff-hA-$
+Pref-A PVSuff-0a
+Pref-A PVSuff-0a-$
+Pref-A PVSuff-0ah
+Pref-A PVSuff-0ah-$
+Pref-A PVSuff-at
+Pref-A PVSuff-at-$
+Pref-A PVSuff-ath
+Pref-A PVSuff-ath-$
+Pref-A PVSuff-atk
+Pref-A PVSuff-atk-$
+Pref-A PVSuff-atnynA
+Pref-A PVSuff-atnynA-$
+Pref-A PVSuff-0at
+Pref-A PVSuff-0ath
+Pref-A PVSuff-0at-$
+Pref-A PVSuff-0ath-$
+Pref-A PVSuff-uwA
+Pref-A PVSuff-uwA-$
+Pref-A PVSuff-uwA-li-$
+Pref-A PVSuff-uwh
+Pref-A PVSuff-uwh-$
+Pref-A PVSuff-awA
+Pref-A PVSuff-awA-$
+Pref-A PVSuff-awh
+Pref-A PVSuff-awh-$
+Pref-A PVSuff-n
+Pref-A PVSuff-0n
+Pref-A PVSuff-n-$
+Pref-A PVSuff-0n-$
+Pref-A PVSuff-~y
+Pref-A PVSuff-~y-$
+Pref-A PVSuff-~Ah
+Pref-A PVSuff-~Ah-$
+Pref-A PVSuff-~A
+Pref-A PVSuff-~A-$
+Pref-A PVSuff-nh
+Pref-A PVSuff-nh-$
+Pref-A PVSuff-0nh
+Pref-A PVSuff-0nh-$
+Pref-A PVSuff-t
+Pref-A PVSuff-t-$
+Pref-A PVSuff-t-li
+Pref-A PVSuff-0t
+Pref-A PVSuff-0t-$
+Pref-A PVSuff-~t
+Pref-A PVSuff-~t-$
+Pref-A PVSuff-~y
+Pref-A PVSuff-~y-$
+Pref-A PVSuff-th
+Pref-A PVSuff-th-$
+Pref-A PVSuff-th-$
+Pref-A PVSuff-tnynA-$
+Pref-A PVSuff-0th
+Pref-A PVSuff-0th-$
+Pref-A PVSuff-~th
+Pref-A PVSuff-~th-$
+Pref-A PVSuff-niy
+Pref-A PVSuff-niy-$
+Pref-A PVSuff-li
+Pref-A PVSuff-~li
+Pref-A PVSuff-at-li
+Pref-A PVSuff-at-li$
+Pref-A PVSuff-t-li
+;;;;;;;;;;;;;;;;
+;
+;gAbqaA
+Pref-E PVSuff-a
+Pref-E PVSuff-a-$
+Pref-E PVSuff-ah
+Pref-E PVSuff-ah-$
+Pref-E PVSuff-ak
+Pref-E PVSuff-ak-$
+Pref-E PVSuff-hA
+Pref-E PVSuff-hA-$
+Pref-E PVSuff-0a
+Pref-E PVSuff-0a-$
+Pref-E PVSuff-0ah
+Pref-E PVSuff-0ah-$
+Pref-E PVSuff-at
+Pref-E PVSuff-at-$
+Pref-E PVSuff-at-li
+Pref-E PVSuff-at-li$
+Pref-E PVSuff-ath
+Pref-E PVSuff-ath-$
+Pref-E PVSuff-atk
+Pref-E PVSuff-atk-$
+Pref-E PVSuff-atnynA
+Pref-E PVSuff-atnynA-$
+Pref-E PVSuff-0at
+Pref-E PVSuff-0ath
+Pref-E PVSuff-0at-$
+Pref-E PVSuff-0ath-$
+Pref-E PVSuff-uwA
+Pref-E PVSuff-uwA-$
+Pref-E PVSuff-uwA-li
+Pref-E PVSuff-uwA-li-$
+Pref-E PVSuff-uwh
+Pref-E PVSuff-uwh-$
+Pref-E PVSuff-awA
+Pref-E PVSuff-awA-$
+Pref-E PVSuff-awh
+Pref-E PVSuff-awh-$
+Pref-E PVSuff-n
+Pref-E PVSuff-0n
+Pref-E PVSuff-n-$
+Pref-E PVSuff-0n-$
+Pref-E PVSuff-~y
+Pref-E PVSuff-~y-$
+Pref-E PVSuff-~Ah
+Pref-E PVSuff-~Ah-$
+Pref-E PVSuff-~A
+Pref-E PVSuff-~A-$
+Pref-E PVSuff-nh
+Pref-E PVSuff-nh-$
+Pref-E PVSuff-0nh
+Pref-E PVSuff-0nh-$
+Pref-E PVSuff-t
+Pref-E PVSuff-t-$
+Pref-E PVSuff-t-li
+Pref-E PVSuff-0t
+Pref-E PVSuff-0t-$
+Pref-E PVSuff-~t
+Pref-E PVSuff-~t-$
+Pref-E PVSuff-~y
+Pref-E PVSuff-~y-$
+Pref-E PVSuff-th
+Pref-E PVSuff-th-$
+Pref-E PVSuff-th-$
+Pref-E PVSuff-tnynA-$
+Pref-E PVSuff-0th
+Pref-E PVSuff-0th-$
+Pref-E PVSuff-~th
+Pref-E PVSuff-~th-$
+Pref-E PVSuff-niy
+Pref-E PVSuff-niy-$
+Pref-E PVSuff-li
+Pref-E PVSuff-~li
+Pref-E PVSuff-at-li
+Pref-E PVSuff-at-li$
+Pref-E PVSuff-t-li
+;;;;;;;;;;;;;;;;;;;;;;
+;
+Pref-hi PVSuff-niy
+Pref-hi PVSuff-a
+Pref-hi PVSuff-ah
+Pref-hi PVSuff-ah-$
+Pref-hi PVSuff-ak
+Pref-hi PVSuff-ak-$
+Pref-hi PVSuff-hA
+Pref-hi PVSuff-hA-$
+Pref-hi PVSuff-0at
+Pref-hi PVSuff-0ath
+Pref-hi PVSuff-ath
+Pref-hi PVSuff-atk
+Pref-hi PVSuff-atk-$
+Pref-hi PVSuff-atnynA
+Pref-hi PVSuff-atnynA-$
+Pref-hi PVSuff-n
+Pref-hi PVSuff-nh
+Pref-hi PVSuff-0n
+Pref-hi PVSuff-0nh
+Pref-hi PVSuff-~y
+Pref-hi PVSuff-~Ah
+Pref-hi PVSuff-~A
+Pref-hi PVSuff-~y-$
+Pref-hi PVSuff-~Ah-$
+Pref-hi PVSuff-~A-$
+Pref-hi PVSuff-t
+Pref-hi PVSuff-th
+Pref-hi PVSuff-th-$
+Pref-hi PVSuff-tnynA-$
+Pref-hi PVSuff-tnynA
+Pref-hi PVSuff-0t
+Pref-hi PVSuff-0th
+Pref-hi PVSuff-t-li
+Pref-hi PVSuff-~t
+Pref-hi PVSuff-~th
+Pref-hi PVSuff-~y
+Pref-hi PVSuff-uwA
+Pref-hi PVSuff-uwh
+Pref-hi PVSuff-uwA-li
+Pref-hi PVSuff-uwA-li-$
+Pref-hi PVSuff-awA
+Pref-hi PVSuff-awh
+Pref-hi PVSuff-0a
+Pref-hi PVSuff-0ah
+Pref-hi PVSuff-li
+Pref-hi PVSuff-~li
+Pref-hi PVSuff-at-li
+Pref-hi PVSuff-at-li$
+Pref-hi PVSuff-t-li
+;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Pref-t~a PVSuff-niy
+Pref-t~a PVSuff-a
+Pref-t~a PVSuff-ah
+Pref-t~a PVSuff-ah-$
+Pref-t~a PVSuff-ak
+Pref-t~a PVSuff-ak-$
+Pref-t~a PVSuff-hA
+Pref-t~a PVSuff-hA-$
+Pref-t~a PVSuff-at
+Pref-t~a PVSuff-ath
+Pref-t~a PVSuff-atk
+Pref-t~a PVSuff-atk-$
+Pref-t~a PVSuff-atnynA
+Pref-t~a PVSuff-atnynA-$
+Pref-t~a PVSuff-n
+Pref-t~a PVSuff-nh
+Pref-t~a PVSuff-0n
+Pref-t~a PVSuff-0nh
+Pref-t~a PVSuff-~y
+Pref-t~a PVSuff-~y-$
+Pref-t~a PVSuff-~Ah
+Pref-t~a PVSuff-~Ah-$
+Pref-t~a PVSuff-~A
+Pref-t~a PVSuff-~A-$
+Pref-t~a PVSuff-t
+Pref-t~a PVSuff-th
+Pref-t~a PVSuff-tnynA
+Pref-t~a PVSuff-tnynA-$
+Pref-t~a PVSuff-0t
+Pref-t~a PVSuff-0th
+Pref-t~a PVSuff-~t
+Pref-t~a PVSuff-~th
+Pref-t~a PVSuff-~y
+Pref-t~a PVSuff-uwA
+Pref-t~a PVSuff-uwh
+Pref-t~a PVSuff-awA
+Pref-t~a PVSuff-awh
+Pref-t~a PVSuff-0a
+Pref-t~a PVSuff-0ah
+Pref-t~a PVSuff-0at
+Pref-t~a PVSuff-li
+Pref-t~a PVSuff-~li
+Pref-t~a PVSuff-at-li
+Pref-t~a PVSuff-uwA-li
+Pref-t~a PVSuff-at-li$
+Pref-t~a PVSuff-uwA-li-$
+Pref-t~a PVSuff-t-li
+;;;;;;;;;;;;;;;;;;;;
+;;;;;;
+Pref-Wa PVSuff-niy
+Pref-Wa PVSuff-a
+Pref-Wa PVSuff-ah
+Pref-Wa PVSuff-ak
+Pref-Wa PVSuff-hA
+Pref-Wa PVSuff-at
+Pref-Wa PVSuff-ath
+Pref-Wa PVSuff-atk
+Pref-Wa PVSuff-atk-$
+Pref-Wa PVSuff-atnynA
+Pref-Wa PVSuff-atnynA-$
+Pref-Wa PVSuff-0at
+Pref-Wa PVSuff-0ath
+Pref-Wa PVSuff-0at-$
+Pref-Wa PVSuff-0ath-$
+Pref-Wa PVSuff-n
+Pref-Wa PVSuff-nh
+Pref-Wa PVSuff-0n
+Pref-Wa PVSuff-0nh
+Pref-Wa PVSuff-~y
+Pref-Wa PVSuff-~Ah
+Pref-Wa PVSuff-~A
+Pref-Wa PVSuff-t
+Pref-Wa PVSuff-th
+Pref-Wa PVSuff-tnynA
+Pref-Wa PVSuff-0t
+Pref-Wa PVSuff-0th
+Pref-Wa PVSuff-~t
+Pref-Wa PVSuff-~th
+Pref-Wa PVSuff-~y
+Pref-Wa PVSuff-uwA
+Pref-Wa PVSuff-uwh
+Pref-Wa PVSuff-awA
+Pref-Wa PVSuff-awh
+Pref-Wa PVSuff-0a
+Pref-Wa PVSuff-0ah
+;;
+Pref-Wa PVSuff-li
+Pref-Wa PVSuff-~li
+Pref-Wa PVSuff-at-li
+Pref-Wa PVSuff-uwA-li
+Pref-Wa PVSuff-t-li
+;;
+Pref-Wa PVSuff-a-$
+Pref-Wa PVSuff-niy-$
+Pref-Wa PVSuff-ah-$
+Pref-Wa PVSuff-ak-$
+Pref-Wa PVSuff-hA-$
+Pref-Wa PVSuff-A-$
+Pref-Wa PVSuff-Ah-$
+Pref-Wa PVSuff-|-$
+Pref-Wa PVSuff-|h-$
+Pref-Wa PVSuff-at-$
+Pref-Wa PVSuff-ath-$
+Pref-Wa PVSuff-n-$
+Pref-Wa PVSuff-nh-$
+Pref-Wa PVSuff-0n-$
+Pref-Wa PVSuff-0nh-$
+Pref-Wa PVSuff-~y-$
+Pref-Wa PVSuff-~Ah-$
+Pref-Wa PVSuff-~A-$
+Pref-Wa PVSuff-t-$
+Pref-Wa PVSuff-th-$
+Pref-Wa PVSuff-tnynA-$
+Pref-Wa PVSuff-0t-$
+Pref-Wa PVSuff-0th-$
+Pref-Wa PVSuff-~t-$
+Pref-Wa PVSuff-~th-$
+Pref-Wa PVSuff-~y-$
+Pref-Wa PVSuff-uwA-$
+Pref-Wa PVSuff-uwh-$
+Pref-Wa PVSuff-awA-$
+Pref-Wa PVSuff-awh-$
+Pref-Wa PVSuff-0a-$
+Pref-Wa PVSuff-0ah-$
+Pref-Wa PVSuff-at-li$
+Pref-Wa PVSuff-uwA-li-$
+;
+Pref-ma PVSuff-a
+Pref-ma PVSuff-niy
+Pref-ma NSuff-iyno
+Pref-ma NSuff-iynh
+Pref-ma NSuff-iynak
+Pref-ma NSuff-iynaniy
+Pref-ma PVSuff-ah
+Pref-ma PVSuff-ak
+Pref-ma PVSuff-hA
+Pref-ma PVSuff-at
+Pref-ma PVSuff-at-li
+Pref-ma PVSuff-ath
+Pref-ma PVSuff-atk
+Pref-ma PVSuff-atnynA
+Pref-ma PVSuff-atnynA-$
+Pref-ma PVSuff-n
+Pref-ma PVSuff-nh
+Pref-ma PVSuff-0n
+Pref-ma PVSuff-0nh
+Pref-ma PVSuff-~y
+Pref-ma PVSuff-~Ah
+Pref-ma PVSuff-~A
+Pref-ma PVSuff-t
+Pref-ma PVSuff-th
+Pref-ma PVSuff-tnynA
+Pref-ma PVSuff-0t
+Pref-ma PVSuff-0th
+Pref-ma PVSuff-t-li
+Pref-ma PVSuff-~t
+Pref-ma PVSuff-~th
+Pref-ma PVSuff-~y
+Pref-ma PVSuff-uwA
+Pref-ma PVSuff-uwh
+Pref-ma PVSuff-awA
+Pref-ma PVSuff-awh
+Pref-ma PVSuff-0a
+Pref-ma PVSuff-0ah
+Pref-ma PVSuff-0at
+Pref-ma PVSuff-0ath
+Pref-ma PVSuff-li
+Pref-ma PVSuff-~li
+Pref-ma PVSuff-at-li
+Pref-ma PVSuff-uwA-li
+Pref-ma PVSuff-t-li
+;
+Pref-ma PVSuff-a-$
+Pref-ma PVSuff-niy-$
+Pref-ma PVSuff-ah-$
+Pref-ma PVSuff-ak-$
+Pref-ma PVSuff-hA-$
+Pref-ma PVSuff-at-$
+Pref-ma PVSuff-ath-$
+Pref-ma PVSuff-atk-$
+Pref-ma PVSuff-n-$
+Pref-ma PVSuff-nh-$
+Pref-ma PVSuff-0n-$
+Pref-ma PVSuff-0nh-$
+Pref-ma PVSuff-~y-$
+Pref-ma PVSuff-~Ah-$
+Pref-ma PVSuff-~A-$
+Pref-ma PVSuff-t-$
+Pref-ma PVSuff-th-$
+Pref-ma PVSuff-tnynA-$
+Pref-ma PVSuff-0t-$
+Pref-ma PVSuff-0th-$
+Pref-ma PVSuff-~t-$
+Pref-ma PVSuff-~y-$
+Pref-ma PVSuff-~th-$
+Pref-ma PVSuff-uwA-$
+Pref-ma PVSuff-uwh-$
+Pref-ma PVSuff-awA-$
+Pref-ma PVSuff-awh-$
+Pref-ma PVSuff-0a-$
+Pref-ma PVSuff-0ah-$
+Pref-ma PVSuff-0at-$
+Pref-ma PVSuff-0ath-$
+Pref-ma PVSuff-at-li-$
+Pref-ma PVSuff-uwA-li-$
+;
+;
+;===============================================
+;=============================================
+;Deverbl Noun xASniy - laAzmniy 
+Pref-0 Suff-0IV
+Pref-0 Suff-0IV-$
+Pref-0 Suff-0IV-li
+Pref-0 IVSuff-h
+Pref-0 IVSuff-w
+Pref-0 IVSuff-k
+Pref-0 IVSuff-h-$
+Pref-0 IVSuff-w-$
+Pref-0 IVSuff-k-$
+Pref-0 IVSuff-ny-nA
+Pref-0 IVSuff-ny-nA-$
+Pref-0 IVSuff-~y
+Pref-0 IVSuff-~y-$
+;
+Pref-Wa Suff-0IV
+Pref-Wa Suff-0IV-$
+Pref-Wa Suff-0IV-li
+Pref-Wa IVSuff-h
+Pref-Wa IVSuff-h-$
+Pref-Wa IVSuff-w
+Pref-Wa IVSuff-w-$
+Pref-Wa IVSuff-k
+Pref-Wa IVSuff-k-$
+Pref-Wa IVSuff-ny-nA
+Pref-Wa IVSuff-ny-nA-$
+Pref-Wa IVSuff-~y
+Pref-Wa IVSuff-~y-$
+;;
+Pref-Wa IVSuff-wA-li
+;;;
+Pref-ma IVSuff-wA-$
+Pref-ma Suff-0IV
+Pref-ma Suff-0IV-$
+Pref-ma Suff-0IV-li
+Pref-ma IVSuff-h
+Pref-ma IVSuff-h-$
+Pref-ma IVSuff-w
+Pref-ma IVSuff-w-$
+Pref-ma IVSuff-k
+Pref-ma IVSuff-k-$
+Pref-ma IVSuff-ny-nA
+Pref-ma IVSuff-ny-nA-$
+Pref-ma IVSuff-~y
+Pref-ma IVSuff-~y-$
+Pref-ma IVSuff-wA
+Pref-ma IVSuff-wA-$
+;
+NPref-Al Suff-0IV
+NPref-Al Suff-0IV-$
+;NPref-Al IVSuff-h
+;NPref-Al IVSuff-h-$
+;NPref-Al IVSuff-k
+;NPref-Al IVSuff-k-$
+;NPref-Al IVSuff-ny-nA
+;NPref-Al IVSuff-ny-nA-$
+;NPref-Al IVSuff-~y
+;NPref-Al IVSuff-~y-$
+;-------------------------------------
+;IMPERFECT verbs
+;;
+;IV without prefixe na- (noEas)
+;========
+Pref-0 IVSuff-wA
+Pref-0 IVSuff-wh
+Pref-0 IVSuff-wk
+Pref-0 IVSuff-awA
+Pref-0 IVSuff-awh
+;
+Pref-Wa IVSuff-wA
+Pref-Wa IVSuff-wh
+Pref-Wa IVSuff-wk
+Pref-Wa IVSuff-awA
+Pref-Wa IVSuff-awh
+;;
+;
+IVPref-Particle Suff-0IV
+IVPref-Particle Suff-0IV-li
+IVPref-Particle IVSuff-h
+IVPref-Particle IVSuff-w
+IVPref-Particle IVSuff-k
+IVPref-Particle Suff-0IV
+IVPref-Particle Suff-0IV-li
+IVPref-Particle IVSuff-yo
+IVPref-Particle IVSuff-awA
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+IV-no-Pref Suff-0IV
+IV-no-Pref Suff-0IV-li
+IV-no-Pref IVSuff-h
+IV-no-Pref IVSuff-w
+IV-no-Pref IVSuff-wA
+IV-no-Pref IVSuff-ny-nA
+IV-no-Pref IVSuff-y
+IV-no-Pref IVSuff-y-li
+IV-no-Pref IVSuff-yh
+IV-no-Pref IVSuff-k
+IV-no-Pref Suff-0IV
+IV-no-Pref Suff-0IV-li
+IV-no-Pref IVSuff-yo
+IV-no-Pref IVSuff-awA
+;;
+IVPref-ta3 Suff-0IV
+IVPref-ta3 Suff-0IV-li
+IVPref-ta3 IVSuff-h
+IVPref-ta3 IVSuff-w
+IVPref-ta3 IVSuff-wA
+IVPref-ta3 IVSuff-ny-nA
+IVPref-ta3 Suff-0IV
+IVPref-ta3 Suff-0IV-li
+IVPref-ta3 IVSuff-yo
+IVPref-ta3 IVSuff-awA
+IVPref-ta2 Suff-0IV
+IVPref-ta2 Suff-0IV-li
+IVPref-ta2 IVSuff-h
+IVPref-ta2 IVSuff-ny-nA
+IVPref-ta2 IVSuff-y
+IVPref-ta2 IVSuff-y-li
+IVPref-ta2 IVSuff-yh
+IVPref-ta2 Suff-0IV
+IVPref-ta2 Suff-0IV-li
+IVPref-ta2 IVSuff-yo
+IVPref-ta2 IVSuff-awA
+;;
+IVPref-ta3 IVSuff-h-$
+IVPref-ta2 IVSuff-h-$
+IVPref-ta3 IVSuff-w-$
+IVPref-ta2 IVSuff-w-$
+;IVPref-ta3 IVSuff-wA-$
+;IVPref-ta2 IVSuff-wA-$
+;
+IV-no-Pref-maya Suff-0IV
+IV-no-Pref-maya Suff-0IV-li
+IV-no-Pref-maya IVSuff-h
+IV-no-Pref-maya IVSuff-w
+IV-no-Pref-maya IVSuff-wA
+IV-no-Pref-maya IVSuff-~y
+IV-no-Pref-maya Suff-0IV-$
+IV-no-Pref-maya Suff-0IV-$-li
+IV-no-Pref-maya IVSuff-h-$
+IV-no-Pref-maya IVSuff-~y-$
+;;;;;;;;;;;;;
+;=================================
+IVPref-AnA->a Suff-0IV
+IVPref-AnA->a Suff-0IV-li
+IVPref-AnA->a Suff-0IV-~li
+IVPref-AnA->a IVSUFF-1-l 
+IVPref-AnA->a IVSuff-h
+IVPref-AnA->a IVSuff-w
+IVPref-AnA->a IVSuff-k
+IVPref-AnA->a IVSuff-h-$
+IVPref-AnA->a IVSuff-w-$
+IVPref-AnA->a Suff-0IV-$
+IVPref-AnA->a IVSuff-k-$
+;
+IVPref-AnA->a-maya IVSuff-h
+IVPref-AnA->a-maya IVSuff-w
+IVPref-AnA->a-maya Suff-0IV
+IVPref-AnA->a-maya Suff-0IV-li
+IVPref-AnA->a-maya IVSuff-k
+IVPref-AnA->a-maya IVSuff-h-$
+IVPref-AnA->a-maya IVSuff-w-$
+IVPref-AnA->a-maya Suff-0IV-$
+IVPref-AnA->a-maya IVSuff-k-$
+IVPref-AnA->a Suff-0IV-~li-$
+;======================
+;
+IVPref-nHn-na IVSuff-wA
+IVPref-nHn-na IVSuff-awA
+IVPref-nHn-na IVSuff-wk
+IVPref-nHn-na IVSuff-awk
+IVPref-nHn-na IVSuff-wh
+IVPref-nHn-na IVSuff-awh
+IVPref-nHn-na IVSuff-wA-li
+;;;;
+;==================
+IVPref-nHn-na-maya IVSuff-wA
+IVPref-nHn-na-maya IVSuff-awA
+IVPref-nHn-na-maya IVSuff-wk
+IVPref-nHn-na-maya IVSuff-awk
+IVPref-nHn-na-maya IVSuff-wh
+IVPref-nHn-na-maya IVSuff-awh
+IVPref-nHn-na-maya IVSuff-h
+IVPref-nHn-na-maya IVSuff-wA-li
+IVPref-nHn-na-maya IVSuff-wA-$
+IVPref-nHn-na-maya IVSuff-awA-$
+IVPref-nHn-na-maya IVSuff-wk-$
+IVPref-nHn-na-maya IVSuff-awk-$
+IVPref-nHn-na-maya IVSuff-wh-$
+IVPref-nHn-na-maya IVSuff-awh-$
+IVPref-nHn-na-maya IVSuff-h-$
+;;;;
+;======================
+;
+IVPref-Anta-ta Suff-0IV
+IVPref-Anta-ta Suff-0IV-li
+IVPref-Anta-ta Suff-0IV-~li
+IVPref-Anta-ta IVSuff-h
+IVPref-Anta-ta IVSuff-w
+IVPref-Anta-ta IVSuff-ny-nA
+IVPref-Anta-ta IVSuff-~y
+IVPref-Anta-ta IVSuff-yo
+IVPref-Anta-ta IVSuff-yoh
+;
+IVPref-Anta-ta Suff-0IV-$
+IVPref-Anta-ta IVSuff-h-$
+IVPref-Anta-ta IVSuff-w-$
+IVPref-Anta-ta IVSuff-ny-nA-$
+IVPref-Anta-ta IVSuff-h-$
+IVPref-Anta-ta IVSuff-~y-$
+IVPref-Anta-ta IVSuff-yo-$
+IVPref-Anta-ta IVSuff-yoh-$
+;;;;;
+IVPref-Anta-ta-maya Suff-0IV
+IVPref-Anta-ta-maya Suff-0IV-li
+IVPref-Anta-ta-maya IVSuff-h
+IVPref-Anta-ta-maya IVSuff-w
+IVPref-Anta-ta-maya IVSuff-~y
+IVPref-Anta-ta-maya IVSuff-yo
+IVPref-Anta-ta-maya IVSuff-yoh
+IVPref-Anta-ta-maya Suff-0IV-$
+IVPref-Anta-ta-maya Suff-0IV-$-li
+IVPref-Anta-ta-maya IVSuff-h-$
+IVPref-Anta-ta-maya IVSuff-w-$
+IVPref-Anta-ta-maya IVSuff-~y-$
+IVPref-Anta-ta-maya IVSuff-ny-nA
+IVPref-Anta-ta-maya IVSuff-ny-nA-$
+IVPref-Anta-ta-maya IVSuff-h-$
+IVPref-Anta-ta-maya IVSuff-yo-$
+IVPref-Anta-ta-maya IVSuff-yoh-$
+;;
+;========================
+;
+IVPref-Anti-ta IVSuff-y
+IVPref-Anti-ta IVSuff-y-li
+IVPref-Anti-ta Suff-0IV-~li
+IVPref-Anti-ta IVSuff-y-$
+IVPref-Anti-ta IVSuff-yh
+IVPref-Anti-ta IVSuff-yh-$
+IVPref-Anti-ta IVSuff-yo
+IVPref-Anti-ta IVSuff-yoh
+IVPref-Anti-ta IVSuff-y-$
+;;
+IVPref-Anti-ta-maya IVSuff-y
+IVPref-Anti-ta-maya IVSuff-y-$
+IVPref-Anti-ta-maya IVSuff-yh
+IVPref-Anti-ta-maya IVSuff-yh-$
+IVPref-Anti-ta-maya IVSuff-yo
+IVPref-Anti-ta-maya IVSuff-yoh
+IVPref-Anti-ta-maya IVSuff-y-$
+;;;;;
+;==========================
+;
+IVPref-Antm-ta IVSuff-wA
+IVPref-Antm-ta IVSuff-awA
+IVPref-Antm-ta IVSuff-wny-wnA
+IVPref-Antm-ta IVSuff-awny-awnA
+IVPref-Antm-ta IVSuff-wh
+IVPref-Antm-ta IVSuff-awh
+IVPref-Antm-ta IVSuff-wA-li
+;
+;==================
+IVPref-Antm-ta-maya IVSuff-wA
+IVPref-Antm-ta-maya IVSuff-awA
+IVPref-Antm-ta-maya IVSuff-wny-wnA
+IVPref-Antm-ta-maya IVSuff-awny-awnA
+IVPref-Antm-ta-maya IVSuff-wh
+IVPref-Antm-ta-maya IVSuff-awh
+IVPref-Antm-ta-maya IVSuff-wA-li
+IVPref-Antm-ta-maya IVSuff-wA-$
+IVPref-Antm-ta-maya IVSuff-awA-$
+IVPref-Antm-ta-maya IVSuff-wny-wnA-$
+IVPref-Antm-ta-maya IVSuff-awny-awnA-$
+IVPref-Antm-ta-maya IVSuff-wh-$
+IVPref-Antm-ta-maya IVSuff-awh-$
+;=============
+;=============================
+;
+IVPref-hw-ya Suff-0IV
+IVPref-hw-ya IVSuff-k
+IVPref-hw-ya IVSuff-h
+IVPref-hw-ya IVSuff-w
+IVPref-hw-ya IVSuff-ny-nA
+IVPref-hw-ya IVSuff-~y
+IVPref-hw-ya IVSuff-yh
+IVPref-hw-ya Suff-0IV-li
+IVPref-hw-ya Suff-0IV-~li
+;
+IVPref-hw-ya Suff-0IV-$
+IVPref-hw-ya IVSuff-k-$
+IVPref-hw-ya IVSuff-h-$
+IVPref-hw-ya IVSuff-w-$
+IVPref-hw-ya IVSuff-ny-nA-$
+IVPref-hw-ya IVSuff-~y-$
+IVPref-hw-ya IVSuff-yh-$
+IVPref-hw-ya Suff-0IV-li-$
+IVPref-hw-ya Suff-0IV-~li-$
+;;---------
+IVPref-hw-maya Suff-0IV
+IVPref-hw-maya IVSuff-k
+IVPref-hw-maya IVSuff-h
+IVPref-hw-maya IVSuff-w
+IVPref-hw-maya IVSuff-ny-nA
+IVPref-hw-maya IVSuff-~y
+IVPref-hw-maya Suff-0IV-li
+IVPref-hw-maya Suff-0IV-~li
+IVPref-hw-maya Suff-0IV-$
+IVPref-hw-maya IVSuff-k-$
+IVPref-hw-maya IVSuff-h-$
+IVPref-hw-maya IVSuff-w-$
+IVPref-hw-maya IVSuff-ny-nA-$
+IVPref-hw-maya IVSuff-~y-$
+;
+;;;;;;;;;
+;=================
+IVPref-hy-ta Suff-0IV
+IVPref-hy-ta Suff-0IV-li
+;IVPref-hy-ta IVSuff-wA
+IVPref-hy-ta IVSuff-k
+IVPref-hy-ta IVSuff-h
+IVPref-hy-ta IVSuff-w
+IVPref-hy-ta Suff-0IV-~li
+IVPref-hy-ta IVSuff-ny-nA
+IVPref-hy-ta IVSuff-~y
+IVPref-hy-ta IVSuff-~y-$
+IVPref-hy-ta Suff-0IV-$
+;;
+IVPref-hy-maya Suff-0IV
+IVPref-hy-maya Suff-0IV-li
+IVPref-hy-maya IVSuff-k
+IVPref-hy-maya IVSuff-h
+IVPref-hy-maya IVSuff-h
+IVPref-hy-maya IVSuff-w
+IVPref-hy-maya Suff-0IV-$
+IVPref-hy-maya IVSuff-k-$
+IVPref-hy-maya IVSuff-h-$
+IVPref-hy-maya IVSuff-w-$
+IVPref-hy-maya IVSuff-~y
+IVPref-hy-maya IVSuff-~y-$
+IVPref-hy-maya IVSuff-ny-nA-$
+;
+;=====================
+;
+IVPref-hm-ya IVSuff-wn
+IVPref-hm-ya IVSuff-wA
+IVPref-hm-ya IVSuff-awA
+IVPref-hm-ya IVSuff-wny-wnA
+IVPref-hm-ya IVSuff-awny-awnA
+IVPref-hm-ya IVSuff-wk
+IVPref-hm-ya IVSuff-awk
+IVPref-hm-ya IVSuff-wh
+IVPref-hm-ya IVSuff-awh
+IVPref-hm-ya IVSuff-wA-li
+;==================================
+IVPref-hm-maya IVSuff-wA
+IVPref-hm-maya IVSuff-wn
+IVPref-hm-maya IVSuff-awA
+IVPref-hm-maya IVSuff-wny-wnA
+IVPref-hm-maya IVSuff-awny-awnA
+IVPref-hm-maya IVSuff-wk
+IVPref-hm-maya IVSuff-awk
+IVPref-hm-maya IVSuff-wh
+IVPref-hm-maya IVSuff-awh
+IVPref-hm-maya IVSuff-wA-li
+;;
+IVPref-hm-maya IVSuff-wA-$
+IVPref-hm-maya IVSuff-wn-$
+IVPref-hm-maya IVSuff-awA-$
+IVPref-hm-maya IVSuff-wny-wnA-$
+IVPref-hm-maya IVSuff-awny-awnA-$
+IVPref-hm-maya IVSuff-wk-$
+IVPref-hm-maya IVSuff-awk-$
+IVPref-hm-maya IVSuff-wh-$
+IVPref-hm-maya IVSuff-awh-$
+;
+;

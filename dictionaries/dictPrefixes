@@ -1,0 +1,850 @@
+; ==========================================================================
+; "dictPrefixes"  
+; Portions (c) 2002 QAMUS LLC (www.qamus.org), 
+; (c) 2002 Trustees of the University of Pennsylvania
+;
+; This program is free software; you can redistribute it and/or
+; modify it under the terms of the GNU General Public License
+; as published by the Free Software Foundation version 2.
+;
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details (../gpl.txt).
+;
+; You should have received a copy of the GNU General Public License
+; along with this program; if not, write to the Free Software
+; Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+; 
+; You can contact LDC by sending electronic mail to: ldc@ldc.upenn.edu
+; or by writing to:
+;                Linguistic Data Consortium
+;                3600 Market Street
+;                Suite 810
+;                Philadelphia, PA, 19104-2653, USA.
+;
+; Contents: Each entry consists of four tab-delimited fields:
+; (1) the prefix (or concatenation of prefixes) WITHOUT short vowels and diacritics
+; (2) the prefix (or concatenation of prefixes) WITH    short vowels and diacritics
+; (3) its morphological category (for controlling its compatibility with stems & suffixes)
+; (4) its English gloss(es): includes POS data within tags <pos>...</pos>
+; ==========================================================================
+;
+; The first category is the null prefix (has a null gloss as well):
+		Pref-0	
+;;;
+;>	>a	Pref-A	 <pos>>a/EMP_PART+</pos>
+;A	>a	Pref-A	 <pos>>a/EMP_PART+</pos>
+;|	>a	Pref-A	 <pos>>a/EMP_PART+</pos>
+;>Al	>a	Pref-A	 <pos>>a/EMP_PART++Al/DET+</pos>
+;AAl	>a	Pref-A	 <pos>>a/EMP_PART++Al/DET+</pos>
+;;
+;w	wa	Pref-A	 <pos>wa/EMP_PART+</pos>
+;wA	wA	Pref-A	 <pos>wA/EMP_PART+</pos>
+;A	>a	Pref-voc	oh! <pos>>a/VOC_PART+</pos>
+;>	>a	Pref-voc	oh! <pos>>a/VOC_PART+</pos>
+;yA	yA	Pref-voc	oh! <pos>yA/EMP_PART+</pos>
+;wyA	woyA	Pref-voc	and <pos>wo/CONJ+yA/EMP_PART+</pos>
+;;
+;gA	ga	Pref-E	only <pos>ga/ADV+</pos>
+g	ga	Pref-E	only <pos>ga/ADV+</pos>
+;
+wgA	woga	Pref-E	only <pos>wo/CONJ+ga/ADV+</pos>
+wg	woga	Pref-E	only <pos>wo/CONJ+ga/ADV+</pos>
+;
+;gAf	gafo	Pref-E	only + in <pos>ga/ADV+fa/PREP+</pos>
+gf	gafo	Pref-E	only + in <pos>ga/ADV+fa/PREP+</pos>
+;
+mAf	maAfo	Pref-E	no+ in <pos>maA/NEG</pos>+fo/PREP+</pos>
+mf	maAfo	Pref-E	no+ in <pos>maA/NEG</pos>+fo/PREP+</pos>
+wmAf	womaAfo	Pref-E	no + in <pos>wo/CONJ+maA/NEG</pos>+fo/PREP+</pos>
+;
+gAl	gaAl	Pref-E-N	only+the <pos>ga/ADV+Al/DET+</pos>
+gAl	gaAl	Pref-E-N	only+the <pos>ga/ADV+Al/DET+</pos>
+wgAAl	wagaAl	Pref-E-N	and + only + the     <pos>wo/CONJ+ga/ADV+Al/DET+</pos>
+wgAl	wagaAl	Pref-E-N	and + only + the     <pos>wo/CONJ+ga/ADV+Al/DET+</pos>
+gAfl	gafaAl	Pref-E-N	only + in + the <pos>ga/ADV+fa/PREP+Al/DET+</pos>
+gAbl	gabaAl	Pref-E-N	only + with + the <pos>ga/ADV+ba/PREP+Al/DET+</pos>
+gbAl	gabaAl	Pref-E-N	only + with + the <pos>ga/ADV+b/PREP+Al/DET+</pos>
+;
+bl	bola	Pref-E-foreign	with + the <pos>bo/PREP+la/DET-foreign+</pos>
+gAfl	gafola	Pref-E-foreign	only + in + the <pos>ga/ADV+fo/PREP+la/DET-foreign+</pos>
+gAbl	gabola	Pref-E-foreign	only + with + the <pos>ga/ADV+bo/PREP+la/DET-foreign+</pos>
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;wEA	waEA	Pref-E	only <pos>EA/ADV+</pos>
+;wE	waEa	Pref-E	only <pos>Ea/ADV+</pos>
+;EA	EA	Pref-E	only <pos>EA/ADV+</pos>
+;E	Ea	Pref-E	only <pos>Ea/ADV+</pos>
+;EAAl	EAAlo	Pref-E-N	only+the <pos>EA/ADV+Al/DET+</pos>
+;EAl	EAlo	Pref-E-N	only <pos>Ea/ADV+Al/DET+</pos>
+;wEAAl	waEAAlo	Pref-E-N	only <pos>wa/CONJ+EA/ADV+Al/DET+</pos>
+;wEAl	waEAlo	Pref-E-N	only <pos>wo/CONJ+Ea/ADV+Al/DET+</pos>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; conjunctions
+w	wo	Pref-Wa	and <pos>wo/CONJ+</pos>
+;>w	>uw	Pref-Wa	and <pos>>uw/CONJ+</pos>
+Aw	>uw	Pref-Wa	and <pos>>uw/CONJ+</pos>
+;
+; prepositions
+b	bo	NPref-Bi	by;with <pos>bo/PREP+</pos>
+by	bi	NPref-Bi	by;with <pos>bi/PREP+</pos>
+; concatenations
+wb	wobo	NPref-Bi	and + by/with <pos>wa/CONJ+bo/PREP+</pos>
+;;
+f	fo	NPref-Bi	in <pos>fo/PREP+</pos>
+; concatenations
+wf	wofo	NPref-Bi	and + in <pos>wa/CONJ+fo/PREP+</pos>
+;;
+; d abbreviation of dyAl
+d	do	NPref-Bi	of <pos>do/PREP+</pos>
+;t	to	NPref-Bi	of <pos>to/PREP+</pos>
+wd	wodo	NPref-Bi	and + of <pos>wa/CONJ+do/PREP+</pos>
+;wt	woto	NPref-Bi	and + of <pos>wa/CONJ+to/PREP+</pos>
+dAl	doAl	NPref-BiAl	of + the                     <pos>do/PREP+Al/DET+</pos>
+dl	daAl	NPref-BiAl	of + the                     <pos>do/PREP+Al/DET+</pos>
+tl	daAl	NPref-BiAl	of + the                     <pos>do/PREP+Al/DET+</pos>
+wdAl	wodaAl	NPref-BiAl	and + of + the                     <pos>wa/CONJ+da/PREP+Al/DET+</pos>
+;;
+El	Ealo	NPref-BiAl	on;above + the                     <pos>Ea/PREP+Al/DET+</pos>
+EAl	EAlo	NPref-BiAl	on;above + the                     <pos>Ea/PREP+Al/DET+</pos>
+wEAl	woEAl	NPref-BiAl	and + on;above + the                     <pos>wo/CONJ+Ea/PREP+Al/DET+</pos>
+;;
+;dlA	dolA	NPref-BiAl	for + the                     <pos>do/PREP+lA/DET-foreign+</pos>
+;wdlA	wodolA	NPref-BiAl	for + the                     <pos>wa/CONJ+do/PREP+lA/DET-foreign+</pos>
+;
+; preposition li- (precedes nouns)
+l	l	NPref-Bi	for/to <pos>lo/PREP+</pos>
+;ly	l	NPref-Li	for/to <pos>lo/PREP+</pos>
+; conj. + prep. li-
+wl	wal	NPref-Bi	and + for/to <pos>wa/CONJ+lo/PREP+</pos>
+; preposition fo- (precedes nouns)
+;
+;=======================================
+; t~a- (precedes Pronouns)
+t	t~a	NPref-t	even <pos>t~a/ADV+</pos>
+wt	wat~a	NPref-t	and + even <pos>wa/CONJ+t~a/ADV+</pos>
+tA	t~aA	NPref-t	even <pos>t~aA/ADV+</pos>
+wtA	wat~aA	NPref-t	and + even <pos>wa/CONJ+t~aA/ADV+</pos>
+;;
+;t	t~A	NPref-t	even;even though <pos>t~A/ADV</pos>
+;wt	wot~A	NPref-t	and + even;and + even though<pos>wa/CONJ+t~a/EMP_PART+</pos>
+;;
+;
+tA	t~A	NPref-tA	until;till   <pos>t~A/ADV+</pos>
+tAl	t~Alo	NPref-tA	until;till   <pos>t~A/ADV+Al/DET+</pos>
+tAl	t~Alo	NPref-tA	until;till+to   <pos>t~A/ADV+lo/PREP</pos>
+wtA	wot~A	NPref-tA	and + until;till   <pos>wa/CONJ+t~a/EMP_PART+</pos>
+;;
+tAl	t~Alo	NPref-tA	also   <pos>t~A/ADV+Al/DET+</pos>
+;;
+;
+;; rA_1
+rA	rA	NPref-rA	here     <pos>rA/DEM_PART</pos>
+wrA	warA	NPref-rA	here     <pos>wa/CONJ+rA/DEM_PART</pos>
+;=======================================
+hA	hA	NPref-hA	here;look;now   <pos>hA/INTERJ+</pos>
+whA	wahA	NPref-hA	here;look;now   <pos>wa/CONJ+hA/INTERJ+</pos>
+h	hA	NPref-hA	here;look;now   <pos>ha/INTERJ+</pos>
+wh	wohA	NPref-hA	here;look;now   <pos>wa/CONJ+ha/INTERJ+</pos>
+hAAl	hAAlo	NPref-hA	here;look;now   <pos>hA/INTERJ+Al/DET+</pos>
+hAl	hAAlo	NPref-hA	here;look;now   <pos>hA/INTERJ+Al/DET+</pos>
+whAAl	wahAAlo	NPref-hA	here;look;now   <pos>wa/CONJ+hA/INTERJ+Al/DET+</pos>
+;====================
+;
+;;
+; definite article (incompatible with all poss.pron. sufixes)
+Al	Al	NPref-Al	the <pos>Al/DET+</pos>
+>l	Al	NPref-Al	the <pos>Al/DET+</pos>
+l	Al	NPref-Al	the <pos>Al/DET+</pos>
+;;
+;lA	lA	NPref-Al	the <pos>lA/DET-foreign+</pos>
+; conj. + def.art
+wAl	woAl	NPref-Al	and + the        <pos>wa/CONJ+Al/DET+</pos>
+wl	woAl	NPref-Al	and + the     <pos>wa/CONJ+Al/DET+</pos>
+; conj. + def.art
+fAl	foAl	NPref-Al	in + the        <pos>fo/CONJ+Al/DET+</pos>
+fl	fol	NPref-Al	in + the     <pos>fo/CONJ+Al/DET+</pos>
+wfAl	wofoAl	NPref-Al	and + in + the        <pos>wa/CONJ+fo/CONJ+Al/DET+</pos>
+wfl	wofol	NPref-Al	in + the     <pos>wa/CONJ+fo/CONJ+Al/DET+</pos>
+;
+;flA	folA	NPref-Al	in + the     <pos>fo/CONJ+lA/DET-foreign+</pos>
+;
+; prep. + def.art.
+bAl	baAl	NPref-BiAl	with/by + the                     <pos>ba/PREP+Al/DET+</pos>
+bl	baAl	NPref-BiAl	with/by + the                     <pos>ba/PREP+Al/DET+</pos>
+;
+;
+; prep. + def.art.
+kAl	kiAl	NPref-BiAl	like + the                     <pos>ki/PREP+Al/DET+</pos>
+kyAl	kAl	NPref-BiAl	like + the                     <pos>ki/PREP+Al/DET+</pos>
+;;;
+;
+; conj. + prep. + def.art.
+wbAl	wbAl	NPref-BiAl	and + with/by the         <pos>wo/CONJ+ba/PREP+Al/DET+</pos>
+wbl	wobaAl	NPref-BiAl	and + with/by the         <pos>wo/CONJ+ba/PREP+Al/DET+</pos>
+;
+;
+; conj. + prep. + def.art.
+wkAl	wokiAl	NPref-BiAl	and + like the         <pos>wa/CONJ+ki/PREP+Al/DET+</pos>
+wkl	wokiAl	NPref-BiAl	and + like the         <pos>wa/CONJ+ki/PREP+Al/DET+</pos>
+;
+;
+; li- + def.art.
+ll	lil	NPref-Lil	to/for + the                  <pos>li/PREP+l/DET+</pos>
+wll	wlil	NPref-Lil	and + to/for + the    <pos>wo/CONJ+li/PREP+l/DET+</pos>
+;;
+;
+;================================
+;NVerb: kydAyr
+;;;
+k	ki	NSuff-ki	how+ <pos>ki/INTERROG_PART+</pos>
+ky	ki	NSuff-ki	how+ <pos>ki/INTERROG_PART+</pos>
+wk	woki	NSuff-ki	 <pos>wo/CONJ+ki/INTERROG_PART+</pos>
+wky	woki	NSuff-ki	 <pos>wo/CONJ+ki/INTERROG_PART+</pos>
+;============================================
+; imperative (CV = command verb; PV = perfect verb; IV = imperfect verb)
+;==============================================
+At	At	CVPref	you [masc.sg.] <pos>At/CV_IV2+</pos>
+;;==========================
+;PERFECT VERB
+;;;;;;;;;;;;;;;;;;;;;;;
+m	ma	Pref-ma	no <pos>ma/NEG</pos>
+mA	ma	Pref-ma	no <pos>ma/NEG</pos>
+wm	woma	Pref-ma	and no <pos>wo/CONJ+ma/NEG</pos>
+wmA	woma	Pref-ma	and no <pos>wo/CONJ+ma/NEG</pos>
+;;;
+;Adverb "just" hi-jolos
+k	ki	Pref-hi	just <pos>ki/Adverb</pos>
+;A	Ai	Pref-hi	just <pos>Ai/ADV</pos>
+;k	ki	Pref-hi	 how+ <pos>ki/INTERROG_PART+</pos>
+;ky	ki	Pref-hi	how+ <pos>ki/INTERROG_PART+</pos>
+;;;;
+;t	t~a	Pref-t~a	until <pos>t~a/ADV+</pos>
+tA	t~A	Pref-t~a	until <pos>t~A/ADV+</pos>
+;$w	$uw	Pref-t~a	what            <pos>$uw/INTERROG_PART</pos>
+;$	$uw	Pref-t~a	what            <pos>$uw/INTERROG_PART</pos>
+;;;;
+;;;;;
+;============================
+;IMPERFECT VERB
+;=======================================
+; prefissi modali no-Pref-t/n senza prefisso IV : KaD~rab/kan~Eas
+;;;;;;;;;;;;;;;;;
+k	ka	IV-no-Pref	 <pos>ka/PRG_PART+</pos>
+wk	waka	IV-no-Pref	 <pos>wo/CONJ+ka/PRG_PART+</pos>
+kA	ka	IV-no-Pref	 <pos>ka/PRG_PART+</pos>
+wkA	woka	IV-no-Pref	 <pos>wa/CONJ+ka/PRG_PART+</pos>
+;
+$g	$oga	IV-no-Pref	what  <pos>$o/INTERROG_PART+ga/FUT_PART+</pos>
+w$g	wo$oga	IV-no-Pref	and+what <pos>wo/CONJ+$o/INTERROG_PART+ga/FUT_PART+</pos>
+;
+$k	$oka	IV-no-Pref	what  <pos>$o/INTERROG_PART+ka/PRG_PART+</pos>
+$kA	$oka	IV-no-Pref	what  <pos>$o/INTERROG_PART+ka/PRG_PART+</pos>
+wkg	wo$oka	IV-no-Pref	and+what <pos>wo/CONJ+$o/INTERROG_PART+ka/PRG_PART+</pos>
+;
+t	ta	IV-no-Pref	 <pos>ta/PRG_PART+</pos>
+tA	taA	IV-no-Pref	 <pos>ta/PRG_PART+</pos>
+wt	wota	IV-no-Pref	and + I <pos>wo/CONJ+ta/PRG_PART</pos>
+;tAt	tAto	IV-no-Pref	until+ <pos>t~A/ADV+to/PRG_PART</pos>
+;;
+g	ga	IV-no-Pref	 <pos>ga/FUT_PART+/IV1+</pos>
+wg	woga	IV-no-Pref	and +  <pos>wo/CONJ+ga/FUT_PART+</pos>
+;gA	ga	IV-no-Pref	 <pos>ga/FUT_PART+/IV1+</pos>
+;wgA	woga	IV-no-Pref	and +  <pos>wa/CONJ+ga/FUT_PART+</pos>
+;
+g	ga	IV-no-Pref	only <pos>ga/ADV+/IV1+</pos>
+;gA	ga	IV-no-Pref	only <pos>ga/ADV+/IV1+</pos>
+;;
+E	Ea	IV-no-Pref	 <pos>Ea/FUT_PART+</pos>
+wE	woEa	IV-no-Pref	 <pos>wo/CONJ+Ea/FUT_PART+</pos>
+;;;;;
+;=====================================
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; khAf + la+IMPERFECT
+;ly	lay	IVPref-Particle	to + he/it  <pos>la/FUNC_WORD+y/IV3+</pos>
+;lt	lat	IVPref-Particle	to + she/it  <pos>la/FUNC_WORD+t/IV3FS+</pos>
+;lt	lat	IVPref-Particle	to + you <pos>la/FUNC_WORD+t/IV2+</pos>
+;lt	lat	IVPref-Particle	to + you  <pos>la/FUNC_WORD+t/IV2FS+</pos>
+;ln	lan	IVPref-Particle	to + I  <pos>la/FUNC_WORD+n/IV1S+</pos>
+;ln	lan	IVPref-Particle	to + we  <pos>la/FUNC_WORD+n/IV1P+</pos>
+;;
+; negative sentence : la.... walA (neither . . . nor) with verbs
+;ly	lay	IVPref-Particle	neither . . . nor + he/it  <pos>la/ADV+y/IV3S+</pos>
+;lt	lat	IVPref-Particle	neither . . . nor + she/it  <pos>la/ADV+t/IV3FS+</pos>
+;lt	lat	IVPref-Particle	neither . . . nor + you  <pos>la/ADV+t/IV2MS+</pos>
+;lt	lat	IVPref-Particle	neither . . . nor + you  <pos>la/ADV+t/IV2FS+</pos>
+;ln	lan	IVPref-Particle	neither . . . nor + I  <pos>la/ADV+n/IV1S+</pos>
+;ln	lan	IVPref-Particle	neither . . . nor + we  <pos>la/ADV+n/IV1P+</pos>
+;;;
+Aty	Aitay	IVPref-Particle	just   <pos>Aita/FUNC_WORD+y/IV3S+</pos>
+Att	Aitat	IVPref-Particle	just   <pos>Aita/FUNC_WORD+t/IV3FS+</pos>
+Att	Aitat	IVPref-Particle	just   <pos>Aita/FUNC_WORD+t/IV2MS+</pos>
+Att	Aitat	IVPref-Particle	just   <pos>Aita/FUNC_WORD+t/IV2FS+</pos>
+Atn	Aitan	IVPref-Particle	just   <pos>Aita/FUNC_WORD+n/IV1S+</pos>
+Atn	Aitan	IVPref-Particle	just   <pos>Aita/FUNC_WORD+n/IV1P+</pos>
+;
+;==========================================================
+; imperfect verb prefix: 3rd pers.masc.sg. (huwa)
+;
+y	y	IVPref-hw-ya	he/it <pos>y/IV3MS+</pos>
+;<	y	IVPref-hw-ya	he/it <pos>y/IV3MS+</pos>
+;A	y	IVPref-hw-ya	he/it <pos>y/IV3MS+</pos>
+wy	wy	IVPref-hw-ya	and + he/it <pos>wa/CONJ+y/IV3MS+</pos>
+Ay	>ay	IVPref-hw-ya	 he/it <pos>Aa/PROSTHETIC_PART+y/IV3MS+</pos>
+>y	>ay	IVPref-hw-ya	 he/it <pos>Aa/PROSTHETIC_PART+y/IV3MS+</pos>
+<y	<iy	IVPref-hw-ya	 he/it <pos><i/PROSTHETIC_PART+y/IV3MS+</pos>
+;;;
+tAy	t~Ay	IVPref-hw-ya	until+he/it <pos>t~A/ADV+y/IV3MS+</pos>
+;;;;
+;
+ky	kay	IVPref-hw-ya	he/it <pos>ka/PRG_PART+y/IV3MS+</pos>
+wky	wokay	IVPref-hw-ya	and + he/it <pos>wo/CONJ+ka/PRG_PART+y/IV3MS+</pos>
+kAy	kay	IVPref-hw-ya	he/it <pos>ka/PRG_PART+y/IV3MS+</pos>
+wkAy	wokay	IVPref-hw-ya	and + he/it <pos>wo/CONJ+ka/PRG_PART+y/IV3MS+</pos>
+gkAy	gikay	IVPref-hw-ya	only + he/it <pos>gi/ADV+ka/PRG_PART+y/IV3MS+</pos>
+wgkAy	wogikay	IVPref-hw-ya	and + only + he/it <pos>wo/CONJ+gi/ADV+ka/PRG_PART+y/IV3MS+</pos>
+;
+ty	tay	IVPref-hw-ya	he/it <pos>ta/PRG_PART+y/IV3MS+</pos>
+wty	wtay	IVPref-hw-ya	and + he/it <pos>wo/CONJ+ta/PRG_PART+y/IV3MS+</pos>
+tAy	tay	IVPref-hw-ya	he/it <pos>ta/PRG_PART+y/IV3MS+</pos>
+wtAy	wtay	IVPref-hw-ya	and + he/it <pos>wo/CONJ+ta/PRG_PART+y/IV3MS+</pos>
+;;;
+gy	gay	IVPref-hw-ya	he/it <pos>ga/FUT_PART+y/IV3MS+</pos>
+gAy	gay	IVPref-hw-ya	he/it <pos>ga/FUT_PART+y/IV3MS+</pos>
+wgy	wgay	IVPref-hw-ya	and + he/it <pos>wo/CONJ+ga/FUT_PART+y/IV3MS+</pos>
+wgAy	wgay	IVPref-hw-ya	and + he/it <pos>wa/CONJ+ga/FUT_PART+y/IV3MS+</pos>
+;
+kgy	kigay	IVPref-hw-ya	how + he/it <pos>ki/INTERROG_PART+ga/FUT_PART+y/IV3MS+</pos>
+wkgy	wokigay	IVPref-hw-ya	and how + he/it <pos>wo/CONJ+ki/INTERROG_PART+ga/FUT_PART+y/IV3MS+</pos>
+;
+Ey	Eay	IVPref-hw-ya	he/it <pos>Ea/FUT_PART+y/IV3MS+</pos>
+;EAy	EAy	IVPref-hw-ya	he/it <pos>EA/FUT_PART+y/IV3MS+</pos>
+wEy	wEay	IVPref-hw-ya	and + he/it <pos>wo/CONJ+Ea/FUT_PART+y/IV3MS+</pos>
+;wEAy	wEAy	IVPref-hw-ya	and + he/it <pos>wa/CONJ+EA/FUT_PART+y/IV3MS+</pos>
+;;
+mAy	mAy	IVPref-hw-maya	no+ he/it <pos>ma/NEG+y/IV3MS+</pos>
+wmAy	wmAy	IVPref-hw-maya	and + no+ he/it <pos>wa/CONJ+ma/NEG+y/IV3MS+</pos>
+;;
+my	may	IVPref-hw-maya	no;he/it <pos>ma/NEG+y/IV3MS+</pos>
+wmy	wmay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+y/IV3MS+</pos>
+;;;;;;;
+;
+mky	mAkay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+wmky	womAkay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+mkAy	mAkay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+wmkAy	womAkay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+mAky	mAkay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+wmAky	womAkay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+mAkAy	mAkay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+wmAkAy	womAkay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+ka/PRG_PART+y/IV3MS+</pos>
+;
+mAty	mAtay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ta/PRG_PART+y/IV3MS+</pos>
+wmAty	wmAtay	IVPref-hw-maya	and + no+ he/it <pos>wa/CONJ+ma/NEG+ta/PRG_PART+y/IV3MS+</pos>
+;;
+;
+mty	matay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ta/PRG_PART+y/IV3MS+</pos>
+wmty	wmatay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+ta/PRG_PART+y/IV3MS+</pos>
+;;
+mAgy	mAgay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ga/FUT_PART+y/IV3MS+</pos>
+wmAgy	wmAg	IVPref-hw-maya	and + no+ he/it <pos>wa/CONJ+ma/NEG+ga/FUT_PART+y/IV3MS+</pos>
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+mgy	magay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+ga/FUT_PART+y/IV3MS+</pos>
+wmgy	wmagay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+ga/FUT_PART+y/IV3MS+</pos>
+;
+mAEy	mAEay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+Ea/FUT_PART+y/IV3MS+</pos>
+wmAEy	wmAE	IVPref-hw-maya	and + no+ he/it <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+y/IV3MS+</pos>
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+mEy	maEay	IVPref-hw-maya	no+ he/it <pos>ma/NEG+Ea/FUT_PART+y/IV3MS+</pos>
+wmAEy	wmaEay	IVPref-hw-maya	and + no+ he/it <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+y/IV3MS+</pos>
+;===========================
+;=============================
+; imperfect verb prefix: 3rd pers.pl. (hum/hunna)
+;
+y	y	IVPref-hm-ya	they <pos>y/IV3P+</pos>
+<	y	IVPref-hm-ya	they <pos>y/IV3P+</pos>
+A	y	IVPref-hm-ya	they <pos>y/IV3P+</pos>
+wy	woy	IVPref-hm-ya	and + they <pos>wa/CONJ+y/IV3P+</pos>
+Ay	>ayo	IVPref-hm-ya	 they <pos>>a/PROSTHETIC_PART+y/IV3P+</pos>
+>y	>ayo	IVPref-hm-ya	 they <pos>>a/PROSTHETIC_PART+y/IV3P+</pos>
+;;;
+ty	t~ay	IVPref-hm-ya	until+he/it <pos>t~a/ADV+y/IV3P+</pos>
+;
+ky	kay	IVPref-hm-ya	they <pos>ka/PRG_PART+y/IV3P+</pos>
+kAy	kay	IVPref-hm-ya	they <pos>ka/PRG_PART+y/IV3P+</pos>
+wky	wokay	IVPref-hm-ya	and + they <pos>wo/CONJ+ka/PRG_PART+y/IV3P+</pos>
+wkAy	wokay	IVPref-hm-ya	and + they <pos>wo/CONJ+ka/PRG_PART+y/IV3P+</pos>
+;;
+ty	tay	IVPref-hm-ya	they <pos>ta/PRG_PART+y/IV3P+</pos>
+wty	wotay	IVPref-hm-ya	and + they <pos>wo/CONJ+ta/PRG_PART+y/IV3P+</pos>
+tAy	tay	IVPref-hm-ya	they <pos>ta/PRG_PART+y/IV3P+</pos>
+wtAy	wotay	IVPref-hm-ya	and + they <pos>wo/CONJ+ta/PRG_PART+y/IV3P+</pos>
+;
+gy	gay	IVPref-hm-ya	they <pos>ga/FUT_PART+y/IV3P+</pos>
+gAy	gay	IVPref-hm-ya	they <pos>ga/FUT_PART+y/IV3P+</pos>
+wgy	wgay	IVPref-hm-ya	and + they <pos>wo/CONJ+ga/FUT_PART+y/IV3P+</pos>
+;;
+kgy	kigay	IVPref-hm-ya	how + they <pos>ki/INTERROG_PART+ga/FUT_PART+y/IV3P+</pos>
+wkgy	wokigay	IVPref-hm-ya	and how + they <pos>wo/CONJ+ki/INTERROG_PART+ga/FUT_PART+y/IV3P+</pos>
+;;;;
+Ey	Eay	IVPref-hm-ya	they <pos>Ea/FUT_PART+y/IV3MP+</pos>
+;EAy	EAy	IVPref-hm-ya	they <pos>EA/FUT_PART+y/IV3MP+</pos>
+wEy	wEay	IVPref-hm-ya	and + they <pos>wo/CONJ+Ea/FUT_PART+y/IV3MP+</pos>
+;
+gkAy	gikay	IVPref-hm-ya	only + they <pos>gi/ADV+ka/PRG_PART+y/IV3MP+</pos>
+wgkAy	wogikay	IVPref-hm-ya	and + only + they <pos>wo/CONJ+gi/ADV+ka/PRG_PART+y/IV3MP+</pos>
+;;
+;
+mAy	mAy	IVPref-hm-maya	no+ they <pos>ma/NEG+y/IV3P+</pos>
+wmAy	wmAy	IVPref-hm-maya	and + they <pos>wa/CONJ+ma/NEG+y/IV3P+</pos>
+;
+my	may	IVPref-hm-maya	no+ they <pos>ma/NEG+y/IV3P+</pos>
+wmay	wmay	IVPref-hm-maya	and + they <pos>wo/CONJ+ma/NEG+y/IV3P+</pos>
+;;;;
+mAky	mAkay	IVPref-hm-maya	no+ they <pos>ma/NEG+ka/PRG_PART+y/IV3P+</pos>
+wmAky	womAkay	IVPref-hm-maya	and + they <pos>wo/CoONJ+ma/NEG+ka/PRG_PART+y/IV3P+</pos>
+mAkAy	mAkay	IVPref-hm-maya	no+ they <pos>ma/NEG+ka/PRG_PART+y/IV3P+</pos>
+wmAkAy	womAkay	IVPref-hm-maya	and + they <pos>wo/CoONJ+ma/NEG+ka/PRG_PART+y/IV3P+</pos>
+mky	mAkay	IVPref-hm-maya	no+ they <pos>ma/NEG+ka/PRG_PART+y/IV3P+</pos>
+wmky	womAkay	IVPref-hm-maya	and + they <pos>wo/CoONJ+ma/NEG+ka/PRG_PART+y/IV3P+</pos>
+;;;
+mAty	mAtay	IVPref-hm-maya	no+ they <pos>ma/NEG+ta/PRG_PART+y/IV3P+</pos>
+wmAty	womAtay	IVPref-hm-maya	and+ no+  they <pos>wo/CONJ+ma/NEG+ta/PRG_PART+y/IV3P+</pos>
+;;;
+;;;;;;;;;;;;;;;;;;;;;
+;
+mty	matay	IVPref-hm-maya	no+ they <pos>ma/NEG+ta/PRG_PART+y/IV3P+</pos>
+wmty	wmatay	IVPref-hm-maya	and+ no+  they <pos>wo/CONJ+ma/NEG+ta/PRG_PART+y/IV3P+</pos>
+;
+mgy	magay	IVPref-hm-maya	no+ they <pos>ma/NEG+ga/FUT_PART+y/IV3P+</pos>
+wmAgy	wmagay	IVPref-hm-maya	and+ no+  they <pos>wo/CONJ+ma/NEG+ga/FUT_PART+y/IV3P+</pos>
+;
+mAgy	mAgay	IVPref-hm-maya	no+ they <pos>ma/NEG+ga/FUT_PART+y/IV3P+</pos>
+wmAgy	wmAg	IVPref-hm-maya	and+ no+  they <pos>wa/CONJ+ma/NEG+ga/FUT_PART+y/IV3P+</pos>
+;
+mEy	maEay	IVPref-hm-maya	no+ they <pos>ma/NEE+Ea/FUT_PART+y/IV3P+</pos>
+wmAEy	wmaEay	IVPref-hm-maya	and+ no+  they <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+y/IV3P+</pos>
+;
+mAEy	mAEay	IVPref-hm-maya	no+ they <pos>ma/NEG+Ea/FUT_PART+y/IV3P+</pos>
+wmAEy	wmAE	IVPref-hm-maya	and+ no+  they <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+y/IV3P+</pos>
+;;==================================
+;====================================
+;
+; imperfect verb prefix: 3rd pers.fem.sg. (hiya)
+;
+t	t	IVPref-hy-ta	it/she <pos>t/IV3FS+</pos>
+wt	wt	IVPref-hy-ta	and + it/she <pos>wa/CONJ+t/IV3FS+</pos>
+At	>ato	IVPref-hy-ya	 it/she <pos>>a/PROSTHETIC_PART+t/IV3FS+</pos>
+>t	>ato	IVPref-hy-ya	 it/she <pos>>a/PROSTHETIC_PART+t/IV3FS+</pos>
+;;;;;;;;;;;;;
+;tAt	t~At	IVPref-hy-ta	until+it/she <pos>t~A/ADV+t/IV3FS+</pos>
+tt	t~at	IVPref-hy-ta	until+it/she <pos>t~a/ADV+t/IV3FS+</pos>
+;
+kt	kat	IVPref-hy-ta	it/she <pos>ka/PRG_PART+t/IV3FS+</pos>
+kAt	kat	IVPref-hy-ta	it/she <pos>ka/PRG_PART+t/IV3FS+</pos>
+wkAt	wkat	IVPref-hy-ta	and + it/she <pos>wo/CONJ+ka/PRG_PART+t/IV3FS+</pos>
+;
+tt	tat	IVPref-hy-ta	it/she <pos>ta/PRG_PART+t/IV3FS+</pos>
+tAt	tat	IVPref-hy-ta	it/she <pos>ta/PRG_PART+t/IV3FS+</pos>
+wtt	wtat	IVPref-hy-ta	and + it/she <pos>wo/CONJ+ta/PRG_PART+t/IV3FS+</pos>
+wtAt	wtat	IVPref-hy-ta	and + it/she <pos>wo/CONJ+ta/PRG_PART+t/IV3FS+</pos>
+;;;;
+gt	gat	IVPref-hy-ta	it/she <pos>ga/FUT_PART+t/IV3FS+</pos>
+wgt	wogat	IVPref-hy-ta	and + it/she <pos>wo/CONJ+ga/FUT_PART+t/IV3FS+</pos>
+gAt	gat	IVPref-hy-ta	it/she <pos>ga/FUT_PART+t/IV3FS+</pos>
+wgAt	wogat	IVPref-hy-ta	and + it/she <pos>wo/CONJ+ga/FUT_PART+t/IV3FS+</pos>
+;;;;;;;;;;;;
+gt	gat	IVPref-hy-ta	only + it/she <pos>ga/ADV+t/IV3FS+</pos>
+gAt	gat	IVPref-hy-ta	only + it/she <pos>ga/ADV+t/IV3FS+</pos>
+;
+wgkt	wogikat	IVPref-hy-ta	and + only +  it/she <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV3FS+</pos>
+gkt	wogikat	IVPref-hy-ta	only +  it/she <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV3FS+</pos>
+;;;;;;;;;;;;
+;
+Et	Eat	IVPref-hy-ta	it/she <pos>Ea/FUT_PART+t/IV3FS+</pos>
+wEt	woEat	IVPref-hy-ta	and + it/she <pos>wo/CONJ+Ea/FUT_PART+t/IV3FS+</pos>
+;;;;
+mAt	mAt	IVPref-hy-maya	no+ it/she <pos>ma/NEG+t/IV3FS+</pos>
+wmAt	wmAta	IVPref-hy-maya	and+ no+  it/she <pos>wa/CONJ+ma/NEG+t/IV3FS+</pos>
+;
+mt	mat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+t/IV3FS+</pos>
+wmt	wmat	IVPref-hy-maya	and+ no+  it/she <pos>wo/CONJ+ma/NEG+t/IV3FS+</pos>
+;;;;;
+mAkt	mAkat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+ka/PRG_PART+t/IV3FS+</pos>
+wmAkt	wmAkat	IVPref-hy-maya	and+ no+  it/she <pos>wa/CONJ+ma/NEG+ka/PRG_PART+t/IV3FS+</pos>
+mkt	mAkat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+ka/PRG_PART+t/IV3FS+</pos>
+wmkt	wmAkat	IVPref-hy-maya	and+ no+  it/she <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV3FS+</pos>
+mkAt	mAkat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+ka/PRG_PART+t/IV3FS+</pos>
+wmkAt	wmAkat	IVPref-hy-maya	and+ no+  it/she <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV3FS+</pos>
+;
+;
+mAtt	mAtat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+ta/PRG_PART+t/IV3FS+</pos>
+wmAtt	wmAtat	IVPref-hy-maya	and+ no+  it/she <pos>wa/CONJ+ma/NEG+ta/PRG_PART+t/IV3FS+</pos>
+mtt	matat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+ta/PRG_PART+t/IV3FS+</pos>
+wmtt	wmatat	IVPref-hy-maya	and+ no+  it/she <pos>wo/CONJ+ma/NEG+ta/PRG_PART+t/IV3FS+</pos>
+;;;
+mAgt	mAgat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+ga/FUT_PART+t/IV3FS+</pos>
+wmAgt	wmAgat	IVPref-hy-maya	and+ no+  it/she <pos>wa/CONJ+ma/NEG+ga/FUT_PART+t/IV3FS+</pos>
+;;;;;;
+mgt	magat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+ga/FUT_PART+t/IV3FS+</pos>
+wmgt	wmagat	IVPref-hy-maya	and+ no+  it/she <pos>wo/CONJ+ma/NEG+ga/FUT_PART+t/IV3FS+</pos>
+;
+mAEt	mAEat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+Ea/FUT_PART+t/IV3FS+</pos>
+wmAEt	wmAEat	IVPref-hy-maya	and+ no+  it/she <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+t/IV3FS+</pos>
+;;;;;;
+mEt	maEat	IVPref-hy-maya	no+ it/she <pos>ma/NEG+Ea/FUT_PART+t/IV3FS+</pos>
+wmEt	wmaEat	IVPref-hy-maya	and+ no+  it/she <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+t/IV3FS+</pos>
+;;;;====================================
+;;====================================
+; imperfect verb prefix: 2nd pers.masc.sg. (Anta)
+t	ta	IVPref-Anta-ta	you <pos>t/IV2S+</pos>
+wt	wta	IVPref-Anta-ta	and + you <pos>wa/CONJ+t/IV2S+</pos>
+At	>at	IVPref-Anta-ta	 you <pos>>a/PROSTHETIC_PART+t/IV2S+</pos>
+>t	>at	IVPref-Anta-ta	 you <pos>>a/PROSTHETIC_PART+t/IV2S+</pos>
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+kt	kat	IVPref-Anta-ta	you <pos>ka/PRG_PART+t/IV2S+</pos>
+kAt	kat	IVPref-Anta-ta	you <pos>ka/PRG_PART+t/IV2S+</pos>
+wkAt	wkat	IVPref-Anta-ta	and + you <pos>wo/CONJ+ka/PRG_PART+t/IV2S+</pos>
+wkt	wkat	IVPref-Anta-ta	and + you <pos>wo/CONJ+ka/PRG_PART+t/IV2S+</pos>
+;
+wgkt	wogikat	IVPref-Anta-ta	and + only +  you <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV2S</pos>
+gkt	wogikat	IVPref-Anta-ta	only +  you <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV2S</pos>
+;
+tt	tat	IVPref-Anta-ta	you <pos>ta/PRG_PART+t/IV2S+</pos>
+wtt	wtat	IVPref-Anta-ta	and + you <pos>wo/CONJ+ta/PRG_PART+t/IV2S+</pos>
+tAt	tat	IVPref-Anta-ta	 you <pos>ta/PRG_PART+t/IV2S+</pos>
+;;;
+gt	gat	IVPref-Anta-ta	you <pos>ga/FUT_PART+t/IV2S+</pos>
+wgt	wogat	IVPref-Anta-ta	and + you <pos>wo/CONJ+ga/FUT_PART+t/IV2S+</pos>
+gAt	gat	IVPref-Anta-ta	you <pos>ga/FUT_PART+t/IV2S+</pos>
+wgAt	wogat	IVPref-Anta-ta	and + you <pos>wo/CONJ+ga/FUT_PART+t/IV2S+</pos>
+;
+Et	Eat	IVPref-Anta-ta	you <pos>Ea/FUT_PART+t/IV2S+</pos>
+wEt	woEat	IVPref-Anta-ta	and + you <pos>wo/CONJ+Ea/FUT_PART+t/IV2S+</pos>
+;;;
+tAt	t~At	IVPref-Anta-ta	until+you <pos>t~A/ADV+t/IV2S+</pos>
+;;;
+mAt	mAt	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+t/IV2S+</pos>
+wmAt	wmAta	IVPref-Anta-ta-maya	and+ no+  you <pos>wa/CONJ+ma/NEG+t/IV2S+</pos>
+;
+mt	mat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+t/IV2S+</pos>
+wmt	wmat	IVPref-Anta-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+t/IV2S+</pos>
+;;;;
+mAkt	mAkat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+wmAkt	wmAkat	IVPref-Anta-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+;
+mAtt	mAtat	IVPref-Anta-ta-maya	no+ you <pos>ta/PRG_PART+t/IV2S+</pos>
+wmAtt	wmAtat	IVPref-Anta-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ta/PRG_PART+t/IV2S+</pos>
+;
+mkt	mAkat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+wmkt	womAkat	IVPref-Anta-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+mAkt	mAkat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+wmAkt	womAkat	IVPref-Anta-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+mkAt	mAkat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+wmkAt	womAkat	IVPref-Anta-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2S+</pos>
+;
+mtt	matat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+ta/PRG_PART+t/IV2S+</pos>
+wmtt	wmatat	IVPref-Anta-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ta/PRG_PART+t/IV2S+</pos>
+;
+mAgt	mAgat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+ga/FUT_PART+t/IV2S+</pos>
+wmAgt	wmAgat	IVPref-Anta-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ga/FUT_PART+t/IV2S+</pos>
+;
+mgt	magat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+ga/FUT_PART+t/IV2S+</pos>
+wmgt	wmagat	IVPref-Anta-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ga/FUT_PART+t/IV2S+</pos>
+;
+mAEt	mAEat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+Ea/FUT_PART+t/IV2S+</pos>
+wmAEt	wmAEat	IVPref-Anta-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+t/IV2S+</pos>
+;
+mEt	maEat	IVPref-Anta-ta-maya	no+ you <pos>ma/NEG+Ea/FUT_PART+t/IV2S+</pos>
+wmEt	wmaEat	IVPref-Anta-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+t/IV2S+</pos>
+;;;;===========================
+;
+; imperfect verb prefix: 2nd pers.fem.sg. (Anti)
+;
+t	t	IVPref-Anti-ta	you [fem.sg.] <pos>t/IV2FS+</pos>
+wt	wt	IVPref-Anti-ta	and + you [fem.sg.] <pos>wa/CONJ+t/IV2FS+</pos>
+At	>at	IVPref-Anti-ta	 you <pos>>a/PROSTHETIC_PART+t/IV2FS+</pos>
+>t	>at	IVPref-Anti-ta	 you <pos>>a/PROSTHETIC_PART+t/IV2FS+</pos>
+;;;;
+;;At	At	IVPref-Anti-ta	you [fem.sg.] <pos>At/IV2FS+</pos>
+;;;;;;;;;;;
+tAt	t~At	IVPref-Anti-ta	until+you <pos>t~A/ADV+t/IV2FS+</pos>
+;;;
+tAt	tAt	IVPref-Anti-ta	until+you <pos>t~A/ADV+t/IV2FS+</pos>
+;;;;;;;;;;;;;;;;;
+;;;
+kt	kat	IVPref-Anti-ta	you <pos>ka/PRG_PART+t/IV2FS+</pos>
+wkt	wkat	IVPref-Anti-ta	and + you <pos>wo/CONJ+ka/PRG_PART+t/IV2FS+</pos>
+kAt	kat	IVPref-Anti-ta	you <pos>ka/PRG_PART+t/IV2FS+</pos>
+wkAt	wkat	IVPref-Anti-ta	and + you <pos>wo/CONJ+ka/PRG_PART+t/IV2FS+</pos>
+;
+wgkt	wogikat	IVPref-Anti-ta	and + only +  you <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV2FS</pos>
+gkt	wogikat	IVPref-Anti-ta	only +  you <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV2FS</pos>
+;
+tt	tat	IVPref-Anti-ta	you <pos>ta/PRG_PART+t/IV2FS+</pos>
+wtt	wtat	IVPref-Anti-ta	and + you <pos>wo/CONJ+ta/PRG_PART+t/IV2FS+</pos>
+;;;;
+gt	gat	IVPref-Anti-ta	you <pos>ga/FUT_PART+t/IV2FS+</pos>
+wgt	wogat	IVPref-Anti-ta	and + you <pos>wo/CONJ+ga/FUT_PART+t/IV2FS+</pos>
+gAt	gat	IVPref-Anti-ta	you <pos>ga/FUT_PART+t/IV2FS+</pos>
+wgAt	wogat	IVPref-Anti-ta	and + you <pos>wo/CONJ+ga/FUT_PART+t/IV2FS+</pos>
+;;
+Et	Eat	IVPref-Anti-ta	you <pos>Ea/FUT_PART+t/IV2FS+</pos>
+wEt	woEat	IVPref-Anti-ta	and + you <pos>wo/CONJ+Ea/FUT_PART+t/IV2FS+</pos>
+;;;;;
+mAt	mAt	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+t/IV2FS+</pos>
+wmAt	wmAt	IVPref-Anti-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ta/IV2FS+</pos>
+;;
+;;
+mt	mat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+t/IV2FS+</pos>
+wmt	wmat	IVPref-Anti-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+t/IV2FS+</pos>
+;;;;
+mAkt	mAkat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+wmAkt	wmAkat	IVPref-Anti-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+;;
+mAtt	mAtat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ta/PRG_PART+t/IV2FS+</pos>
+wmAtt	wmAtat	IVPref-Anti-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ta/PRG_PART+t/IV2FS+</pos>
+;;;;
+mkt	mAkat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+wmkt	wmAkat	IVPref-Anti-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+mAkt	mAkat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+wmAkt	wmAkat	IVPref-Anti-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+mkAt	mAkat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+wmkAt	womAkat	IVPref-Anti-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2FS+</pos>
+;;
+mtt	matat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ta/PRG_PART+t/IV2FS+</pos>
+wmtt	wmatat	IVPref-Anti-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ta/PRG_PART+t/IV2FS+</pos>
+;;;;
+mAgt	mAgat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ga/FUT_PART+t/IV2FS+</pos>
+wmAgt	wmAgat	IVPref-Anti-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ga/FUT_PART+t/IV2FS+</pos>
+;;
+mgt	magat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+ga/FUT_PART+t/IV2FS+</pos>
+wmgt	wmagat	IVPref-Anti-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ga/FUT_PART+t/IV2FS+</pos>
+;;
+mAEt	mAEat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+Ea/FUT_PART+t/IV2FS+</pos>
+wmAEt	wmAEat	IVPref-Anti-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+t/IV2FS+</pos>
+;;;;;;;;;
+mEt	maEat	IVPref-Anti-ta-maya	no+ you <pos>+ma/NEG+Ea/FUT_PART+t/IV2FS+</pos>
+;wmEt	wmaEat	IVPref-Anti-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+t/IV2FS+</pos>
+;;;;==============================
+; imperfect verb prefix: 2nd pers.masc.pl. (Antum)
+;
+t	t	IVPref-Antm-ta	you <pos>t/IV2P+</pos>
+wt	wat	IVPref-Antm-ta	and + you <pos>wa/CONJ+t/IV2P+</pos>
+At	>at	IVPref-Antm-ta	 you <pos>>a/PROSTHETIC_PART+t/IV2P+</pos>
+>t	>at	IVPref-Antm-ta	 you <pos>>a/PROSTHETIC_PART+t/IV2P+</pos>
+;;
+At	At	IVPref-Antm-ta	you <pos>At/IV2P+</pos>
+;;
+tAt	t~At	IVPref-Antm-ta	until+you <pos>t~A/ADV+t/IV2P+</pos>
+;;;
+tAt	tAt	IVPref-Antm-ta	until+you <pos>t~A/ADV+t/IV2P+</pos>
+;;;;;;;;;;;;;;;;;
+kt	kat	IVPref-Antm-ta	you <pos>ka/PRG_PART+t/IV2P+</pos>
+wkt	wkat	IVPref-Antm-ta	and + you <pos>wo/CONJ+ka/PRG_PART+t/IV2P+</pos>
+;
+wgkt	wogikat	IVPref-Antm-ta	and + only +  you <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV2P</pos>
+gkt	wogikat	IVPref-Antm-ta	only +  you <pos>wo/CONJ+gi/ADV+ka/PRG_PART+t/IV2P</pos>
+;
+tt	tat	IVPref-Antm-ta	you <pos>ta/PRG_PART+t/IV2P+</pos>
+wtt	wtat	IVPref-Antm-ta	and + you <pos>wo/CONJ+ta/PRG_PART+t/IV2P+</pos>
+;;;
+gt	gat	IVPref-Antm-ta	you <pos>ga/FUT_PART+t/IV2P+</pos>
+wgt	wogat	IVPref-Antm-ta	and + you <pos>wo/CONJ+ga/FUT_PART+t/IV2P+</pos>
+gAt	gat	IVPref-Antm-ta	you <pos>ga/FUT_PART+t/IV2P+</pos>
+wgAt	wogat	IVPref-Antm-ta	and + you <pos>wo/CONJ+ga/FUT_PART+t/IV2P+</pos>
+;
+Et	Eat	IVPref-Antm-ta	you <pos>Ea/FUT_PART+t/IV2P+</pos>
+wEt	woEat	IVPref-Antm-ta	and + you <pos>wo/CONJ+Ea/FUT_PART+t/IV2P+</pos>
+;;;;;;
+;
+mAt	mAt	IVPref-Antm-ta-maya	no+ you <pos>ma/NEG+t/IV2P+</pos>
+wmAt	wmAta	IVPref-Antm-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+t/IV2P+</pos>
+;
+mt	mat	IVPref-Antm-ta-maya	no+ you <pos>+ma/NEG+t/IV2P+</pos>
+wmt	wmat	IVPref-Antm-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+t/IV2P+</pos>
+;;
+mAkt	mAkat	IVPref-Antm-ta-maya	no+ you <pos>ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+wmAkt	wmAkat	IVPref-Antm-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+;
+mAtt	mAtat	IVPref-Antm-ta-maya	no+ you <pos>ma/NEG+ta/PRG_PART+t/IV2P+</pos>
+wmAtt	wmAtat	IVPref-Antm-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ta/PRG_PART+t/IV2P+</pos>
+;;
+mkt	makat	IVPref-Antm-ta-maya	no+ you <pos>+ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+wmkt	wmakat	IVPref-Antm-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+mAkt	makat	IVPref-Antm-ta-maya	no+ you <pos>+ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+wmAkt	womakat	IVPref-Antm-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+mkAt	makat	IVPref-Antm-ta-maya	no+ you <pos>+ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+wmkAt	womakat	IVPref-Antm-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ka/PRG_PART+t/IV2P+</pos>
+;
+mtt	matat	IVPref-Antm-ta-maya	no+ you <pos>+ma/NEG+ta/PRG_PART+t/IV2P+</pos>
+wmtt	wmatat	IVPref-Antm-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ta/PRG_PART+t/IV2P+</pos>
+;;;
+mAgt	mAgat	IVPref-Antm-ta-maya	no+ you <pos>ma/NEG+ga/FUT_PART+t/IV2P+</pos>
+wmAgt	wmAgat	IVPref-Antm-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+ga/FUT_PART+t/IV2P+</pos>
+;;
+mgt	magat	IVPref-Antm-ta-maya	no+ you <pos>+ma/NEG+ga/FUT_PART+t/IV2P+</pos>
+wmgt	wmagat	IVPref-Antm-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+ga/FUT_PART+t/IV2P+</pos>
+;
+mAEt	mAEat	IVPref-Antm-ta-maya	no+ you <pos>ma/NEG+Ea/FUT_PART+t/IV2P+</pos>
+wmAEt	wmAEat	IVPref-Antm-ta-maya	and+ no  + you <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+t/IV2P+</pos>
+;;
+mEt	maEat	IVPref-Antm-ta-maya	no+ you <pos>+ma/NEG+Ea/FUT_PART+t/IV2P+</pos>
+wmEt	wmaEat	IVPref-Antm-ta-maya	and+ no  + you <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+t/IV2P+</pos>
+;;;;;==============================
+; imperfect verb prefix: 1st pers.sg. (AnA)
+n	n	IVPref-AnA->a	I <pos>n/IV1S+</pos>
+;A	>a	IVPref-AnA->a	I <pos>>a/IV1S+</pos>
+wn	won	IVPref-AnA->a	and + I <pos>wo/CONJ+n/IV1S+</pos>
+>wn	>uwn	IVPref-AnA->a	and + I <pos>>uw/CONJ+n/IV1S+</pos>
+An	>an	IVPref-AnA->a	 I <pos>>a/PROSTHETIC_PART+n/IV1S+</pos>
+>n	>an	IVPref-AnA->a	 I <pos>>a/PROSTHETIC_PART+n/IV1S+</pos>
+;;
+kn	kan	IVPref-AnA->a	I <pos>ka/PRG_PART+n/IV1S+</pos>
+wkn	wokan	IVPref-AnA->a	and + I <pos>wo/CONJ+ka/PRG_PART+n/IV1S+</pos>
+>wkn	>uwkan	IVPref-AnA->a	and + I <pos>>uw/CONJ+ka/PRG_PART+n/IV1S+</pos>
+kAn	kan	IVPref-AnA->a	I <pos>ka/PRG_PART+n/IV1S+</pos>
+wkAn	wokAn	IVPref-AnA->a	and + I <pos>wa/CONJ+ka/PRG_PART+n/IV1S+</pos>
+;
+tn	tan	IVPref-AnA->a	I <pos>ta/PRG_PART+n/IV1S+</pos>
+wtn	wotan	IVPref-AnA->a	and + I <pos>wo/CONJ+ta/PRG_PART+n/IV1S+</pos>
+>wtn	>uwtan	IVPref-AnA->a	and + I <pos>>uw/CONJ+ta/PRG_PART+n/IV1S+</pos>
+tAn	tan	IVPref-AnA->a	I <pos>ta/PRG_PART+n/IV1S+</pos>
+wtAn	wotan	IVPref-AnA->a	and + I <pos>wo/CONJ+ta/PRG_PART+n/IV1S+</pos>
+;;
+gn	gan	IVPref-AnA->a	I <pos>ga/FUT_PART+n/IV1S+</pos>
+wgn	wogan	IVPref-AnA->a	and + I <pos>wo/CONJ+ga/FUT_PART+n/IV1S+</pos>
+gAn	gan	IVPref-AnA->a	I <pos>ga/FUT_PART+n/IV1S+</pos>
+wgAn	wogan	IVPref-AnA->a	and + I <pos>wa/CONJ+ga/FUT_PART+n/IV1S+</pos>
+;;
+$gn	gan	IVPref-AnA->a	what+I <pos>$o/INTERROG_PART+ga/FUT_PART+n/IV1S+</pos>
+w$gn	wogan	IVPref-AnA->a	and + what+I <pos>wo/CONJ+$o/INTERROG_PART+ga/FUT_PART+n/IV1S+</pos>
+$gAn	gan	IVPref-AnA->a	what+I <pos>$o/INTERROG_PART+ga/FUT_PART+n/IV1S+</pos>
+w$gAn	wogan	IVPref-AnA->a	and +what+ I <pos>wo/CONJ+$o/INTERROG_PART+ga/FUT_PART+n/IV1S+</pos>
+;;;
+wkgn	wokigan	IVPref-AnA->a	and how + I <pos>wo/CONJ+ki/INTERROG_PART+ga/FUT_PART+n/IV1S+</pos>
+;;
+wgkn	wogikan	IVPref-AnA->a	and + only +  I <pos>wo/CONJ+gi/ADV+ka/PRG_PART+n/IV1S</pos>
+gkn	wogikan	IVPref-AnA->a	only +  I <pos>wo/CONJ+gi/ADV+ka/PRG_PART+n/IV1S</pos>
+;;
+En	Ean	IVPref-AnA->a	I <pos>Ea/FUT_PART+n/IV1S+</pos>
+wEn	woEan	IVPref-AnA->a	and + I <pos>wo/CONJ+Ea/FUT_PART+n/IV1S+</pos>
+;;;;;;;;;;;;;
+mAn	mAn	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+n/IV1S+</pos>
+wmAn	wmAn	IVPref-AnA->a-maya	and+ no+ I <pos>wa/CONJ+ma/NEG+n/IV1S+</pos>
+mn	man	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+n/IV1S+</pos>
+wmn	wman	IVPref-AnA->a-maya	and+ no+ I <pos>wo/CONJ+ma/NEG+n/IV1S+</pos>
+;
+;;;
+mAkn	mAkan	IVPref-AnA->a-maya	no+I <pos>ma/NEG+ka/PRG_PART+n/IV1S+</pos>
+wmAkn	wmAkan	IVPref-AnA->a-maya	and+ no+ I <pos>wa/CONJ+ma/NEG+ka/PRG_PART+n/IV1S+</pos>
+;
+mAtn	mAtan	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+ta/PRG_PART+n/IV1S+</pos>
+wmAtn	wmAtan	IVPref-AnA->a-maya	and+ no+ I <pos>wa/CONJ+ma/NEG+ta/PRG_PART+n/IV1S+</pos>
+;
+mkn	makan	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+ka/PRG_PART+n/IV1S+</pos>
+wmkn	wmakan	IVPref-AnA->a-maya	and+ no+ I <pos>wo/CONJ+ma/NEG+ka/PRG_PART+n/IV1S+</pos>
+;
+mtn	matan	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+ta/PRG_PART+n/IV1S+</pos>
+wmtn	wmatan	IVPref-AnA->a-maya	and+ no+ I <pos>wo/CONJ+ma/NEG+ta/PRG_PART+n/IV1S+</pos>
+;;;
+mAgn	mAgan	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+ga/FUT_PART+n/IV1S+</pos>
+wmAgn	wmAgan	IVPref-AnA->a-maya	and+ no+ I <pos>wa/CONJ+ma/NEG+ga/FUT_PART+n/IV1S+</pos>
+;
+mgn	magan	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+ga/FUT_PART+n/IV1S+</pos>
+wmgn	wmagan	IVPref-AnA->a-maya	and+ no+ I <pos>wo/CONJ+ma/NEG+ga/FUT_PART+n/IV1S+</pos>
+;
+mAEn	mAEan	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+Ea/FUT_PART+n/IV1S+</pos>
+wmAEn	wmAEan	IVPref-AnA->a-maya	and+ no+ I <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+n/IV1S+</pos>
+;
+mEn	maEan	IVPref-AnA->a-maya	no+ I <pos>ma/NEG+Ea/FUT_PART+n/IV1S+</pos>
+wmEn	wmaEan	IVPref-AnA->a-maya	and+ no+ I <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+n/IV1S+</pos>
+;;;
+;
+; imperfect verb prefix: 1st pers.pl. (naHnu)
+n	n	IVPref-nHn-na	we <pos>n/IV1P+</pos>
+wn	wn	IVPref-nHn-na	and + we <pos>wo/CONJ+n/IV1P+</pos>
+An	>an	IVPref-nHn-na	 we <pos>>a/PROSTHETIC_PART+n/IV1P+</pos>
+>n	>an	IVPref-nHn-na	 we <pos>>a/PROSTHETIC_PART+n/IV1P+</pos>
+;;;
+tAn	tAn	IVPref-nHn-na	until+we <pos>t~A/ADV+n/IV1P+</pos>
+;;;
+kn	kan	IVPref-nHn-na	we <pos>ka/PRG_PART+n/IV1P+</pos>
+wkn	wkan	IVPref-nHn-na	and + we <pos>wo/CONJ+ka/PRG_PART+n/IV1P+</pos>
+kAn	kan	IVPref-nHn-na	we <pos>ka/PRG_PART+n/IV1P+</pos>
+wkAn	wkAn	IVPref-nHn-na	and + we <pos>wo/CONJ+ka/PRG_PART+n/IV1P+</pos>
+;;
+wgkn	wogikan	IVPref-nHn-na	and + only +  we <pos>wo/CONJ+gi/ADV+ka/PRG_PART+n/IV1P</pos>
+gkn	wogikan	IVPref-nHn-na	only +  we <pos>wo/CONJ+gi/ADV+ka/PRG_PART+n/IV1P</pos>
+;
+tn	tan	IVPref-nHn-na	we <pos>ta/PRG_PART+n/IV1P+</pos>
+tAn	taAn	IVPref-nHn-na	we <pos>ta/PRG_PART+n/IV1P+</pos>
+wtn	wotan	IVPref-nHn-na	and + we <pos>wo/CONJ+ta/PRG_PART+n/IV1P+</pos>
+wtAn	wotaAn	IVPref-nHn-na	and + we <pos>wo/CONJ+ta/PRG_PART+n/IV1P+</pos>
+>wtn	>uwtan	IVPref-nHn-na	and + we <pos>>uw/CONJ+ta/PRG_PART+n/IV1P+</pos>
+;;;;;;;
+;;;
+gn	gan	IVPref-nHn-na	we <pos>ga/FUT_PART+n/IV1P+</pos>
+wgn	wgan	IVPref-nHn-na	and + we <pos>wo/CONJ+ga/FUT_PART+n/IV1P+</pos>
+gAn	gan	IVPref-nHn-na	we <pos>ga/FUT_PART+n/IV1P+</pos>
+wgAn	wgan	IVPref-nHn-na	and + we <pos>wo/CONJ+ga/FUT_PART+n/IV1P+</pos>
+;;;;;
+wkgn	wokigan	IVPref-nHn-na	and how + I <pos>wo/CONJ+ki/INTERROG_PART+ga/FUT_PART+n/IV1P+</pos>
+;
+En	Ean	IVPref-nHn-na	we <pos>Ea/FUT_PART+n/IV1P+</pos>
+wEn	wEan	IVPref-nHn-na	and + we <pos>wo/CONJ+Ea/FUT_PART+n/IV1P+</pos>
+;;;;;;;;
+mAn	mAn	IVPref-nHn-na-maya	no+we <pos>ma/NEG+n/IV1P+</pos>
+wmAn	wmAn	IVPref-nHn-na-maya	and no+ we <pos>wa/CONJ+ma/NEG+n/IV1P+</pos>
+;
+mn	man	IVPref-nHn-na-maya	no+we <pos>ma/NEG+n/IV1P+</pos>
+wmn	wman	IVPref-nHn-na-maya	and + no+ we <pos>wo/CONJ+ma/NEG+n/IV1P+</pos>
+;;;;
+mAkn	mAkan	IVPref-nHn-na-maya	no+we <pos>ma/NEG+ka/PRG_PART+n/IV1P+</pos>
+wmAkn	wmAkan	IVPref-nHn-na-maya	and + no+ we <pos>wa/CONJ+ma/NEG+ka/PRG_PART+n/IV1P+</pos>
+;
+mAtn	mAtan	IVPref-nHn-na-maya	we <pos>ma/NEG+ta/PRG_PART+n/IV1P+</pos>
+wmAtn	wmAtan	IVPref-nHn-na-maya	and + no+ we <pos>wa/CONJ+ma/NEG+ta/PRG_PART+n/IV1P+</pos>
+;
+mkn	makan	IVPref-nHn-na-maya	no+we <pos>ma/NEG+ka/PRG_PART+n/IV1P+</pos>
+wmkn	wmakan	IVPref-nHn-na-maya	and +no + we <pos>wo/CONJ+ma/NEG+ka/PRG_PART+n/IV1P+</pos>
+mkAn	makan	IVPref-nHn-na-maya	no+we <pos>ma/NEG+ka/PRG_PART+n/IV1P+</pos>
+wmkAn	wmakan	IVPref-nHn-na-maya	and +no + we <pos>wo/CONJ+ma/NEG+ka/PRG_PART+n/IV1P+</pos>
+;
+mtn	matan	IVPref-nHn-na-maya	no+we <pos>ma/NEG+ta/PRG_PART+n/IV1P+</pos>
+wmtn	wmatan	IVPref-nHn-na	and +no+we <pos>wo/CONJ+ma/NEG+ta/PRG_PART+n/IV1P+</pos>
+;;;;
+mAgn	mAgan	IVPref-nHn-na-maya	no+we <pos>ma/NEG+ga/FUT_PART+n/IV1P+</pos>
+wmAgn	wmAgan	IVPref-nHn-na-maya	and + no+we <pos>wa/CONJ+ma/NEG+ga/FUT_PART+n/IV1P+</pos>
+;
+mgn	magan	IVPref-nHn-na-maya	we <pos>ma/NEG+ga/FUT_PART+n/IV1P+</pos>
+wmgn	wmagan	IVPref-nHn-na-maya	and + no+we <pos>wo/CONJ+ma/NEG+ga/FUT_PART+n/IV1P+</pos>
+;
+mAEn	mAEan	IVPref-nHn-na-maya	no+we <pos>ma/NEG+Ea/FUT_PART+n/IV1P+</pos>
+wmAEn	wmAEan	IVPref-nHn-na-maya	and + no+we <pos>wa/CONJ+ma/NEG+Ea/FUT_PART+n/IV1P+</pos>
+;
+mEn	maEan	IVPref-nHn-na-maya	no+we <pos>ma/NEG+Ea/FUT_PART+n/IV1P+</pos>
+wmEn	wmaEan	IVPref-nHn-na-maya	and + no+we <pos>wo/CONJ+ma/NEG+Ea/FUT_PART+n/IV1P+</pos>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;compatible with IV-start-t for 2nd and 3nd Femminile 
+;;
+		IVPref-ta2	you <pos>/IV2+</pos>
+g	ga	IVPref-ta2	no+ you <pos>+ga/FUT_PART+/IV2+</pos>
+wg	wga	IVPref-ta2	and+ + you <pos>wo/CONJ+ga/FUT_PART+/IV2+</pos>
+mAg	mAga	IVPref-ta2	no+ you <pos>+ma/NEG+ga/FUT_PART+/IV2+</pos>
+wmAg	wmAga	IVPref-ta2	and+ + you <pos>wo/CONJ+ma/NEG+ga/FUT_PART+/IV2+</pos>
+mg	mAga	IVPref-ta2	no+ you <pos>+ma/NEG+ga/FUT_PART+/IV2+</pos>
+wmg	wmAga	IVPref-ta2	and+ + you <pos>wo/CONJ+ma/NEG+ga/FUT_PART+/IV2+</pos>
+;;
+		IVPref-ta3	it/she <pos>/IV3FS+</pos>
+g	ga	IVPref-ta3	no+ <pos>+ga/FUT_PART+/IV3FS+</pos>
+wg	wga	IVPref-ta3	and+ + <pos>wo/CONJ+ga/FUT_PART+/IV3FS+</pos>
+mAg	mAga	IVPref-ta3	no+ <pos>+ma/NEG+ga/FUT_PART+/IV3FS+</pos>
+wmAg	wmAga	IVPref-ta3	and+ <pos>wo/CONJ+ma/NEG+ga/FUT_PART+/IV3FS+</pos>
+mg	mAga	IVPref-ta3	no+ you <pos>+ma/NEG+ga/FUT_PART+/IV3FS+</pos>
+wmg	wmAga	IVPref-ta3	and+ <pos>wo/CONJ+ma/NEG+ga/FUT_PART+/IV3FS+</pos>
+;
+; =============================================================================
+; EOF "dictPrefixes" Copyright (c) 2001-2002 QAMUS LLC (www.qamus.org)

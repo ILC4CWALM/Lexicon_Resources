@@ -1,0 +1,1251 @@
+; ===================================================================
+; "tableBC"  
+; Portions (c) 2002 QAMUS LLC (www.qamus.org), 
+; (c) 2002 Trustees of the University of Pennsylvania 
+; This program is free software; you can redistribute it and/or
+; modify it under the terms of the GNU General Public License
+; as published by the Free Software Foundation version 2.
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details (../gpl.txt).
+; You should have received a copy of the GNU General Public License
+; along with this program; if not, write to the Free Software
+; Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+; 
+; You can contact LDC by sending electronic mail to: ldc@ldc.upenn.edu
+; or by writing to:
+;                Linguistic Data Consortium
+;                3600 Market Street
+;                Suite 810
+;                Philadelphia, PA, 19104-2653, USA.
+;  
+; ===================================================================
+; Function Words + null suffix
+;===========================
+;FW-Wa-wa ===> Pref0+Suff0
+FW-Wa-wa Suff-0
+;=======================
+; bi; fi; li;
+FW FWSuff-hi
+FW FWSuff-k
+FW FWSuff-nA-us
+FW FWSuff-ya
+;
+FW FWSuff-hi-$
+FW FWSuff-k-$
+FW FWSuff-nA-us-$
+FW FWSuff-ya-$
+;======================
+; moEa-ya
+FW-Wa Suff-0
+FW-Wa-ya FWSuff-hi
+FW-Wa-ya FWSuff-k
+FW-Wa-ya FWSuff-nA-us
+FW-Wa-ya FWSuff-ya
+;
+;FW-Wa Suff-0-$
+FW-Wa-ya FWSuff-hi-$
+FW-Wa-ya FWSuff-k-$
+FW-Wa-ya FWSuff-nA-us-$
+FW-Wa-ya FWSuff-ya-$
+;;
+;
+; liy-, Eoliy-, fiy-
+FW-Wa-y FWSuff-hi
+FW-Wa-y FWSuff-hi-$
+FW-Wa-y FWSuff-k
+FW-Wa-y FWSuff-k-$
+FW-Wa-y FWSuff-nA-us
+FW-Wa-y FWSuff-nA-us-$
+FW-Wa-y FWSuff-~a
+FW-Wa-y FWSuff-~a-$
+;;
+;
+;baEod-iy, toHota, Eanoda, fawoqa, qabola, doyAl
+FW-Wa-iy FWSuff-hi
+FW-Wa-iy FWSuff-hi-$
+FW-Wa-iy FWSuff-k
+FW-Wa-iy FWSuff-k-$
+FW-Wa-iy FWSuff-iy-me
+FW-Wa-iy FWSuff-iy-me-$
+FW-Wa-iy FWSuff-nA-us
+FW-Wa-iy FWSuff-nA-us-$
+;
+FW-Wa-i FWSuff-hi
+FW-Wa-i FWSuff-k
+FW-Wa-i FWSuff-nA-us
+;
+; Ean-, min-, ladun-
+FW-Wa-n FWSuff-hu-him
+FW-Wa-n FWSuff-k
+FW-Wa-n FWSuff-~iy
+FW-Wa-n FWSuff-hi
+;
+; li>an~a-niy
+;FW-Wa-niy Suff-0
+FW-Wa-niy FWSuff-hi
+FW-Wa-niy FWSuff-niy-me
+FW-Wa-niy FWSuff-nA-us
+FW-Wa-niy FWSuff-k
+;
+FW-WaBi Suff-0
+;
+;binat-kum
+FW-Wa-pl FWSuff-pl
+FW-Wa-pl FWSuff-pl-$
+;===============
+;Pronomi
+FW-Wa-Pr Suff-0
+;================
+;==============================
+; NOUNS
+;==============================
+;Deverbal Noun: xASS-niy - lAzm-niy
+NVerb Suff-0IV
+NVerb NSuff-ap
+NVerb NSuff-At
+NVerb IVSuff-h
+NVerb NSuff-Ah
+NVerb IVSuff-w
+NVerb IVSuff-ny-nA
+NVerb IVSuff-k
+NVerb NSuff-iyno
+NVerb NSuff-iynh
+NVerb NSuff-iynak
+NVerb NSuff-iynaniy
+;
+NVerb Suff-0IV-$
+NVerb NSuff-ap-$
+NVerb IVSuff-k-$
+NVerb IVSuff-h-$
+NVerb NSuff-Ah-$
+NVerb IVSuff-w-$
+NVerb IVSuff-ny-nA-$
+NVerb NSuff-iyna-$
+NVerb NSuff-iynh-$
+NVerb NSuff-iynak-$
+NVerb NSuff-iynaniy-$
+;===========================
+;intransitive Deverbal Noun: kayin;kayonap;gAdiyin
+;
+NVerb_intr Suff-0IV
+NVerb_intr NSuff-ap
+NVerb_intr NSuff-iyno
+NVerb_intr NSuff-At
+;
+NVerb_intr Suff-0IV-$
+NVerb_intr NSuff-ap-$
+NVerb_intr NSuff-iyna-$
+NVerb_intr NSuff-At-$
+;=======================================
+;Ndu: Dual $ahrayon; yumayon
+Ndu Suff-0
+Ndu NSuff-ayn
+;Ndu-b: Dual-body rojliy~a ; ydiy~a ; wdniy~a
+Ndu-b Suff-0
+Ndu-b NSuff-iyn
+Ndu-b NSuff-iyh
+Ndu-b NSuff-~a
+;
+Napdu NSuff-tayn
+;
+;Tabolap
+Nap NSuff-ap
+Nap NSuff-ath
+Nap NSuff-ath-$
+;
+;Tabolap
+Nap-MSA NSuff-ap
+Nap-MSA NSuff-ath
+Nap-MSA NSuff-ath-$
+;
+NAt NSuff-At
+NAt NSuff-Ath
+NAt NSuff-Ath-$
+;
+NAt-poss NSuff-At
+;
+NAt-MSA NSuff-At
+NAt-MSA NSuff-Ath
+NAt-MSA NSuff-Ath-$
+;;;;;
+;zwiyn; zwiyn
+N/ap Suff-0
+N/ap NSuff-h
+N/ap NSuff-h-$
+N/ap NSuff-iy
+N/ap NSuff-iy-$
+N/ap NSuff-ap
+N/ap NSuff-ath
+N/ap NSuff-ath-$
+;
+NapAt NSuff-At
+NapAt NSuff-Ath
+NapAt NSuff-Ath-$
+NapAt NSuff-ap
+NapAt NSuff-ath
+NapAt NSuff-ath-$
+;NapAt NSuff-iy
+;NapAt NSuff-iy-$
+;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;Hblap;Hbl-At (-poss: Adjectifs/adjectives non prende possessivo)
+;
+Nap-poss NSuff-ap
+;
+NapAt-poss NSuff-At
+NapAt-poss NSuff-ap
+;
+N-poss Suff-0
+N-poss NSuff-prep
+;;
+Niyn-poss NSuff-iyno
+;
+Nall-poss Suff-0
+Nall-poss Suff-0-$
+Nall-poss NSuff-iyno
+Nall-poss NSuff-iyno-$
+Nall-poss NSuff-ap
+Nall-poss NSuff-ap-$
+Nall-poss NSuff-At
+;;;;;;;;;;;;;;;;;;;;;;;;;
+N0 Suff-0
+N0-MSA Suff-0
+;
+N Suff-0
+N NSuff-h
+N NSuff-h-$
+N NSuff-prep
+N NSuff-iy
+N NSuff-iy-$
+;;
+;;
+N-MSA Suff-0
+N-MSA NSuff-h
+N-MSA NSuff-h-$
+N-MSA NSuff-prep
+N-MSA NSuff-iy
+N-MSA NSuff-iy-$
+;;
+;;
+;wojah~aA
+N-end-h Suff-0
+N-end-h NSuff-h
+N-end-h NSuff-prep
+N-end-h NSuff-iy
+N-end-h NSuff-~aA-~um
+N-end-h NSuff-h-$
+N-end-h NSuff-iy-$
+N-end-h NSuff-~aA-~um-$
+;;;;;;;;;;
+;;;;;;;;;;;;;
+;;Attenzione Nall non esiste per tutti: zoraq - zaroqap/zaroqAt-zaroqiyn-zuraq
+;; zrq	zoraq	N	blue     <pos>zoraq/ADJ</pos> 
+;; zrq	zaroq	NapAt	blue     <pos>zaroq/ADJ</pos>
+;; zrq	zaroq	Niyn	blue     <pos>zaroq/ADJ</pos>
+;; zrq	zuraq	N	blue     <pos>zoraq/ADJ</pos>
+;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+Nall Suff-0
+Nall Suff-0-$
+Nall NSuff-iyno
+Nall NSuff-iyno-$
+Nall NSuff-ap
+Nall NSuff-ap-$
+Nall NSuff-h
+Nall NSuff-h-$
+Nall NSuff-prep
+Nall NSuff-iy
+Nall NSuff-iy-$
+Nall NSuff-ath
+Nall NSuff-ath-$
+Nall NSuff-At
+Nall NSuff-Ath
+Nall NSuff-Ath-$
+;;
+Nall-MSA Suff-0
+Nall-MSA Suff-0-$
+Nall-MSA NSuff-ap
+Nall-MSA NSuff-ap-$
+Nall-MSA NSuff-h
+Nall-MSA NSuff-h-$
+Nall-MSA NSuff-prep
+Nall-MSA NSuff-iy
+Nall-MSA NSuff-iy-$
+Nall-MSA NSuff-ath
+Nall-MSA NSuff-ath-$
+Nall-MSA NSuff-At
+Nall-MSA NSuff-Ath
+Nall-MSA NSuff-Ath-$
+;
+;=========================
+; singolare maschile, plurale fratto in At: <ihotimAm
+;
+N/At Suff-0
+N/At NSuff-At
+N/At NSuff-Ath
+N/At NSuff-Ath-$
+N/At NSuff-h
+N/At NSuff-h-$
+N/At NSuff-prep
+N/At NSuff-iy
+N/At NSuff-iy-$
+;;
+N/At-MSA Suff-0
+N/At-MSA NSuff-At
+N/At-MSA NSuff-Ath
+N/At-MSA NSuff-Ath-$
+N/At-MSA NSuff-h
+N/At-MSA NSuff-h-$
+N/At-MSA NSuff-prep
+N/At-MSA NSuff-iy
+N/At-MSA NSuff-iy-$
+;
+N/At_L Suff-0
+N/At_L NSuff-At
+N/At_L NSuff-Ath
+N/At_L NSuff-Ath-$
+
+N/At_L NSuff-h
+N/At_L NSuff-h-$
+N/At_L NSuff-prep
+N/At_L NSuff-iy
+N/At_L NSuff-iy-$
+;
+;
+Nh NSuff-h
+Nh_L NSuff-h
+Nh NSuff-h-$
+Nh_L NSuff-h-$
+;
+;=====
+;Adverb taqriybAF
+;
+NF NSuff-AF
+;
+Nprop Suff-0
+Nprop-foreign Suff-0
+;
+Numb NSuff-iyno
+;
+Niyn NSuff-iyno
+Niyn NSuff-iyh
+;==============================
+; IMPERFECT VERBS
+;==============================
+;
+IV Suff-0IV
+IV Suff-0IV-li
+IV IVSuff-h
+IV IVSuff-w
+IV IVSuff-k
+IV IVSuff-ny-nA
+IV IVSuff-yh
+IV IVSuff-y-$
+IV Suff-0IV-$
+IV IVSuff-h-$
+IV IVSuff-w-$
+IV IVSuff-k-$
+IV IVSuff-ny-nA-$
+IV IVSuff-wh-$
+IV IVSuff-wk-$
+IV IVSuff-wny-wnA-$
+;;
+;
+IV-pl IVSuff-y
+IV-pl IVSuff-yh
+IV-pl IVSuff-wA
+IV-pl IVSuff-wh
+IV-pl IVSuff-wk
+IV-pl IVSuff-wny-wnA
+IV-pl IVSuff-y-$
+IV-pl IVSuff-yh-$
+IV-pl IVSuff-wA-$
+IV-pl IVSuff-wh-$
+IV-pl IVSuff-wk-$
+IV-pl IVSuff-wny-wnA-$
+;;
+;;Verbi con DO noHuman
+IV_human Suff-0IV
+IV_human IVSuff-h
+IV_human IVSuff-w
+IV_human IVSuff-yh
+IV_human IVSuff-y-$
+IV_human Suff-0IV-$
+IV_human IVSuff-h-$
+IV_human IVSuff-w-$
+IV_human IVSuff-wh-$
+IV_human IVSuff-wk-$
+;;
+;
+IV-pl_human IVSuff-y
+IV-pl_human IVSuff-yh
+IV-pl_human IVSuff-wA
+IV-pl_human IVSuff-wh
+IV-pl_human IVSuff-wny-wnA
+IV-pl_human IVSuff-y-$
+IV-pl_human IVSuff-yh-$
+IV-pl_human IVSuff-wA-$
+IV-pl_human IVSuff-wh-$
+;;
+; intransitive
+IV_intr Suff-0IV
+;IV_intr Suff-0IV-li
+IV_intr Suff-0IV-$
+;;
+;
+IV-pl_intr IVSuff-y
+IV-pl_intr IVSuff-wA
+IV-pl_intr IVSuff-w
+IV-pl_intr IVSuff-y-$
+IV-pl_intr IVSuff-wA-$
+IV-pl_intr IVSuff-w-$
+;
+;
+;===============================
+;;Verbi con SUB noHuman
+IV_nohuman Suff-0IV
+IV_nohuman Suff-0IV-$
+IV_nohuman Suff-0IV-li
+IV_nohuman IVSuff-h
+IV_nohuman IVSuff-h-$
+IV_nohuman IVSuff-w
+IV_nohuman IVSuff-w-$
+IV_nohuman IVSuff-k
+IV_nohuman IVSuff-k-$
+IV_nohuman IVSuff-ny-nA
+IV_nohuman IVSuff-ny-nA-$
+IV_nohuman IVSuff-y
+IV_nohuman IVSuff-y-$
+IV_nohuman IVSuff-yh
+IV_nohuman IVSuff-yh-$
+IV_nohuman IVSuff-wA
+IV_nohuman IVSuff-wA-$
+IV_nohuman IVSuff-wh
+IV_nohuman IVSuff-wh-$
+IV_nohuman IVSuff-wk
+IV_nohuman IVSuff-wk-$
+IV_nohuman IVSuff-wny-wnA
+IV_nohuman IVSuff-wny-wnA-$
+;============================
+IV_intr_nohuman Suff-0IV
+IV_intr_nohuman Suff-0IV-$
+IV_intr_nohuman Suff-0IV-li
+;========================
+; IV-l ; qulliy toEarraDlu
+;
+IV-l Suff-0IV-~li
+IV-l PVSuff-a-li
+IV-l Suff-0IV-li
+IV-l IVSUFF-1-l
+IV-l Suff-0IV
+IV-l IVSuff-h
+IV-l IVSuff-y
+IV-l IVSuff-y-li
+IV-l IVSuff-yh
+IV-l IVSuff-y-$
+IV-l Suff-0IV-$
+IV-l IVSuff-h-$
+;IV-l IVSuff-k
+;IV-l IVSuff-ny-nA
+;IV-l IVSuff-k-$
+;IV-l IVSuff-ny-nA-$
+;IV-l IVSuff-yh-$
+;;
+IV-pl-l IVSuff-w
+IV-pl-l IVSuff-wA
+IV-pl-l IVSuff-wh
+IV-pl-l IVSuff-wk
+IV-pl-l IVSuff-w-$
+IV-pl-l IVSuff-wA-$
+IV-pl-l IVSuff-wh-$
+IV-pl-l IVSuff-wk-$
+IV-pl-l IVSuff-wA-li
+;==========================
+; banaY-i_1
+;=========================
+;bny	boniy	IV_0iywo	build;erect
+; taboniy --> tanbniy; tbniy, tatbniy; taybniy; tatbniy (suff-0), tatbniywo; tayobniwo
+;
+IV_0iywo Suff-0IV
+IV_0iywo Suff-0IV-li
+;(y-abniy-)
+IV_0iywo IVSuff-h
+;(bnAh)
+IV_0iywo IVSuff-k
+IV_0iywo IVSuff-ny-nA
+IV_0iywo IVSuff-y
+IV_0iywo IVSuff-yh
+IV_0iywo IVSuff-awA
+IV_0iywo IVSuff-awh
+IV_0iywo IVSuff-awk
+IV_0iywo IVSuff-awny-awnA
+;
+IV_0iywo Suff-0IV-$
+IV_0iywo IVSuff-h-$
+IV_0iywo IVSuff-k-$
+IV_0iywo IVSuff-ny-nA-$
+IV_0iywo IVSuff-y-$
+IV_0iywo IVSuff-yh-$
+IV_0iywo IVSuff-awA-$
+IV_0iywo IVSuff-wk-$
+IV_0iywo IVSuff-awh-$
+;;
+IV_0iywo_nohuman IVSuff-k
+IV_0iywo_nohuman IVSuff-ny-nA
+IV_0iywo_nohuman IVSuff-y
+IV_0iywo_nohuman IVSuff-yh
+IV_0iywo_nohuman IVSuff-awA
+IV_0iywo_nohuman IVSuff-awh
+IV_0iywo_nohuman IVSuff-awk
+IV_0iywo_nohuman IVSuff-awny-awnA
+;
+IV_0iywo_nohuman Suff-0IV-$
+IV_0iywo_nohuman IVSuff-h-$
+IV_0iywo_nohuman IVSuff-k-$
+IV_0iywo_nohuman IVSuff-ny-nA-$
+IV_0iywo_nohuman IVSuff-y-$
+IV_0iywo_nohuman IVSuff-yh-$
+IV_0iywo_nohuman IVSuff-awA-$
+IV_0iywo_nohuman IVSuff-wk-$
+IV_0iywo_nohuman IVSuff-awh-$
+;;;
+;
+IV_0iywo_intr Suff-0IV
+IV_0iywo_intr Suff-0IV-li
+IV_0iywo_intr IVSuff-y
+IV_0iywo_intr IVSuff-awA
+;
+IV_0iywo_intr Suff-0IV-$
+IV_0iywo_intr IVSuff-y-$
+IV_0iywo_intr IVSuff-awA-$
+;;;;
+IV_0iywo_intr_nohuman Suff-0IV
+IV_0iywo_intr_nohuman Suff-0IV-li
+IV_0iywo_intr_nohuman IVSuff-y
+IV_0iywo_intr_nohuman IVSuff-awA
+;
+IV_0iywo_intr_nohuman Suff-0IV-$
+IV_0iywo_intr_nohuman IVSuff-y-$
+IV_0iywo_intr_nohuman IVSuff-awA-$
+;================
+; badA-u_1
+;===============
+; tanbda; tatbda (2PSM); tatbdayo; taybda, tatbda (3PSF)
+;
+IV_0aywo Suff-0IV
+IV_0aywo Suff-0IV-li
+IV_0aywo IVSuff-h
+IV_0aywo IVSuff-k
+IV_0aywo IVSuff-ny-nA
+IV_0aywo IVSuff-yo
+IV_0aywo IVSuff-yoh
+IV_0aywo IVSuff-awA
+IV_0aywo IVSuff-awh
+IV_0aywo IVSuff-awny-awnA
+;
+IV_0aywo Suff-0IV-$
+IV_0aywo IVSuff-h-$
+IV_0aywo IVSuff-k-$
+IV_0aywo IVSuff-ny-nA-$
+IV_0aywo IVSuff-yo-$
+IV_0aywo IVSuff-yoh-$
+IV_0aywo IVSuff-awA-$
+IV_0aywo IVSuff-awh-$
+;
+IV_0aywo_intr Suff-0IV
+IV_0aywo_intr Suff-0IV-li
+IV_0aywo_intr IVSuff-yo
+IV_0aywo_intr IVSuff-awA
+;
+IV_0aywo_intr Suff-0IV-$
+IV_0aywo_intr IVSuff-yo-$
+IV_0aywo_intr IVSuff-awA-$
+;
+IV_0aywo_start-t Suff-0IV
+IV_0aywo_start-t Suff-0IV-li
+IV_0aywo_start-t IVSuff-h
+IV_0aywo_start-t IVSuff-k
+IV_0aywo_start-t IVSuff-ny-nA
+IV_0aywo_start-t IVSuff-yo
+IV_0aywo_start-t IVSuff-yoh
+IV_0aywo_start-t IVSuff-awA
+IV_0aywo_start-t IVSuff-awh
+IV_0aywo_start-t IVSuff-awny-awnA
+;
+IV_0aywo_start-t Suff-0IV-$
+IV_0aywo_start-t IVSuff-h-$
+IV_0aywo_start-t IVSuff-k-$
+IV_0aywo_start-t IVSuff-ny-nA-$
+IV_0aywo_start-t IVSuff-yo-$
+IV_0aywo_start-t IVSuff-yoh-$
+IV_0aywo_start-t IVSuff-awA-$
+IV_0aywo_start-t IVSuff-awh-$
+;
+IV_0aywo_start-t_intr Suff-0IV
+IV_0aywo_start-t_intr Suff-0IV-li
+IV_0aywo_start-t_intr IVSuff-yo
+IV_0aywo_start-t_intr IVSuff-awA
+;
+IV_0aywo_start-t_intr Suff-0IV-$
+IV_0aywo_start-t_intr IVSuff-yo-$
+IV_0aywo_start-t_intr IVSuff-awA-$
+;===============
+; toban~aY_1
+;tbnY	taban~aY	IV_0	adopt (kaytban~aY)
+IV_0 Suff-0
+IV_0_intr Suff-0
+;=======================
+;
+;
+;
+IV-n Suff-0IV
+IV-n Suff-0IV-li
+IV-n IVSuff-h
+IV-n IVSuff-w
+IV-n IVSuff-w-$
+IV-n IVSuff-k
+IV-n IVSuff-~y
+IV-n IVSuff-wA
+IV-n IVSuff-wh
+IV-n IVSuff-wk
+IV-n IVSuff-wn
+IV-n IVSuff-wnh
+IV-n IVSuff-wnk
+IV-n IVSuff-y
+IV-n IVSuff-yh
+IV-n IVSuff-yn
+IV-n IVSuff-ynh
+;
+IV-n Suff-0IV-$
+IV-n Suff-0IV-li-$
+IV-n IVSuff-h-$
+IV-n IVSuff-k-$
+IV-n IVSuff-~y-$
+IV-n IVSuff-wA-$
+IV-n IVSuff-wh-$
+IV-n IVSuff-wk-$
+IV-n IVSuff-y-$
+IV-n IVSuff-yh-$
+;
+IV-n_intr Suff-0IV
+IV-n_intr Suff-0IV-li
+IV-n_intr IVSuff-A
+IV-n_intr IVSuff-An
+IV-n_intr IVSuff-~y
+IV-n_intr IVSuff-wA
+IV-n_intr IVSuff-y
+IV-n_intr IVSuff-yn
+;
+IV-n_intr Suff-0IV-$
+IV-n_intr Suff-0IV-li-$
+IV-n_intr IVSuff-A-$
+IV-n_intr IVSuff-An-$
+IV-n_intr IVSuff-~y-$
+IV-n_intr IVSuff-wA-$
+IV-n_intr IVSuff-y-$
+IV-n_intr IVSuff-yn-$
+;==========================================
+;
+IV-start-n Suff-0IV
+IV-start-n IVSuff-h
+IV-start-n IVSuff-w
+IV-start-n IVSuff-k
+IV-start-n IVSuff-wA
+IV-start-n IVSuff-wh
+IV-start-n IVSuff-wk
+IV-start-n IVSuff-awA
+IV-start-n IVSuff-awh
+;
+IV-start-n Suff-0IV-$
+IV-start-n IVSuff-h-$
+IV-start-n IVSuff-w-$
+IV-start-n IVSuff-k-$
+IV-start-n IVSuff-wA-$
+IV-start-n IVSuff-wh-$
+IV-start-n IVSuff-wk-$
+IV-start-n IVSuff-awA-$
+IV-start-n IVSuff-awh-$
+;
+IV-start-n_intr Suff-0IV
+IV-start-n_intr IVSuff-wA
+IV-start-n_intr IVSuff-awA
+;
+IV-start-n_intr Suff-0IV-$
+IV-start-n_intr IVSuff-wA-$
+IV-start-n_intr IVSuff-awA-$
+;-------------------------------------
+;==========================================
+;
+IV-start-t Suff-0IV
+IV-start-t IVSuff-h
+IV-start-t IVSuff-w
+IV-start-t IVSuff-wA
+IV-start-t IVSuff-wh
+IV-start-t IVSuff-ny-nA
+IV-start-t IVSuff-y
+IV-start-t IVSuff-yh
+IV-start-t IVSuff-wny-wnA
+IV-start-t IVSuff-uwA
+IV-start-t IVSuff-uwh
+;
+IV-start-t Suff-0IV-$
+IV-start-t IVSuff-h-$
+IV-start-t IVSuff-w-$
+IV-start-t IVSuff-wA-$
+IV-start-t IVSuff-wh-$
+IV-start-t IVSuff-ny-nA-$
+IV-start-t IVSuff-~y-$
+IV-start-t IVSuff-y-$
+IV-start-t IVSuff-yh-$
+IV-start-t IVSuff-wny-wnA-$
+IV-start-t IVSuff-uwA-$
+IV-start-t IVSuff-uwh-$
+;
+IV-start-t_intr Suff-0IV
+IV-start-t_intr IVSuff-wA
+IV-start-t_intr IVSuff-y
+;
+IV-start-t_intr Suff-0IV-$
+IV-start-t_intr IVSuff-wA-$
+IV-start-t_intr IVSuff-y-$
+;;;
+IV-start-t_human Suff-0IV
+IV-start-t_human IVSuff-h
+IV-start-t_human IVSuff-w
+IV-start-t_human IVSuff-wA
+IV-start-t_human IVSuff-wh
+IV-start-t_human IVSuff-y
+IV-start-t_human IVSuff-yh
+IV-start-t_human IVSuff-uwA
+IV-start-t_human IVSuff-uwh
+;;
+IV-start-t_human Suff-0IV-$
+IV-start-t_human IVSuff-h-$
+IV-start-t_human IVSuff-w-$
+IV-start-t_human IVSuff-wA-$
+IV-start-t_human IVSuff-wh-$
+IV-start-t_human IVSuff-y-$
+IV-start-t_human IVSuff-yh-$
+IV-start-t_human IVSuff-uwA-$
+IV-start-t_human IVSuff-uwh-$
+;-------------------------------------
+;=================================
+; Imperative Verb (CV = Command Verb, PV = Perfect Verb, IV = Imperfect Verb)
+; ------------------
+CV CVSuff-o
+CV CVSuff-oh
+CV CVSuff-oniynA
+;
+CV_intr CVSuff-o
+;
+CV-y CVSuff-y
+CV-y CVSuff-y-$
+CV-y CVSuff-yh
+CV-y CVSuff-yh-$
+CV-y CVSuff-wA
+CV-y CVSuff-wA-$
+CV-y CVSuff-wh
+CV-y CVSuff-wh-$
+CV-y CVSuff-yniynA
+CV-y CVSuff-wniynA
+;
+;
+CV-y_intr CVSuff-y
+CV-y_intr CVSuff-wA
+CV-y_intr CVSuff-y-$
+CV-y_intr CVSuff-wA-$
+;
+CV-l CVSuff-o
+CV-l CVSuff-oh
+CV-l CVSuff-oniynA
+CV-l PVSuff-~li
+;;
+;
+CV-y-l CVSuff-y
+CV-y-l CVSuff-y-$
+CV-y-l CVSuff-yh
+CV-y-l CVSuff-yh-$
+CV-y-l CVSuff-wA
+CV-y-l CVSuff-wA-$
+CV-y-l CVSuff-wh
+CV-y-l CVSuff-wh-$
+CV-y-l CVSuff-yniynA
+CV-y-l CVSuff-wniynA
+CV-y-l IVSuff-wA-li
+CV-y-l IVSuff-y-li
+;;;;;;;;;;;;;;;;;;;;
+;;;;;Verbi con DO non human
+;;;; jomaE TTabla
+;
+CV_human CVSuff-o
+CV_human CVSuff-oh
+;
+CV-y_human CVSuff-y
+CV-y_human CVSuff-yh
+CV-y_human CVSuff-wA
+CV-y_human CVSuff-wh
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;boqaY
+CV_V CVSuff-A
+CV_V CVSuff-Ah
+CV_V CVSuff-Ah
+CV_V CVSuff-Ah
+CV_V CVSuff-Aniy
+CV_V CVSuff-AnA
+;
+;;;;;boqaAy
+CV_C CVSuff-ay
+CV_C CVSuff-ayh
+CV_C CVSuff-ayniy
+CV_C CVSuff-aynA
+CV_C CVSuff-wo
+CV_C CVSuff-woh
+CV_C CVSuff-woniy
+CV_C CVSuff-wonA
+;
+CV_V_intr CVSuff-A
+;
+CV_C_intr CVSuff-ay
+CV_C_intr CVSuff-wo
+;
+;;;bak~iy
+CV_iy CVSuff-o
+CV_iy CVSuff-oh
+CV_iy CVSuff-iy
+CV_iy CVSuff-iyh
+CV_iy CVSuff-wo
+CV_iy CVSuff-woh
+CV_iy CVSuff-woniy
+CV_iy CVSuff-wonA
+;
+CV_iy_intr CVSuff-o
+CV_iy_intr CVSuff-iy
+CV_iy_intr CVSuff-wo
+; --------------------------
+; Perfect Verb
+; ------------------
+; katab
+PV PVSuff-a
+PV PVSuff-ah
+PV PVSuff-ak
+PV PVSuff-hA
+PV PVSuff-niy
+PV PVSuff-n
+PV PVSuff-nh
+PV PVSuff-t
+PV PVSuff-th
+PV PVSuff-tnynA
+PV PVSuff-t-li
+;
+PV PVSuff-a-$
+PV PVSuff-ah-$
+PV PVSuff-hA-$
+PV PVSuff-ak-$
+PV PVSuff-niy-$
+PV PVSuff-n-$
+PV PVSuff-nh-$
+PV PVSuff-t-$
+PV PVSuff-th-$
+PV PVSuff-tnynA-$
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;qAl~k-$ compatibile con PVSuff-~li// qAlhA lok
+PV-l PVSuff-a
+PV-l PVSuff-a-$
+PV-l PVSuff-hA
+PV-l PVSuff-hA-$
+PV-l PVSuff-ak
+PV-l PVSuff-ak-$
+PV-l PVSuff-niy
+PV-l PVSuff-niy-$
+PV-l PVSuff-n
+PV-l PVSuff-n-$
+PV-l PVSuff-nh
+PV-l PVSuff-nh-$
+PV-l PVSuff-t
+PV-l PVSuff-t-$
+PV-l PVSuff-th
+PV-l PVSuff-th-$
+PV-l PVSuff-tnynA
+PV-l PVSuff-tnynA-$
+PV-l PVSuff-~li
+PV-l PVSuff-li
+PV-l PVSuff-t-li
+PV-l PVSuff-nh-li
+PV-l PVSuff-nh-li-$
+;
+PV-at-l PVSuff-at-li
+PV-at-l PVSuff-uwA-li
+PV-at-l PVSuff-at-li-$
+PV-at-l PVSuff-uwA-li-$
+;;
+PV-at PVSuff-at-li
+PV-at PVSuff-uwA-li
+PV-at PVSuff-t-li
+PV-at PVSuff-at-li-$
+PV-at PVSuff-uwA-li-$
+;
+PV-at PVSuff-at
+PV-at PVSuff-at-$
+PV-at PVSuff-ath
+PV-at PVSuff-ath-$
+PV-at PVSuff-atk
+PV-at PVSuff-atk-$
+PV-at PVSuff-atnynA
+PV-at PVSuff-atnynA-$
+PV-at PVSuff-uwA
+PV-at PVSuff-uwA-$
+PV-at PVSuff-uwh
+PV-at PVSuff-uwh-$
+PV-at PVSuff-uwA-li
+PV-at PVSuff-at-li
+;
+PV-at-MSA PVSuff-at
+PV-at-MSA PVSuff-at-$
+PV-at-MSA PVSuff-ath
+PV-at-MSA PVSuff-ath-$
+PV-at-MSA PVSuff-atk
+PV-at-MSA PVSuff-atk-$
+PV-at-MSA PVSuff-atnynA
+PV-at-MSA PVSuff-atnynA-$
+PV-at-MSA PVSuff-uwA
+PV-at-MSA PVSuff-uwA-$
+PV-at-MSA PVSuff-uwh
+PV-at-MSA PVSuff-uwh-$
+PV-at-MSA PVSuff-uwA-li
+PV-at-MSA PVSuff-at-li
+;;
+;;
+;;;verbs Subj nohuman
+PV_nohuman PVSuff-a
+PV_nohuman PVSuff-a-li
+PV_nohuman PVSuff-ah
+PV_nohuman PVSuff-ak
+PV_nohuman PVSuff-niy
+PV_nohuman PVSuff-hA
+PV_nohuman PVSuff-a-$
+PV_nohuman PVSuff-ah-$
+PV_nohuman PVSuff-hA-$
+PV_nohuman PVSuff-ak-$
+PV_nohuman PVSuff-niy-$
+
+;
+PV-at_nohuman PVSuff-at
+PV-at_nohuman PVSuff-at-$
+PV-at_nohuman PVSuff-ath
+PV-at_nohuman PVSuff-ath-$
+PV-at_nohuman PVSuff-atk
+PV-at_nohuman PVSuff-atk-$
+PV-at_nohuman PVSuff-atnynA
+PV-at_nohuman PVSuff-atnynA-$
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;verbs Subj human and  DO nohuman
+PV_human PVSuff-a
+PV_human PVSuff-ah
+PV_human PVSuff-hA
+PV_human PVSuff-n
+PV_human PVSuff-nh
+PV_human PVSuff-t
+PV_human PVSuff-th
+;
+PV_human PVSuff-a-$
+PV_human PVSuff-ah-$
+PV_human PVSuff-hA-$
+PV_human PVSuff-n-$
+PV_human PVSuff-nh-$
+PV_human PVSuff-t-$
+PV_human PVSuff-th-$
+;;;;;;;;;;;;;;;;;;;
+PV-at_human PVSuff-at
+PV-at_human PVSuff-at-$
+PV-at_human PVSuff-ath
+PV-at_human PVSuff-ath-$
+PV-at_human PVSuff-uwA
+PV-at_human PVSuff-uwA-$
+PV-at_human PVSuff-uwh
+PV-at_human PVSuff-uwh-$
+;
+PV_intr PVSuff-a
+PV_intr PVSuff-n
+PV_intr PVSuff-t
+PV_intr PVSuff-a-$
+PV_intr PVSuff-n-$
+PV_intr PVSuff-t-$
+PV_intr PVSuff-a-li
+PV_intr PVSuff-at-li
+PV_intr PVSuff-t-li
+PV_intr PVSuff-nh-li
+PV_intr PVSuff-nh-li-$
+;;
+PV_intr-MSA PVSuff-a
+PV_intr-MSA PVSuff-n
+PV_intr-MSA PVSuff-t
+PV_intr-MSA PVSuff-a-$
+PV_intr-MSA PVSuff-n-$
+PV_intr-MSA PVSuff-t-$
+PV_intr-MSA PVSuff-a-li
+PV_intr-MSA PVSuff-at-li
+PV_intr-MSA PVSuff-t-li
+PV_intr-MSA PVSuff-nh-li
+PV_intr-MSA PVSuff-nh-li-$
+;
+PV-at_intr PVSuff-at
+PV-at_intr PVSuff-at-li
+PV-at_intr PVSuff-uwA
+PV-at_intr PVSuff-uwA-li
+PV-at_intr PVSuff-at-$
+PV-at_intr PVSuff-uwA-$
+;;
+PV-at_intr-MSA PVSuff-at
+PV-at_intr-MSA PVSuff-at-li
+PV-at_intr-MSA PVSuff-uwA
+PV-at_intr-MSA PVSuff-uwA-li
+PV-at_intr-MSA PVSuff-at-$
+PV-at_intr-MSA PVSuff-uwA-$
+;
+PV_intr_nohuman PVSuff-a
+PV_intr_nohuman PVSuff-a-$
+;
+PV-at_intr_nohuman PVSuff-at
+PV-at_intr_nohuman PVSuff-at-$
+;;
+PV-at_intr_nohuman-MSA PVSuff-at
+PV-at_intr_nohuman-MSA PVSuff-at-$
+;
+; EaAwon-a (stems ending in n)
+PV-n PVSuff-a
+PV-n PVSuff-ah
+PV-n PVSuff-hA
+;PV-n PVSuff-at
+;PV-n PVSuff-ath
+;PV-n PVSuff-awA
+;PV-n PVSuff-uwh
+PV-n PVSuff-~y
+PV-n PVSuff-niy
+PV-n PVSuff-~Ah
+PV-n PVSuff-~A
+PV-n PVSuff-t
+PV-n PVSuff-t-li
+PV-n PVSuff-th
+PV-n PVSuff-tnynA
+;
+PV-n PVSuff-a-$
+PV-n PVSuff-ah-$
+PV-n PVSuff-hA-$
+PV-n PVSuff-~y-$
+PV-n PVSuff-~Ah-$
+PV-n PVSuff-~A-$
+PV-n PVSuff-t-$
+PV-n PVSuff-th-$
+PV-n PVSuff-tnynA-$
+PV-n PVSuff-awA-$
+PV-n PVSuff-uwh-$
+;
+PV-n_intr PVSuff-a
+PV-n_intr PVSuff-~y
+PV-n_intr PVSuff-t
+PV-n_intr PVSuff-t-li
+PV-n_intr PVSuff-at
+;
+PV-n_intr PVSuff-a-$
+PV-n_intr PVSuff-at-$
+PV-n_intr PVSuff-~y-$
+PV-n_intr PVSuff-t-$
+;;;;
+; >avobat-a (stems ending in t)
+PV-t PVSuff-~t
+PV-t PVSuff-~th
+PV-t PVSuff-a
+PV-t PVSuff-ah
+;
+PV-t PVSuff-a-$
+PV-t PVSuff-ah-$
+PV-t PVSuff-hA-$
+PV-t PVSuff-n-$
+PV-t PVSuff-nh-$
+PV-t PVSuff-~t-$
+PV-t PVSuff-~th-$
+;
+PV-t_intr PVSuff-a
+PV-t_intr PVSuff-n
+PV-t_intr PVSuff-~t
+;
+PV-t_intr PVSuff-a-$
+PV-t_intr PVSuff-n-$
+PV-t_intr PVSuff-~t-$
+;==========================
+;Doubled e media debole
+; qAl, jar~ (hollow/doubled (3 Persona : suffiso con vowel)
+;=====================
+PV_V PVSuff-0a
+PV_V PVSuff-ah
+PV_V PVSuff-uwA
+PV_V PVSuff-uwh
+PV_V PVSuff-niy
+PV_V PVSuff-ak
+;
+PV_V PVSuff-uwA-li
+PV_V PVSuff-a-li
+PV_V PVSuff-at-li
+PV_V PVSuff-t-li
+PV_V PVSuff-nh-li
+;
+PV-l_V PVSuff-0a
+PV-l_V PVSuff-hA
+PV-l_V PVSuff-0at
+PV-l_V PVSuff-0ath
+PV_V PVSuff-uwA
+PV_V PVSuff-uwh
+PV-l_V PVSuff-awA-li
+PV-l_V PVSuff-uwA-li
+PV-l_V PVSuff-~li
+PV-l_V PVSuff-li
+PV-l_V PVSuff-at-li
+;
+PV_V PVSuff-0a-$
+PV_V PVSuff-ah-$
+PV_V PVSuff-hA-$
+PV_V PVSuff-0at-$
+PV_V PVSuff-0ath-$
+PV_V PVSuff-uwh-$
+PV_V PVSuff-niy-$
+PV_V PVSuff-ak-$
+;
+PV_V_intr PVSuff-0a
+PV_V_intr PVSuff-0at
+PV_V_intr PVSuff-uwA
+;
+PV_V_intr PVSuff-0a-$
+PV_V_intr PVSuff-0at-$
+PV_V_intr PVSuff-awA-$
+;PV_V_intr PVSuff-nh-li-$
+;
+; qul, jarar (hollow/doubled + 1 e 2 Persona suffisso con consonant)
+PV_C PVSuff-n
+PV_C PVSuff-nh
+PV_C PVSuff-t
+PV_C PVSuff-t-li
+PV_C PVSuff-th
+PV_C PVSuff-tnynA
+PV-l_V PVSuff-nh-li
+;
+PV_C PVSuff-n-$
+PV_C PVSuff-nh-$
+;PV_C PVSuff-niy-$
+PV_C PVSuff-t-$
+PV_C PVSuff-th-$
+;
+PV-l_C PVSuff-n
+PV-l_C PVSuff-nh
+PV-l_C PVSuff-niy
+PV-l_C PVSuff-t
+PV-l_C PVSuff-t-li
+PV-l_C PVSuff-th
+PV-l_C PVSuff-tnynA
+PV-l_C PVSuff-tnynA-$
+;
+PV-l_C PVSuff-n-$
+PV-l_C PVSuff-nh-$
+PV-l_C PVSuff-niy-$
+PV-l_C PVSuff-t-$
+PV-l_C PVSuff-th-$
+;
+;PV_C_intr PVSuff-n
+PV_C_intr PVSuff-t
+PV_C_intr PVSuff-t-li
+PV_C_intr PVSuff-0n
+;
+PV_C_intr PVSuff-n-$
+PV_C_intr PVSuff-t-$
+PV_C_intr PVSuff-0n-$
+;
+; >adan, $anan (hollow/doubled ending in n + consonant)
+PV_Cn PVSuff-~y
+PV_Cn PVSuff-~Ah
+PV_Cn PVSuff-~A
+PV_Cn PVSuff-t
+PV_Cn PVSuff-t-li
+PV_Cn PVSuff-th
+;
+PV_Cn PVSuff-~y-$
+PV_Cn PVSuff-~Ah-$
+PV_Cn PVSuff-~A-$
+PV_Cn PVSuff-t-$
+PV_Cn PVSuff-t-li-$
+PV_Cn PVSuff-th-$
+;
+;PV_Cn_intr PVSuff-~y
+PV_Cn_intr PVSuff-~A
+PV_Cn_intr PVSuff-t
+;PV_Cn_intr PVSuff-t-li
+;
+PV_Cn_intr PVSuff-~A-$
+PV_Cn_intr PVSuff-t-$
+;PV_Cn_intr PVSuff-t-li-$
+;
+; >abat-~u, batat-~u (hollow/doubled ending in n + consonant)
+PV_Ct PVSuff-n
+PV_Ct PVSuff-nh
+PV_Ct PVSuff-~t
+PV_Ct PVSuff-~th
+PV_Ct PVSuff-~t-$
+PV_Ct PVSuff-n-$
+PV_Ct PVSuff-nh-$
+PV_Ct PVSuff-~th-$
+;
+PV_Ct_intr PVSuff-n
+PV_Ct_intr PVSuff-~t
+PV_Ct_intr PVSuff-~t-$
+PV_Ct_intr PVSuff-n-$
+;
+;====================
+;Ultima debole
+;=====================
+; banaY, bna-t, bna-woA 
+; daEA,  dEa-t, dEa-woA; bogAniy
+;
+PV_ttAw PVSuff-0a
+PV_ttAw PVSuff-0at
+PV_ttAw PVSuff-awA
+PV_ttAw PVSuff-0ah
+PV_ttAw PVSuff-0ath
+PV_ttAw PVSuff-awh
+PV_ttAw PVSuff-niy
+;
+PV_ttAw PVSuff-0a-$
+PV_ttAw PVSuff-0ah-$
+PV_ttAw PVSuff-0at-$
+PV_ttAw PVSuff-0ath-$
+PV_ttAw PVSuff-awA-$
+PV_ttAw PVSuff-awh-$
+PV_ttAw PVSuff-niy-$
+;
+PV_ttAw_intr PVSuff-0a
+PV_ttAw_intr PVSuff-0at
+PV_ttAw_intr PVSuff-awA
+;;
+PV_ttAw_intr PVSuff-0a-$
+PV_ttAw_intr PVSuff-0at-$
+PV_ttAw_intr PVSuff-awA-$
+;
+; bniy-t, bniy-ti, bniy-nA
+PV_Atn PVSuff-0t
+PV_Atn PVSuff-0th
+PV_Atn PVSuff-0n
+PV_Atn PVSuff-0nh
+;
+PV_Atn_intr PVSuff-0t
+PV_Atn_intr PVSuff-0n
+;
+PV_Atn PVSuff-0t-$
+PV_Atn PVSuff-0th-$
+PV_Atn PVSuff-0n-$
+PV_Atn PVSuff-0nh-$
+;
+PV_Atn_intr PVSuff-0t-$
+PV_Atn_intr PVSuff-0n-$
+;
